@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-04-08T15:35:48+02:00</updated>
+    <updated>2024-04-08T15:36:55+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -16,18 +16,18 @@
         </author>
         <link href="https://natdanaiputhom.github.io/inverse-kinematics.html"/>
         <id>https://natdanaiputhom.github.io/inverse-kinematics.html</id>
-        <media:content url="https://natdanaiputhom.github.io/media/posts/7/soon.png" medium="image" />
+        <media:content url="https://natdanaiputhom.github.io/media/posts/7/soon-2.png" medium="image" />
 
         <updated>2024-04-08T15:35:40+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://natdanaiputhom.github.io/media/posts/7/soon.png" alt="" />
+                        <img src="https://natdanaiputhom.github.io/media/posts/7/soon-2.png" alt="" />
                     asd
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://natdanaiputhom.github.io/media/posts/7/soon.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://natdanaiputhom.github.io/media/posts/7/soon-2.png" class="type:primaryImage" alt="" /></p>
                 <p>asd</p>
             ]]>
         </content>
@@ -39,18 +39,18 @@
         </author>
         <link href="https://natdanaiputhom.github.io/entity-component-system.html"/>
         <id>https://natdanaiputhom.github.io/entity-component-system.html</id>
-        <media:content url="https://natdanaiputhom.github.io/media/posts/6/soon.png" medium="image" />
+        <media:content url="https://natdanaiputhom.github.io/media/posts/6/soon-2.png" medium="image" />
 
         <updated>2024-04-08T11:17:49+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://natdanaiputhom.github.io/media/posts/6/soon.png" alt="" />
+                        <img src="https://natdanaiputhom.github.io/media/posts/6/soon-2.png" alt="" />
                     hehhej
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://natdanaiputhom.github.io/media/posts/6/soon.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://natdanaiputhom.github.io/media/posts/6/soon-2.png" class="type:primaryImage" alt="" /></p>
                 <p>hehhej</p>
             ]]>
         </content>
