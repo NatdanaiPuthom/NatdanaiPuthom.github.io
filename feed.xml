@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-04-08T12:24:29+02:00</updated>
+    <updated>2024-04-08T12:46:45+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -122,14 +122,20 @@
             <summary>
                 <![CDATA[
                         <img src="https://natdanaiputhom.github.io/media/posts/1/UvSSiJ-2.png" alt="" />
-                    asdasdasd
+                    My very first game project called SpoopySprint made in Unity. In this project i contributed in some character controls and&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://natdanaiputhom.github.io/media/posts/1/UvSSiJ-2.png" class="type:primaryImage" alt="" /></p>
-                <p>asdasdasd</p>
-<figure class="post__image align-center"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/1/ezgif-5-3cf3e13b65.gif" alt="" width="600" height="338"></figure>
+                <p>My very first game project called SpoopySprint made in Unity. In this project i contributed in some character controls and triggers such</p>
+<ul>
+<li>Rotation</li>
+<li>Candy pickup</li>
+<li>Death when fail to turn in time</li>
+</ul>
+<figure class="post__image align-right"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/1/ezgif-5-3cf3e13b65.gif" alt="" width="600" height="338"></figure>
+<p>Unfortunate the school old Perforce server is removed and I have no way to fetch the code. </p>
             ]]>
         </content>
     </entry>
