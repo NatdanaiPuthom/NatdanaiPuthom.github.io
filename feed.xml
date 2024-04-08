@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-04-08T12:46:45+02:00</updated>
+    <updated>2024-04-08T13:05:17+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -96,16 +96,21 @@
         </author>
         <link href="https://natdanaiputhom.github.io/spelprojekt-2.html"/>
         <id>https://natdanaiputhom.github.io/spelprojekt-2.html</id>
+        <media:content url="https://natdanaiputhom.github.io/media/posts/2/Catdow_screenshot5-2.png" medium="image" />
 
         <updated>2024-04-08T10:56:38+02:00</updated>
             <summary>
                 <![CDATA[
-                    hej
+                        <img src="https://natdanaiputhom.github.io/media/posts/2/Catdow_screenshot5-2.png" alt="" />
+                    In this project
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>hej</p>
+                    <p><img src="https://natdanaiputhom.github.io/media/posts/2/Catdow_screenshot5-2.png" class="type:primaryImage" alt="" /></p>
+                <p>In this project </p>
+<figure class="post__image align-center"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/2/ezgif-4-8cb6f82226.gif" alt="" width="600" height="338"></figure>
+<p> </p>
             ]]>
         </content>
     </entry>
@@ -117,6 +122,7 @@
         <link href="https://natdanaiputhom.github.io/test.html"/>
         <id>https://natdanaiputhom.github.io/test.html</id>
         <media:content url="https://natdanaiputhom.github.io/media/posts/1/UvSSiJ-2.png" medium="image" />
+            <category term="Group Project"/>
 
         <updated>2024-03-19T13:56:44+01:00</updated>
             <summary>
@@ -128,9 +134,9 @@
         <content type="html">
             <![CDATA[
                     <p><img src="https://natdanaiputhom.github.io/media/posts/1/UvSSiJ-2.png" class="type:primaryImage" alt="" /></p>
-                <p>My very first game project called SpoopySprint made in Unity. In this project i contributed in some character controls and triggers such</p>
+                <p>My very first game project called SpoopySprint made in Unity. In this project i contributed in some character controls and triggers such as</p>
 <ul>
-<li>Rotation</li>
+<li>Rotation/turn</li>
 <li>Candy pickup</li>
 <li>Death when fail to turn in time</li>
 </ul>

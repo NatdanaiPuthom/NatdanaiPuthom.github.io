@@ -69,30 +69,32 @@
             "id": "https://natdanaiputhom.github.io/spelprojekt-2.html",
             "url": "https://natdanaiputhom.github.io/spelprojekt-2.html",
             "title": "Spelprojekt 2",
-            "summary": "hej",
-            "content_html": "<p>hej</p>",
+            "summary": "In this project",
+            "content_html": "<p>In this project </p>\n<figure class=\"post__image align-center\"><img loading=\"lazy\"  src=\"https://natdanaiputhom.github.io/media/posts/2/ezgif-4-8cb6f82226.gif\" alt=\"\" width=\"600\" height=\"338\"></figure>\n<p> </p>",
+            "image": "https://natdanaiputhom.github.io/media/posts/2/Catdow_screenshot5-2.png",
             "author": {
                 "name": "Natdanai Puthom"
             },
             "tags": [
             ],
             "date_published": "2024-04-08T10:56:38+02:00",
-            "date_modified": "2024-04-08T10:56:38+02:00"
+            "date_modified": "2024-04-08T13:04:52+02:00"
         },
         {
             "id": "https://natdanaiputhom.github.io/test.html",
             "url": "https://natdanaiputhom.github.io/test.html",
             "title": "Spelprojekt 1",
             "summary": "My very first game project called SpoopySprint made in Unity. In this project i contributed in some character controls and&hellip;",
-            "content_html": "<p>My very first game project called SpoopySprint made in Unity. In this project i contributed in some character controls and triggers such</p>\n<ul>\n<li>Rotation</li>\n<li>Candy pickup</li>\n<li>Death when fail to turn in time</li>\n</ul>\n<figure class=\"post__image align-right\"><img loading=\"lazy\"  src=\"https://natdanaiputhom.github.io/media/posts/1/ezgif-5-3cf3e13b65.gif\" alt=\"\" width=\"600\" height=\"338\"></figure>\n<p>Unfortunate the school old Perforce server is removed and I have no way to fetch the code. </p>",
+            "content_html": "<p>My very first game project called SpoopySprint made in Unity. In this project i contributed in some character controls and triggers such as</p>\n<ul>\n<li>Rotation/turn</li>\n<li>Candy pickup</li>\n<li>Death when fail to turn in time</li>\n</ul>\n<figure class=\"post__image align-right\"><img loading=\"lazy\"  src=\"https://natdanaiputhom.github.io/media/posts/1/ezgif-5-3cf3e13b65.gif\" alt=\"\" width=\"600\" height=\"338\"></figure>\n<p>Unfortunate the school old Perforce server is removed and I have no way to fetch the code. </p>",
             "image": "https://natdanaiputhom.github.io/media/posts/1/UvSSiJ-2.png",
             "author": {
                 "name": "Natdanai Puthom"
             },
             "tags": [
+                   "Group Project"
             ],
             "date_published": "2024-03-19T13:56:44+01:00",
-            "date_modified": "2024-04-08T12:46:45+02:00"
+            "date_modified": "2024-04-08T13:05:17+02:00"
         }
     ]
 }
