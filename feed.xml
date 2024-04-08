@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-04-08T15:38:13+02:00</updated>
+    <updated>2024-04-08T15:51:11+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -94,13 +94,25 @@
             <summary>
                 <![CDATA[
                         <img src="https://natdanaiputhom.github.io/media/posts/4/SP4GP1_screenshot_05.png" alt="" />
-                    hej
+                    Details: My contributions:
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://natdanaiputhom.github.io/media/posts/4/SP4GP1_screenshot_05.png" class="type:primaryImage" alt="" /></p>
-                <p>hej</p>
+                <p><strong>Details:</strong></p>
+<ul>
+<li>A 3D game inspired by <strong>The Legend of Zelda: Link's Awakening</strong></li>
+<li>Game project 4.</li>
+<li>8-week development (20 hours per week) with a wonderful team of 6 programmers, 3 level designers and 4 artists.</li>
+<li>Game made with TGA's inhouse engine (TGE) in C++ and using Unity as Editor</li>
+<li><a href="https://carry.itch.io/stellas-quest">https://carry.itch.io/stellas-quest</a> </li>
+</ul>
+<p> </p>
+<p><strong>My contributions:</strong></p>
+<ul>
+<li> </li>
+</ul>
             ]]>
         </content>
     </entry>
