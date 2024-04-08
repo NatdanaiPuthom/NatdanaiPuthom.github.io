@@ -3,12 +3,33 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-04-08T18:25:33+02:00</updated>
+    <updated>2024-04-08T18:40:42+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
     <id>https://natdanaiputhom.github.io</id>
 
+    <entry>
+        <title>The Laboratory</title>
+        <author>
+            <name>Natdanai Puthom</name>
+        </author>
+        <link href="https://natdanaiputhom.github.io/the-laboratory.html"/>
+        <id>https://natdanaiputhom.github.io/the-laboratory.html</id>
+            <category term="Group Project"/>
+
+        <updated>2024-04-08T18:40:42+02:00</updated>
+            <summary>
+                <![CDATA[
+                    asd
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>asd</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Kurt&#x27;s Night Shift</title>
         <author>
@@ -178,7 +199,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://natdanaiputhom.github.io/media/posts/4/SP4GP1_screenshot_05.png" alt="" />
-                    Details: My contributions: Player character controls and movements Attack &amp; Abilities (Attack/Animations cancel, dash, digging etc) Player Editor (adjusting values)&hellip;
+                    Details: My contributions: Player character controls and movements (using State Machine) Attack &amp; Abilities (Attack/Animations cancel, dash, digging etc) Player&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -189,20 +210,18 @@
 <li>A 3D game inspired by <strong>The Legend of Zelda: Link's Awakening</strong></li>
 <li>Game project 4.</li>
 <li>8-week development (20 hours per week) with a wonderful team of 6 programmers, 3 level designers and 4 artists.</li>
-<li>Game made with TGA's inhouse engine (TGE) in C++ and using Unity as Editor</li>
+<li>Game made with TGA's in-house engine (TGE) in C++ and using Unity as Editor</li>
 <li><a href="https://carry.itch.io/stellas-quest">https://carry.itch.io/stellas-quest</a> </li>
 </ul>
 <p> </p>
 <p><strong>My contributions:</strong></p>
 <ul>
-<li>Player character controls and movements</li>
+<li>Player character controls and movements (using <a href="https://en.wikipedia.org/wiki/Finite-state_machine">State Machine</a>)</li>
 <li>Attack &amp; Abilities (Attack/Animations cancel, dash, digging etc)</li>
-<li>Player Editor (adjusting values) using ImGui</li>
+<li>Player Editor using Dear ImGui</li>
 <li>Sweep Detection for collision (movements and dashes)</li>
-<li>UI (Level Select , MainMenu, health and some other small parts)</li>
-<li>Sound System wrapper for FMOD and all ingame sound events</li>
-<li>System to instansering of models for rendering</li>
-<li>Setting MSAA, some premake settings, exe and window name, </li>
+<li>Sound System wrapper for FMOD and all in-game sound events</li>
+<li>System to instancing of models for rendering</li>
 </ul>
             ]]>
         </content>
@@ -245,51 +264,6 @@
 <li>Object Culling</li>
 <li>Thread loading data and cache</li>
 </ul>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Catdow</title>
-        <author>
-            <name>Natdanai Puthom</name>
-        </author>
-        <link href="https://natdanaiputhom.github.io/spelprojekt-2.html"/>
-        <id>https://natdanaiputhom.github.io/spelprojekt-2.html</id>
-        <media:content url="https://natdanaiputhom.github.io/media/posts/2/Catdow_screenshot5-2.png" medium="image" />
-            <category term="Group Project"/>
-
-        <updated>2024-04-08T10:56:38+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://natdanaiputhom.github.io/media/posts/2/Catdow_screenshot5-2.png" alt="" />
-                    Details: My contributions: Swipe System (Mouse and Touch-screen) Character movements (tile-based &amp; turn based) Animation Controller for Player and Flytrap&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://natdanaiputhom.github.io/media/posts/2/Catdow_screenshot5-2.png" class="type:primaryImage" alt="" /></p>
-                <p><strong>Details:</strong></p>
-<ul>
-<li>A 3D game inspired by <strong>Lara Croft GO</strong></li>
-<li>Game project 2.</li>
-<li>6-week development with a wonderful team of 5 programmers, 3 level designers and 4 artists.</li>
-<li>Game is made in Unity.</li>
-<li>The game is targeting mobile-platform and developed for android os.</li>
-<li><a href="https://carrydev.itch.io/catdow">https://carrydev.itch.io/catdow</a> </li>
-</ul>
-<p> </p>
-<p><strong>My contributions:</strong></p>
-<ul>
-<li>Swipe System (Mouse and Touch-screen)</li>
-<li>Character movements (tile-based &amp; turn based)</li>
-<li>Animation Controller for Player and Flytrap</li>
-<li>Pushing &amp; Pulling Crate System</li>
-<li>Cauldron System to escape damage from light sources</li>
-</ul>
-<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="3">
-<figure class="gallery__item"><a href="https://natdanaiputhom.github.io/media/posts/2/gallery/ezgif-2-63ac72fa44-2.gif" data-size="600x338"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/2/gallery/ezgif-2-63ac72fa44-2.gif" alt=""></a></figure>
-<figure class="gallery__item"><a href="https://natdanaiputhom.github.io/media/posts/2/gallery/ezgif-4-8cb6f82226-2.gif" data-size="600x338"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/2/gallery/ezgif-4-8cb6f82226-2.gif" alt=""></a></figure>
-</div></div>
             ]]>
         </content>
     </entry>
