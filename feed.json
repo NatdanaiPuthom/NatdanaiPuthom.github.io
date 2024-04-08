@@ -26,16 +26,16 @@
         {
             "id": "https://natdanaiputhom.github.io/about-me.html",
             "url": "https://natdanaiputhom.github.io/about-me.html",
-            "title": "About me",
-            "summary": "hehhej",
-            "content_html": "<p>hehhej</p>",
+            "title": "Contact",
+            "summary": "Phone: +46 (0) 70 935 00 24 Mail: natdanai.puthom1997@gmail.com Linkedin: a",
+            "content_html": "<p>Phone: +46 (0) 70 935 00 24</p>\n<p>Mail: <a href=\"mailto:natdanai.puthom1997@gmail.com\">natdanai.puthom1997@gmail.com</a></p>\n<p>Linkedin: <a href=\"https://www.linkedin.com/in/natdanai-puthom-34175317a/\" target=\"_blank\" rel=\"noopener noreferrer\">a</a></p>\n<p> </p>",
             "author": {
                 "name": "Natdanai Puthom"
             },
             "tags": [
             ],
             "date_published": "2024-04-08T11:01:49+02:00",
-            "date_modified": "2024-04-08T11:01:49+02:00"
+            "date_modified": "2024-04-08T15:12:04+02:00"
         },
         {
             "id": "https://natdanaiputhom.github.io/spelprojekt-4.html",
@@ -48,9 +48,10 @@
                 "name": "Natdanai Puthom"
             },
             "tags": [
+                   "Group Project"
             ],
             "date_published": "2024-04-08T10:57:01+02:00",
-            "date_modified": "2024-04-08T15:09:26+02:00"
+            "date_modified": "2024-04-08T15:10:16+02:00"
         },
         {
             "id": "https://natdanaiputhom.github.io/spelprojekt-3.html",

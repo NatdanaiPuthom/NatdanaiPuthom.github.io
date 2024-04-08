@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-04-08T15:09:26+02:00</updated>
+    <updated>2024-04-08T15:12:04+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -30,7 +30,7 @@
         </content>
     </entry>
     <entry>
-        <title>About me</title>
+        <title>Contact</title>
         <author>
             <name>Natdanai Puthom</name>
         </author>
@@ -40,12 +40,15 @@
         <updated>2024-04-08T11:01:49+02:00</updated>
             <summary>
                 <![CDATA[
-                    hehhej
+                    Phone: +46 (0) 70 935 00 24 Mail: natdanai.puthom1997@gmail.com Linkedin: a
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>hehhej</p>
+                <p>Phone: +46 (0) 70 935 00 24</p>
+<p>Mail: <a href="mailto:natdanai.puthom1997@gmail.com">natdanai.puthom1997@gmail.com</a></p>
+<p>Linkedin: <a href="https://www.linkedin.com/in/natdanai-puthom-34175317a/" target="_blank" rel="noopener noreferrer">a</a></p>
+<p> </p>
             ]]>
         </content>
     </entry>
@@ -57,6 +60,7 @@
         <link href="https://natdanaiputhom.github.io/spelprojekt-4.html"/>
         <id>https://natdanaiputhom.github.io/spelprojekt-4.html</id>
         <media:content url="https://natdanaiputhom.github.io/media/posts/4/SP4GP1_screenshot_05.png" medium="image" />
+            <category term="Group Project"/>
 
         <updated>2024-04-08T10:57:01+02:00</updated>
             <summary>
