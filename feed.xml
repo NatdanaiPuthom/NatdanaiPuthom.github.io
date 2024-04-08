@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-04-08T13:39:09+02:00</updated>
+    <updated>2024-04-08T13:42:46+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -90,7 +90,7 @@
         </content>
     </entry>
     <entry>
-        <title>Game project 2</title>
+        <title>Catdow</title>
         <author>
             <name>Natdanai Puthom</name>
         </author>
@@ -103,7 +103,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://natdanaiputhom.github.io/media/posts/2/Catdow_screenshot5-2.png" alt="" />
-                    Details: My contributions: Swipe System (Mouse and Touch-screen) Character movements (tile-based) Pushing &amp; Pulling Crate System Animation Controller for Player&hellip;
+                    Details: My contributions: Swipe System (Mouse and Touch-screen) Character movements (tile-based &amp; turn based) Animation Controller for Player and Flytrap&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -112,6 +112,7 @@
                 <p><strong>Details:</strong></p>
 <ul>
 <li>A 3D game inspired by <strong>Lara Croft GO</strong></li>
+<li>Game project 2.</li>
 <li>6-week development with a wonderful team of 5 programmers, 3 level designers and 4 artists.</li>
 <li>Game is made in Unity.</li>
 <li>The game is developed for mobile android-platform</li>
@@ -121,9 +122,9 @@
 <p><strong>My contributions:</strong></p>
 <ul>
 <li>Swipe System (Mouse and Touch-screen)</li>
-<li>Character movements (tile-based)</li>
-<li>Pushing &amp; Pulling Crate System</li>
+<li>Character movements (tile-based &amp; turn based)</li>
 <li>Animation Controller for Player and Flytrap</li>
+<li>Pushing &amp; Pulling Crate System</li>
 <li>Cauldron System to escape damage from light sources</li>
 </ul>
 <div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="3">
@@ -166,7 +167,7 @@
 <ul>
 <li>Player's Rotation/Turn</li>
 <li>Player's death when fail to turn in time</li>
-<li>Candy pickups</li>
+<li>Candy pickups (plays vfx, increase score, remove candy)</li>
 </ul>
 <p> </p>
 <figure class="post__image align-center"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/1/ezgif-5-3cf3e13b65.gif" alt="" width="600" height="338"></figure>
