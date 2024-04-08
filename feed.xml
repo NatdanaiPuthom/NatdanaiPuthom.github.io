@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-04-08T13:36:33+02:00</updated>
+    <updated>2024-04-08T13:39:09+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -90,7 +90,7 @@
         </content>
     </entry>
     <entry>
-        <title>Spelprojekt 2</title>
+        <title>Game project 2</title>
         <author>
             <name>Natdanai Puthom</name>
         </author>
@@ -134,7 +134,7 @@
         </content>
     </entry>
     <entry>
-        <title>Spelprojekt 1</title>
+        <title>Spoopy Sprint</title>
         <author>
             <name>Natdanai Puthom</name>
         </author>
@@ -156,8 +156,10 @@
                 <p><strong>Details:</strong></p>
 <ul>
 <li>A 3D game inspired by <strong>Temple Run</strong></li>
+<li>Game project 1.</li>
 <li>6-week development (20 hours per week)  with a wonderful team of 6 programmers, 3 level designers and 4 artists.</li>
 <li>Game is made in Unity.</li>
+<li><a href="https://pinkbroccoliii.itch.io/spoopy-sprint">https://pinkbroccoliii.itch.io/spoopy-sprint</a> </li>
 </ul>
 <p> </p>
 <p><strong>My contributions:</strong></p>
