@@ -3,12 +3,32 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-04-08T11:11:54+02:00</updated>
+    <updated>2024-04-08T11:17:49+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
     <id>https://natdanaiputhom.github.io</id>
 
+    <entry>
+        <title>Entity Component System</title>
+        <author>
+            <name>Natdanai Puthom</name>
+        </author>
+        <link href="https://natdanaiputhom.github.io/entity-component-system.html"/>
+        <id>https://natdanaiputhom.github.io/entity-component-system.html</id>
+
+        <updated>2024-04-08T11:17:49+02:00</updated>
+            <summary>
+                <![CDATA[
+                    hehhej
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>hehhej</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>About me</title>
         <author>
