@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-04-08T11:10:20+02:00</updated>
+    <updated>2024-04-08T11:11:54+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -96,15 +96,18 @@
         </author>
         <link href="https://natdanaiputhom.github.io/test.html"/>
         <id>https://natdanaiputhom.github.io/test.html</id>
+        <media:content url="https://natdanaiputhom.github.io/media/posts/1/cat2.jpg" medium="image" />
 
         <updated>2024-03-19T13:56:44+01:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://natdanaiputhom.github.io/media/posts/1/cat2.jpg" alt="" />
                     asdasdasd
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://natdanaiputhom.github.io/media/posts/1/cat2.jpg" class="type:primaryImage" alt="" /></p>
                 <p>asdasdasd<figure class="post__image"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/1/cat.png" alt="" width="800" height="1200" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/1/responsive/cat-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/1/responsive/cat-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/1/responsive/cat-md.png 768w ,https://natdanaiputhom.github.io/media/posts/1/responsive/cat-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/1/responsive/cat-xl.png 1600w"></figure>
             ]]>
         </content>
