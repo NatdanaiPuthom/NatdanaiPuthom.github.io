@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-04-08T13:30:51+02:00</updated>
+    <updated>2024-04-08T13:36:33+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -103,7 +103,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://natdanaiputhom.github.io/media/posts/2/Catdow_screenshot5-2.png" alt="" />
-                    Details: My contributions:
+                    Details: My contributions: Swipe System (Mouse and Touch-screen) Character movements (tile-based) Pushing &amp; Pulling Crate System Animation Controller for Player&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -112,24 +112,24 @@
                 <p><strong>Details:</strong></p>
 <ul>
 <li>A 3D game inspired by <strong>Lara Croft GO</strong></li>
-<li>6-week development with a wonderful team of  5 programmers, 3 level designers and 4 artists.</li>
+<li>6-week development with a wonderful team of 5 programmers, 3 level designers and 4 artists.</li>
 <li>Game is made in Unity.</li>
+<li>The game is developed for mobile android-platform</li>
+<li><a href="https://carrydev.itch.io/catdow">https://carrydev.itch.io/catdow</a> </li>
 </ul>
 <p> </p>
 <p><strong>My contributions:</strong></p>
 <ul>
 <li>Swipe System (Mouse and Touch-screen)</li>
 <li>Character movements (tile-based)</li>
-<li>Pushing &amp; Pulling crates</li>
+<li>Pushing &amp; Pulling Crate System</li>
 <li>Animation Controller for Player and Flytrap</li>
-<li>Player entering Cauldron to escape damage from lights</li>
+<li>Cauldron System to escape damage from light sources</li>
 </ul>
-<p class="align-center"> </p>
-<div class="gallery-wrapper gallery-wrapper--full"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="5">
-<figure class="gallery__item"><a href="https://natdanaiputhom.github.io/media/posts/2/gallery/ezgif-2-63ac72fa44.gif" data-size="600x338"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/2/gallery/ezgif-2-63ac72fa44.gif" alt=""></a></figure>
-<figure class="gallery__item"><a href="https://natdanaiputhom.github.io/media/posts/2/gallery/ezgif-4-8cb6f82226.gif" data-size="600x338"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/2/gallery/ezgif-4-8cb6f82226.gif" alt=""></a></figure>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="3">
+<figure class="gallery__item"><a href="https://natdanaiputhom.github.io/media/posts/2/gallery/ezgif-2-63ac72fa44-2.gif" data-size="600x338"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/2/gallery/ezgif-2-63ac72fa44-2.gif" alt=""></a></figure>
+<figure class="gallery__item"><a href="https://natdanaiputhom.github.io/media/posts/2/gallery/ezgif-4-8cb6f82226-2.gif" data-size="600x338"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/2/gallery/ezgif-4-8cb6f82226-2.gif" alt=""></a></figure>
 </div></div>
-<p> </p>
             ]]>
         </content>
     </entry>
