@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-04-08T15:36:55+02:00</updated>
+    <updated>2024-04-08T15:38:13+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -17,6 +17,7 @@
         <link href="https://natdanaiputhom.github.io/inverse-kinematics.html"/>
         <id>https://natdanaiputhom.github.io/inverse-kinematics.html</id>
         <media:content url="https://natdanaiputhom.github.io/media/posts/7/soon-2.png" medium="image" />
+            <category term="Personal Project"/>
 
         <updated>2024-04-08T15:35:40+02:00</updated>
             <summary>
@@ -40,6 +41,7 @@
         <link href="https://natdanaiputhom.github.io/entity-component-system.html"/>
         <id>https://natdanaiputhom.github.io/entity-component-system.html</id>
         <media:content url="https://natdanaiputhom.github.io/media/posts/6/soon-2.png" medium="image" />
+            <category term="Personal Project"/>
 
         <updated>2024-04-08T11:17:49+02:00</updated>
             <summary>
