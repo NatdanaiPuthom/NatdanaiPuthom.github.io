@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-04-08T13:14:49+02:00</updated>
+    <updated>2024-04-08T13:30:51+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -109,13 +109,26 @@
         <content type="html">
             <![CDATA[
                     <p><img src="https://natdanaiputhom.github.io/media/posts/2/Catdow_screenshot5-2.png" class="type:primaryImage" alt="" /></p>
-                <p>Details:</p>
+                <p><strong>Details:</strong></p>
 <ul>
-<li> </li>
+<li>A 3D game inspired by <strong>Lara Croft GO</strong></li>
+<li>6-week development with a wonderful team of  5 programmers, 3 level designers and 4 artists.</li>
+<li>Game is made in Unity.</li>
 </ul>
-<p>My contributions:</p>
 <p> </p>
-<figure class="post__image align-center"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/2/ezgif-4-8cb6f82226.gif" alt="" width="600" height="338"></figure>
+<p><strong>My contributions:</strong></p>
+<ul>
+<li>Swipe System (Mouse and Touch-screen)</li>
+<li>Character movements (tile-based)</li>
+<li>Pushing &amp; Pulling crates</li>
+<li>Animation Controller for Player and Flytrap</li>
+<li>Player entering Cauldron to escape damage from lights</li>
+</ul>
+<p class="align-center"> </p>
+<div class="gallery-wrapper gallery-wrapper--full"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="5">
+<figure class="gallery__item"><a href="https://natdanaiputhom.github.io/media/posts/2/gallery/ezgif-2-63ac72fa44.gif" data-size="600x338"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/2/gallery/ezgif-2-63ac72fa44.gif" alt=""></a></figure>
+<figure class="gallery__item"><a href="https://natdanaiputhom.github.io/media/posts/2/gallery/ezgif-4-8cb6f82226.gif" data-size="600x338"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/2/gallery/ezgif-4-8cb6f82226.gif" alt=""></a></figure>
+</div></div>
 <p> </p>
             ]]>
         </content>
@@ -134,7 +147,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://natdanaiputhom.github.io/media/posts/1/UvSSiJ-2.png" alt="" />
-                    Details: My contributions: Unfortunate the school old Perforce server is removed and I have no way to fetch the code. 
+                    Details: My contributions: Unfortunate the school old Perforce server is removed and I have no way of recovering the code.
                 ]]>
             </summary>
         <content type="html">
@@ -142,7 +155,8 @@
                     <p><img src="https://natdanaiputhom.github.io/media/posts/1/UvSSiJ-2.png" class="type:primaryImage" alt="" /></p>
                 <p><strong>Details:</strong></p>
 <ul>
-<li>6-weeks developement (20h/week)  with a team of 6 programmers, 3 level designers and 4 artists.</li>
+<li>A 3D game inspired by <strong>Temple Run</strong></li>
+<li>6-week development (20 hours per week)  with a wonderful team of 6 programmers, 3 level designers and 4 artists.</li>
 <li>Game is made in Unity.</li>
 </ul>
 <p> </p>
@@ -152,8 +166,10 @@
 <li>Player's death when fail to turn in time</li>
 <li>Candy pickups</li>
 </ul>
-<figure class="post__image align-right"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/1/ezgif-5-3cf3e13b65.gif" alt="" width="600" height="338"></figure>
-<p>Unfortunate the school old Perforce server is removed and I have no way to fetch the code. </p>
+<p> </p>
+<figure class="post__image align-center"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/1/ezgif-5-3cf3e13b65.gif" alt="" width="600" height="338"></figure>
+<p> </p>
+<p>Unfortunate the school old Perforce server is removed and I have no way of recovering the code.</p>
             ]]>
         </content>
     </entry>
