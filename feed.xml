@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-04-08T14:39:17+02:00</updated>
+    <updated>2024-04-08T15:09:26+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -50,21 +50,24 @@
         </content>
     </entry>
     <entry>
-        <title>Spelprojekt 4</title>
+        <title>Stella&#x27;s Quest: Uncovering the Secrets of the Ancients</title>
         <author>
             <name>Natdanai Puthom</name>
         </author>
         <link href="https://natdanaiputhom.github.io/spelprojekt-4.html"/>
         <id>https://natdanaiputhom.github.io/spelprojekt-4.html</id>
+        <media:content url="https://natdanaiputhom.github.io/media/posts/4/SP4GP1_screenshot_05.png" medium="image" />
 
         <updated>2024-04-08T10:57:01+02:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://natdanaiputhom.github.io/media/posts/4/SP4GP1_screenshot_05.png" alt="" />
                     hej
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://natdanaiputhom.github.io/media/posts/4/SP4GP1_screenshot_05.png" class="type:primaryImage" alt="" /></p>
                 <p>hej</p>
             ]]>
         </content>
@@ -77,12 +80,13 @@
         <link href="https://natdanaiputhom.github.io/spelprojekt-3.html"/>
         <id>https://natdanaiputhom.github.io/spelprojekt-3.html</id>
         <media:content url="https://natdanaiputhom.github.io/media/posts/3/2zMCKM.png" medium="image" />
+            <category term="Group Project"/>
 
         <updated>2024-04-08T10:56:54+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://natdanaiputhom.github.io/media/posts/3/2zMCKM.png" alt="" />
-                    Details: My contributions: Pipeline tutorial and videos for my teammate such as how to setup and install Perforce, Unity and&hellip;
+                    Details: My contributions: Simple and short tutorial videos for my team how to setup and install Perforce, Unity and Visual&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -99,11 +103,12 @@
 <p> </p>
 <p><strong>My contributions:</strong></p>
 <ul>
-<li>Pipeline tutorial and videos for my teammate such as how to setup and install Perforce, Unity and Visual Studio</li>
+<li>Simple and short tutorial videos for my team how to setup and install Perforce, Unity and Visual Studio etc</li>
 <li>Export and Import data (gameobjects, ui, scenes etc) from Unity to TGE</li>
 <li>SceneManager &amp; GameObject System</li>
 <li>Rendering pipeline</li>
 <li>Object Culling</li>
+<li>Thread loading data and cache</li>
 </ul>
             ]]>
         </content>
