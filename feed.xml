@@ -3,12 +3,33 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-04-08T18:40:42+02:00</updated>
+    <updated>2024-04-08T18:47:26+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
     <id>https://natdanaiputhom.github.io</id>
 
+    <entry>
+        <title>Thread Pool</title>
+        <author>
+            <name>Natdanai Puthom</name>
+        </author>
+        <link href="https://natdanaiputhom.github.io/thread-pool.html"/>
+        <id>https://natdanaiputhom.github.io/thread-pool.html</id>
+            <category term="Personal Project"/>
+
+        <updated>2024-04-08T18:47:26+02:00</updated>
+            <summary>
+                <![CDATA[
+                    hejhejh
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>hejhejh</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>The Laboratory</title>
         <author>
@@ -222,47 +243,6 @@
 <li>Sweep Detection for collision (movements and dashes)</li>
 <li>Sound System wrapper for FMOD and all in-game sound events</li>
 <li>System to instancing of models for rendering</li>
-</ul>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Abalabos: The Ascent of the Black Wizard</title>
-        <author>
-            <name>Natdanai Puthom</name>
-        </author>
-        <link href="https://natdanaiputhom.github.io/spelprojekt-3.html"/>
-        <id>https://natdanaiputhom.github.io/spelprojekt-3.html</id>
-        <media:content url="https://natdanaiputhom.github.io/media/posts/3/2zMCKM.png" medium="image" />
-            <category term="Group Project"/>
-
-        <updated>2024-04-08T10:56:54+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://natdanaiputhom.github.io/media/posts/3/2zMCKM.png" alt="" />
-                    Details: My contributions: Simple and short tutorial videos for my team how to setup and install Perforce, Unity and Visual&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://natdanaiputhom.github.io/media/posts/3/2zMCKM.png" class="type:primaryImage" alt="" /></p>
-                <p><strong>Details:</strong></p>
-<ul>
-<li>A 3D game inspired by <strong>Celeste.</strong></li>
-<li>Game project 3.</li>
-<li>12-week development (20 hours per week) with a wonderful team of 5 programmers, 2 level designers and 4 artists.</li>
-<li>Game is made with TGA's inhouse engine (TGE) in C++ and Unity as Editor</li>
-<li><a href="https://carry.itch.io/abalabos">https://carry.itch.io/abalabos</a> </li>
-</ul>
-<p> </p>
-<p><strong>My contributions:</strong></p>
-<ul>
-<li>Simple and short tutorial videos for my team how to setup and install Perforce, Unity and Visual Studio etc</li>
-<li>Export and Import data (gameobjects, ui, scenes etc) from Unity to TGE</li>
-<li>SceneManager &amp; GameObject System</li>
-<li>Rendering pipeline</li>
-<li>Object Culling</li>
-<li>Thread loading data and cache</li>
 </ul>
             ]]>
         </content>
