@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-04-08T15:51:11+02:00</updated>
+    <updated>2024-04-08T16:09:24+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -94,7 +94,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://natdanaiputhom.github.io/media/posts/4/SP4GP1_screenshot_05.png" alt="" />
-                    Details: My contributions:
+                    Details: My contributions: Player character controls and movements Attack &amp; Abilities (Attack/Animations cancel, dash, digging etc) Player Editor (adjusting values)&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -111,7 +111,14 @@
 <p> </p>
 <p><strong>My contributions:</strong></p>
 <ul>
-<li> </li>
+<li>Player character controls and movements</li>
+<li>Attack &amp; Abilities (Attack/Animations cancel, dash, digging etc)</li>
+<li>Player Editor (adjusting values) using ImGui</li>
+<li>Sweep Detection for collision (movements and dashes)</li>
+<li>UI (Level Select , MainMenu, health and some other small parts)</li>
+<li>Sound System wrapper for FMOD and all ingame sound events</li>
+<li>System to instansering of models for rendering</li>
+<li>Setting MSAA, some premake settings, exe and window name, </li>
 </ul>
             ]]>
         </content>
