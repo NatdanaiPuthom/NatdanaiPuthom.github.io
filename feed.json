@@ -21,7 +21,7 @@
             "tags": [
             ],
             "date_published": "2024-04-08T11:17:49+02:00",
-            "date_modified": "2024-04-08T11:52:23+02:00"
+            "date_modified": "2024-04-08T11:53:14+02:00"
         },
         {
             "id": "https://natdanaiputhom.github.io/about-me.html",
@@ -84,15 +84,15 @@
             "url": "https://natdanaiputhom.github.io/test.html",
             "title": "Spelprojekt 1",
             "summary": "asdasdasd",
-            "content_html": "<p>asdasdasd<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://natdanaiputhom.github.io/media/posts/1/cat.png\" alt=\"\" width=\"800\" height=\"1200\" sizes=\"(min-width: 37.5em) 1600px, 80vw\" srcset=\"https://natdanaiputhom.github.io/media/posts/1/responsive/cat-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/1/responsive/cat-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/1/responsive/cat-md.png 768w ,https://natdanaiputhom.github.io/media/posts/1/responsive/cat-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/1/responsive/cat-xl.png 1600w\"></figure>",
-            "image": "https://natdanaiputhom.github.io/media/posts/1/cat2.jpg",
+            "content_html": "<p>asdasdasd</p>\n<figure class=\"post__image align-center\"><img loading=\"lazy\"  src=\"https://natdanaiputhom.github.io/media/posts/1/ezgif-5-3cf3e13b65.gif\" alt=\"\" width=\"600\" height=\"338\"></figure>",
+            "image": "https://natdanaiputhom.github.io/media/posts/1/UvSSiJ-2.png",
             "author": {
                 "name": "Natdanai Puthom"
             },
             "tags": [
             ],
             "date_published": "2024-03-19T13:56:44+01:00",
-            "date_modified": "2024-04-08T11:11:54+02:00"
+            "date_modified": "2024-04-08T12:24:29+02:00"
         }
     ]
 }
