@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-04-08T13:05:17+02:00</updated>
+    <updated>2024-04-08T13:14:49+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -97,18 +97,24 @@
         <link href="https://natdanaiputhom.github.io/spelprojekt-2.html"/>
         <id>https://natdanaiputhom.github.io/spelprojekt-2.html</id>
         <media:content url="https://natdanaiputhom.github.io/media/posts/2/Catdow_screenshot5-2.png" medium="image" />
+            <category term="Group Project"/>
 
         <updated>2024-04-08T10:56:38+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://natdanaiputhom.github.io/media/posts/2/Catdow_screenshot5-2.png" alt="" />
-                    In this project
+                    Details: My contributions:
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://natdanaiputhom.github.io/media/posts/2/Catdow_screenshot5-2.png" class="type:primaryImage" alt="" /></p>
-                <p>In this project </p>
+                <p>Details:</p>
+<ul>
+<li> </li>
+</ul>
+<p>My contributions:</p>
+<p> </p>
 <figure class="post__image align-center"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/2/ezgif-4-8cb6f82226.gif" alt="" width="600" height="338"></figure>
 <p> </p>
             ]]>
@@ -128,17 +134,23 @@
             <summary>
                 <![CDATA[
                         <img src="https://natdanaiputhom.github.io/media/posts/1/UvSSiJ-2.png" alt="" />
-                    My very first game project called SpoopySprint made in Unity. In this project i contributed in some character controls and&hellip;
+                    Details: My contributions: Unfortunate the school old Perforce server is removed and I have no way to fetch the code. 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://natdanaiputhom.github.io/media/posts/1/UvSSiJ-2.png" class="type:primaryImage" alt="" /></p>
-                <p>My very first game project called SpoopySprint made in Unity. In this project i contributed in some character controls and triggers such as</p>
+                <p><strong>Details:</strong></p>
 <ul>
-<li>Rotation/turn</li>
-<li>Candy pickup</li>
-<li>Death when fail to turn in time</li>
+<li>6-weeks developement (20h/week)  with a team of 6 programmers, 3 level designers and 4 artists.</li>
+<li>Game is made in Unity.</li>
+</ul>
+<p> </p>
+<p><strong>My contributions:</strong></p>
+<ul>
+<li>Player's Rotation/Turn</li>
+<li>Player's death when fail to turn in time</li>
+<li>Candy pickups</li>
 </ul>
 <figure class="post__image align-right"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/1/ezgif-5-3cf3e13b65.gif" alt="" width="600" height="338"></figure>
 <p>Unfortunate the school old Perforce server is removed and I have no way to fetch the code. </p>
