@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-03-19T13:56:44+01:00</updated>
+    <updated>2024-04-08T10:43:20+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -18,7 +18,15 @@
         <id>https://natdanaiputhom.github.io/test.html</id>
 
         <updated>2024-03-19T13:56:44+01:00</updated>
-            <summary></summary>
-        <content></content>
+            <summary>
+                <![CDATA[
+                    asdasdasd
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>asdasdasd</p>
+            ]]>
+        </content>
     </entry>
 </feed>
