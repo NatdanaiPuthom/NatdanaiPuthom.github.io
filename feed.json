@@ -1,6 +1,6 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "Natdanai PuthomHome",
+    "title": "Natdanai Puthom",
     "description": "",
     "home_page_url": "https://natdanaiputhom.github.io",
     "feed_url": "https://natdanaiputhom.github.io/feed.json",
@@ -22,7 +22,7 @@
                    "Personal Project"
             ],
             "date_published": "2024-04-08T18:47:26+02:00",
-            "date_modified": "2024-04-09T16:17:03+02:00"
+            "date_modified": "2024-04-08T18:47:26+02:00"
         },
         {
             "id": "https://natdanaiputhom.github.io/the-laboratory.html",
@@ -97,7 +97,7 @@
                    "Group Project"
             ],
             "date_published": "2024-04-08T17:58:31+02:00",
-            "date_modified": "2024-04-09T16:16:51+02:00"
+            "date_modified": "2024-04-08T18:22:07+02:00"
         },
         {
             "id": "https://natdanaiputhom.github.io/inverse-kinematics.html",
@@ -113,7 +113,7 @@
                    "Personal Project"
             ],
             "date_published": "2024-04-08T15:35:40+02:00",
-            "date_modified": "2024-04-09T16:18:56+02:00"
+            "date_modified": "2024-04-09T16:23:25+02:00"
         },
         {
             "id": "https://natdanaiputhom.github.io/entity-component-system.html",
