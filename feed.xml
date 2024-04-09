@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-04-09T16:32:57+02:00</updated>
+    <updated>2024-04-09T17:17:29+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -23,13 +23,22 @@
             <summary>
                 <![CDATA[
                         <img src="https://natdanaiputhom.github.io/media/posts/13/threadpool-2.png" alt="" />
-                    hejhejh
+                    Initially, my pathfinding algorithm led to performance loss when multiple enemies on a vast map attempted to calculate paths simultaneously,&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://natdanaiputhom.github.io/media/posts/13/threadpool-2.png" class="type:primaryImage" alt="" /></p>
-                <p>hejhejh</p>
+                <p>Initially, my pathfinding algorithm led to performance loss when multiple enemies on a vast map attempted to calculate paths simultaneously, sometimes every frame. To enhance this, I devised a solution where, regardless of their current state, enemies could persist in their activities while awaiting the completion of path calculations. This transition ensured that upon receiving their calculated paths, they could effortlessly shift to the next state, utilizing the paths without hindering much of performance. That solution was thread pool.</p>
+<p>I encountered a subsequent challenge where certain tasks needed to be executed as swiftly as possible, which current thread pool could not meet the requirement. To address this, I designed a separate priority queue for such tasks, assigning them a priority range from 0 to 1, with higher numbers indicating higher priority. This ensured that tasks in the priority queue were executed before those in the normal queue.</p>
+<p>After a code review, my classmates and I engaged in a discussion concerning the potential issue of certain tasks never begin executed if higher priority tasks were continuously added.</p>
+<ul>
+<li>"What if some tasks remain unexecuted due to the constant influx of higher priority tasks?"</li>
+</ul>
+<p>Since this 'potential issue' had not yet occurred, I decided it wasn't necessary to allocate time to address it immediately. Instead, I documented it, along with other potential issues and improvements, for future consideration</p>
+<figure class="post__image post__image--wide"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/13/threadpool2-4.png" alt="" width="1390" height="518" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/13/responsive/threadpool2-4-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/13/responsive/threadpool2-4-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/13/responsive/threadpool2-4-md.png 768w ,https://natdanaiputhom.github.io/media/posts/13/responsive/threadpool2-4-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/13/responsive/threadpool2-4-xl.png 1600w"></figure>
+<figure class="post__image post__image--wide"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/13/threadpool3-2.png" alt="" width="1471" height="566" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/13/responsive/threadpool3-2-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/13/responsive/threadpool3-2-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/13/responsive/threadpool3-2-md.png 768w ,https://natdanaiputhom.github.io/media/posts/13/responsive/threadpool3-2-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/13/responsive/threadpool3-2-xl.png 1600w"></figure>
+<p> </p>
             ]]>
         </content>
     </entry>
