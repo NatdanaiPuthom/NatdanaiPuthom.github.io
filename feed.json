@@ -74,6 +74,38 @@
             "date_modified": "2024-04-09T22:16:08+02:00"
         },
         {
+            "id": "https://natdanaiputhom.github.io/streamer-attacked-by-aliens-live-on-stream.html",
+            "url": "https://natdanaiputhom.github.io/streamer-attacked-by-aliens-live-on-stream.html",
+            "title": "Streamer Attacked by Aliens Live On Stream!",
+            "summary": "(Inprogress 08/04/2024) testtesttest",
+            "content_html": "<p>(Inprogress 08/04/2024)</p>\n<p>testtesttest</p>",
+            "image": "https://natdanaiputhom.github.io/media/posts/9/comingsoon.png",
+            "author": {
+                "name": "Natdanai Puthom"
+            },
+            "tags": [
+                   "Group Project"
+            ],
+            "date_published": "2024-04-08T17:59:58+02:00",
+            "date_modified": "2024-04-10T00:12:32+02:00"
+        },
+        {
+            "id": "https://natdanaiputhom.github.io/spite-string-of-fate.html",
+            "url": "https://natdanaiputhom.github.io/spite-string-of-fate.html",
+            "title": "Spite: String of Fate",
+            "summary": "(Inprogress 08/04/2024) testtest",
+            "content_html": "<p>(Inprogress 08/04/2024)</p>\n<p>testtest</p>",
+            "image": "https://natdanaiputhom.github.io/media/posts/8/comingsoon.png",
+            "author": {
+                "name": "Natdanai Puthom"
+            },
+            "tags": [
+                   "Group Project"
+            ],
+            "date_published": "2024-04-08T17:58:31+02:00",
+            "date_modified": "2024-04-10T00:12:03+02:00"
+        },
+        {
             "id": "https://natdanaiputhom.github.io/inverse-kinematics.html",
             "url": "https://natdanaiputhom.github.io/inverse-kinematics.html",
             "title": "SimpleEngine",
@@ -134,38 +166,6 @@
             ],
             "date_published": "2024-04-08T10:57:01+02:00",
             "date_modified": "2024-04-10T00:05:22+02:00"
-        },
-        {
-            "id": "https://natdanaiputhom.github.io/spelprojekt-3.html",
-            "url": "https://natdanaiputhom.github.io/spelprojekt-3.html",
-            "title": "Abalabos: The Ascent of the Black Wizard",
-            "summary": "(Inprogress 08/04/2024) Details: My contributions: Simple and short tutorial videos for my team how to setup and install Perforce, Unity&hellip;",
-            "content_html": "<p>(Inprogress 08/04/2024)</p>\n<p><strong>Details:</strong></p>\n<ul>\n<li>A 3D game inspired by <strong>Celeste.</strong></li>\n<li>Game project 3.</li>\n<li>12-week development (20 hours per week) with a wonderful team of 5 programmers, 2 level designers and 4 artists.</li>\n<li>Game is made with TGA's inhouse engine (TGE) in C++ and Unity as Editor</li>\n<li><a href=\"https://carry.itch.io/abalabos\">https://carry.itch.io/abalabos</a> </li>\n</ul>\n<p> </p>\n<p><strong>My contributions:</strong></p>\n<ul>\n<li>Simple and short tutorial videos for my team how to setup and install Perforce, Unity and Visual Studio etc</li>\n<li>Export and Import data (gameobjects, ui, scenes etc) from Unity to TGE</li>\n<li>SceneManager &amp; GameObject System</li>\n<li>Rendering pipeline</li>\n<li>Object Culling</li>\n<li>Thread loading data and cache</li>\n</ul>",
-            "image": "https://natdanaiputhom.github.io/media/posts/3/comingsoon.png",
-            "author": {
-                "name": "Natdanai Puthom"
-            },
-            "tags": [
-                   "Group Project"
-            ],
-            "date_published": "2024-04-08T10:56:54+02:00",
-            "date_modified": "2024-04-10T00:05:47+02:00"
-        },
-        {
-            "id": "https://natdanaiputhom.github.io/spelprojekt-2.html",
-            "url": "https://natdanaiputhom.github.io/spelprojekt-2.html",
-            "title": "Catdow",
-            "summary": "(Inprogress 08/04/2024) Details: My contributions: Swipe System (Mouse and Touch-screen) Character movements (tile-based &amp; turn based) Animation Controller for Player&hellip;",
-            "content_html": "<p>(Inprogress 08/04/2024)</p>\n<p><strong>Details:</strong></p>\n<ul>\n<li>A 3D game inspired by <strong>Lara Croft GO</strong></li>\n<li>Game project 2.</li>\n<li>6-week development with a wonderful team of 5 programmers, 3 level designers and 4 artists.</li>\n<li>Game is made in Unity.</li>\n<li>The game is targeting mobile-platform and developed for android os.</li>\n<li><a href=\"https://carrydev.itch.io/catdow\">https://carrydev.itch.io/catdow</a> </li>\n</ul>\n<p> </p>\n<p><strong>My contributions:</strong></p>\n<ul>\n<li>Swipe System (Mouse and Touch-screen)</li>\n<li>Character movements (tile-based &amp; turn based)</li>\n<li>Animation Controller for Player and Flytrap</li>\n<li>Pushing &amp; Pulling Crate System</li>\n<li>Cauldron System to escape damage from light sources</li>\n</ul>\n<div class=\"gallery-wrapper\"><div class=\"gallery\"  data-is-empty=\"false\" data-translation=\"Add images\" data-columns=\"3\">\n<figure class=\"gallery__item\"><a href=\"https://natdanaiputhom.github.io/media/posts/2/gallery/ezgif-2-63ac72fa44-2.gif\" data-size=\"600x338\"><img loading=\"lazy\" src=\"https://natdanaiputhom.github.io/media/posts/2/gallery/ezgif-2-63ac72fa44-2.gif\" alt=\"\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://natdanaiputhom.github.io/media/posts/2/gallery/ezgif-4-8cb6f82226-2.gif\" data-size=\"600x338\"><img loading=\"lazy\" src=\"https://natdanaiputhom.github.io/media/posts/2/gallery/ezgif-4-8cb6f82226-2.gif\" alt=\"\"></a></figure>\n</div></div>",
-            "image": "https://natdanaiputhom.github.io/media/posts/2/comingsoon-2.png",
-            "author": {
-                "name": "Natdanai Puthom"
-            },
-            "tags": [
-                   "Group Project"
-            ],
-            "date_published": "2024-04-08T10:56:38+02:00",
-            "date_modified": "2024-04-10T00:05:27+02:00"
         }
     ]
 }
