@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-04-09T18:12:29+02:00</updated>
+    <updated>2024-04-09T18:26:55+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -36,8 +36,8 @@
 <li>"What if some tasks remain unexecuted due to the constant influx of higher priority tasks?"</li>
 </ul>
 <p>The solution I had in mind was some sort of timer for every tasks in queue. Since this 'potential issue' had not yet occurred, I decided it wasn't necessary to allocate time to address it immediately. Instead, I documented it, along with other potential issues and improvements, for future consideration.</p>
-<figure class="post__image post__image--wide"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/13/threadpool2-4.png" alt="" width="1390" height="518" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/13/responsive/threadpool2-4-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/13/responsive/threadpool2-4-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/13/responsive/threadpool2-4-md.png 768w ,https://natdanaiputhom.github.io/media/posts/13/responsive/threadpool2-4-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/13/responsive/threadpool2-4-xl.png 1600w"></figure>
-<figure class="post__image post__image--wide"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/13/threadpool3-2.png" alt="" width="1471" height="566" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/13/responsive/threadpool3-2-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/13/responsive/threadpool3-2-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/13/responsive/threadpool3-2-md.png 768w ,https://natdanaiputhom.github.io/media/posts/13/responsive/threadpool3-2-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/13/responsive/threadpool3-2-xl.png 1600w"></figure>
+<figure class="post__image"><a href="https://natdanaiputhom.github.io/threadpool2.png" target="_blank" rel="noopener noreferrer"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/13/threadpool2.png" alt="" width="1390" height="518" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/13/responsive/threadpool2-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/13/responsive/threadpool2-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/13/responsive/threadpool2-md.png 768w ,https://natdanaiputhom.github.io/media/posts/13/responsive/threadpool2-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/13/responsive/threadpool2-xl.png 1600w"></figure></a></p>
+<figure class="post__image"><a href="https://natdanaiputhom.github.io/threadpool3.png" target="_blank" rel="noopener noreferrer"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/13/threadpool3.png" alt="" width="1471" height="566" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/13/responsive/threadpool3-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/13/responsive/threadpool3-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/13/responsive/threadpool3-md.png 768w ,https://natdanaiputhom.github.io/media/posts/13/responsive/threadpool3-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/13/responsive/threadpool3-xl.png 1600w"></figure></a></p>
 <p> </p>
             ]]>
         </content>
