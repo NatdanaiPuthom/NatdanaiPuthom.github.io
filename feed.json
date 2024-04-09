@@ -15,6 +15,7 @@
             "title": "Thread Pool",
             "summary": "hejhejh",
             "content_html": "<p>hejhejh</p>",
+            "image": "https://natdanaiputhom.github.io/media/posts/13/threadpool-2.png",
             "author": {
                 "name": "Natdanai Puthom"
             },
@@ -22,7 +23,7 @@
                    "Personal Project"
             ],
             "date_published": "2024-04-08T18:47:26+02:00",
-            "date_modified": "2024-04-08T18:47:26+02:00"
+            "date_modified": "2024-04-09T16:32:57+02:00"
         },
         {
             "id": "https://natdanaiputhom.github.io/the-laboratory.html",
@@ -105,7 +106,7 @@
             "title": "SimpleEngine",
             "summary": "asd",
             "content_html": "<p>asd</p>",
-            "image": "https://natdanaiputhom.github.io/media/posts/7/soon-2.png",
+            "image": "https://natdanaiputhom.github.io/media/posts/7/progart.png",
             "author": {
                 "name": "Natdanai Puthom"
             },
@@ -113,7 +114,7 @@
                    "Personal Project"
             ],
             "date_published": "2024-04-08T15:35:40+02:00",
-            "date_modified": "2024-04-09T16:23:25+02:00"
+            "date_modified": "2024-04-09T16:27:34+02:00"
         },
         {
             "id": "https://natdanaiputhom.github.io/entity-component-system.html",
