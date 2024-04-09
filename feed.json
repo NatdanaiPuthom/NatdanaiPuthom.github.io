@@ -10,6 +10,22 @@
     },
     "items": [
         {
+            "id": "https://natdanaiputhom.github.io/inverse-kinematic.html",
+            "url": "https://natdanaiputhom.github.io/inverse-kinematic.html",
+            "title": "Inverse Kinematic",
+            "summary": "(Inprogress 08/04/2024) test",
+            "content_html": "<p>(Inprogress 08/04/2024)</p>\n<p>test</p>",
+            "image": "https://natdanaiputhom.github.io/media/posts/14/comingsoon.png",
+            "author": {
+                "name": "Natdanai Puthom"
+            },
+            "tags": [
+                   "Personal Project"
+            ],
+            "date_published": "2024-04-10T00:07:31+02:00",
+            "date_modified": "2024-04-10T00:07:42+02:00"
+        },
+        {
             "id": "https://natdanaiputhom.github.io/thread-pool.html",
             "url": "https://natdanaiputhom.github.io/thread-pool.html",
             "title": "Thread Pool",
@@ -58,6 +74,38 @@
             "date_modified": "2024-04-09T22:16:08+02:00"
         },
         {
+            "id": "https://natdanaiputhom.github.io/inverse-kinematics.html",
+            "url": "https://natdanaiputhom.github.io/inverse-kinematics.html",
+            "title": "SimpleEngine",
+            "summary": "(Inprogress 08/04/2024) hejhejtest",
+            "content_html": "<p>(Inprogress 08/04/2024)</p>\n<p>hejhejtest</p>",
+            "image": "https://natdanaiputhom.github.io/media/posts/7/comingsoon.png",
+            "author": {
+                "name": "Natdanai Puthom"
+            },
+            "tags": [
+                   "Personal Project"
+            ],
+            "date_published": "2024-04-08T15:35:40+02:00",
+            "date_modified": "2024-04-10T00:06:35+02:00"
+        },
+        {
+            "id": "https://natdanaiputhom.github.io/entity-component-system.html",
+            "url": "https://natdanaiputhom.github.io/entity-component-system.html",
+            "title": "Entity Component System",
+            "summary": "(Inprogress 08/04/2024) test",
+            "content_html": "<p>(Inprogress 08/04/2024)</p>\n<p>test</p>",
+            "image": "https://natdanaiputhom.github.io/media/posts/6/comingsoon.png",
+            "author": {
+                "name": "Natdanai Puthom"
+            },
+            "tags": [
+                   "Personal Project"
+            ],
+            "date_published": "2024-04-08T11:17:49+02:00",
+            "date_modified": "2024-04-10T00:06:14+02:00"
+        },
+        {
             "id": "https://natdanaiputhom.github.io/about-me.html",
             "url": "https://natdanaiputhom.github.io/about-me.html",
             "title": "Contact",
@@ -72,20 +120,52 @@
             "date_modified": "2024-04-09T23:37:12+02:00"
         },
         {
-            "id": "https://natdanaiputhom.github.io/test.html",
-            "url": "https://natdanaiputhom.github.io/test.html",
-            "title": "Spoopy Sprint",
-            "summary": "Details: Turn Before I started implementing this feature, I thought to myself \"It's just a simple rotation, shouldn't be too&hellip;",
-            "content_html": "<p><strong>Details:</strong></p>\n<ul>\n<li>A 3D game inspired by <strong>Temple Run</strong></li>\n<li>Game project 1.</li>\n<li>Game is made in Unity.</li>\n<li>6-week development (20 hours per week)  with a wonderful team consist of programmers, level designers and game artists.</li>\n<li><a href=\"https://pinkbroccoliii.itch.io/spoopy-sprint\">https://pinkbroccoliii.itch.io/spoopy-sprint</a> </li>\n</ul>\n<p> </p>\n<p><strong>Turn</strong></p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://natdanaiputhom.github.io/media/posts/1/vlc_0WJZDsM8Go.gif\" alt=\"\" width=\"1664\" height=\"936\"></figure>\n<p>Before I started implementing this feature, I thought to myself \"It's just a simple rotation, shouldn't be too hard\". Yet, it took me more than half of the project's time to finish this.</p>\n<p>Initially, I developed a 'trigger zone' that allows the player to press a button to turn in a desired direction while inside it. If the player fails to choose the correct direction or presses the button at the wrong time, they are 'predicted' to veer off the path, resulting in a loss. However, if the direction is correct but the button is pressed slightly too early, the player will instead glide along an 'invisible wall' while running. Furthermore, it's essential that the character is always correctly oriented and aligned with the new path.</p>\n<p> </p>\n<p><strong>Candy pickups</strong></p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://natdanaiputhom.github.io/media/posts/1/vlc_DWdLvJjw4y.gif\" alt=\"\" width=\"1664\" height=\"936\"></figure>\n<p>I noticed the retry time in a level where there were many candies. Upon investigation, I could see that instantiating the candies was taking a significant amount of time. Since the candies were already loaded the first time the player entered the level, there was no need to destroy and re-instantiate them each time the same level was reloading. Instead, I just made the candies inactive and hid them, then reactivated them! I also plays the visual effects and sound our artist made and updating the score count.</p>",
-            "image": "https://natdanaiputhom.github.io/media/posts/1/ApplicationFrameHost_JtOekCCPks-2.gif",
+            "id": "https://natdanaiputhom.github.io/spelprojekt-4.html",
+            "url": "https://natdanaiputhom.github.io/spelprojekt-4.html",
+            "title": "Stella&#x27;s Quest: Uncovering the Secrets of the Ancients",
+            "summary": "(Inprogress 08/04/2024) Details: My contributions: Player character controls and movements (using State Machine) Attack &amp; Abilities (Attack/Animations cancel, dash, digging&hellip;",
+            "content_html": "<p>(Inprogress 08/04/2024)</p>\n<p><strong>Details:</strong></p>\n<ul>\n<li>A 3D game inspired by <strong>The Legend of Zelda: Link's Awakening</strong></li>\n<li>Game project 4.</li>\n<li>8-week development (20 hours per week) with a wonderful team of 6 programmers, 3 level designers and 4 artists.</li>\n<li>Game made with TGA's in-house engine (TGE) in C++ and using Unity as Editor</li>\n<li><a href=\"https://carry.itch.io/stellas-quest\">https://carry.itch.io/stellas-quest</a> </li>\n</ul>\n<p> </p>\n<p><strong>My contributions:</strong></p>\n<ul>\n<li>Player character controls and movements (using <a href=\"https://en.wikipedia.org/wiki/Finite-state_machine\">State Machine</a>)</li>\n<li>Attack &amp; Abilities (Attack/Animations cancel, dash, digging etc)</li>\n<li>Player Editor using Dear ImGui</li>\n<li>Sweep Detection for collision (movements and dashes)</li>\n<li>Sound System wrapper for FMOD and all in-game sound events</li>\n<li>System to instancing of models for rendering</li>\n</ul>",
+            "image": "https://natdanaiputhom.github.io/media/posts/4/comingsoon-2.png",
             "author": {
                 "name": "Natdanai Puthom"
             },
             "tags": [
                    "Group Project"
             ],
-            "date_published": "2024-03-19T13:56:44+01:00",
-            "date_modified": "2024-04-09T22:02:59+02:00"
+            "date_published": "2024-04-08T10:57:01+02:00",
+            "date_modified": "2024-04-10T00:05:22+02:00"
+        },
+        {
+            "id": "https://natdanaiputhom.github.io/spelprojekt-3.html",
+            "url": "https://natdanaiputhom.github.io/spelprojekt-3.html",
+            "title": "Abalabos: The Ascent of the Black Wizard",
+            "summary": "(Inprogress 08/04/2024) Details: My contributions: Simple and short tutorial videos for my team how to setup and install Perforce, Unity&hellip;",
+            "content_html": "<p>(Inprogress 08/04/2024)</p>\n<p><strong>Details:</strong></p>\n<ul>\n<li>A 3D game inspired by <strong>Celeste.</strong></li>\n<li>Game project 3.</li>\n<li>12-week development (20 hours per week) with a wonderful team of 5 programmers, 2 level designers and 4 artists.</li>\n<li>Game is made with TGA's inhouse engine (TGE) in C++ and Unity as Editor</li>\n<li><a href=\"https://carry.itch.io/abalabos\">https://carry.itch.io/abalabos</a> </li>\n</ul>\n<p> </p>\n<p><strong>My contributions:</strong></p>\n<ul>\n<li>Simple and short tutorial videos for my team how to setup and install Perforce, Unity and Visual Studio etc</li>\n<li>Export and Import data (gameobjects, ui, scenes etc) from Unity to TGE</li>\n<li>SceneManager &amp; GameObject System</li>\n<li>Rendering pipeline</li>\n<li>Object Culling</li>\n<li>Thread loading data and cache</li>\n</ul>",
+            "image": "https://natdanaiputhom.github.io/media/posts/3/comingsoon.png",
+            "author": {
+                "name": "Natdanai Puthom"
+            },
+            "tags": [
+                   "Group Project"
+            ],
+            "date_published": "2024-04-08T10:56:54+02:00",
+            "date_modified": "2024-04-10T00:05:47+02:00"
+        },
+        {
+            "id": "https://natdanaiputhom.github.io/spelprojekt-2.html",
+            "url": "https://natdanaiputhom.github.io/spelprojekt-2.html",
+            "title": "Catdow",
+            "summary": "(Inprogress 08/04/2024) Details: My contributions: Swipe System (Mouse and Touch-screen) Character movements (tile-based &amp; turn based) Animation Controller for Player&hellip;",
+            "content_html": "<p>(Inprogress 08/04/2024)</p>\n<p><strong>Details:</strong></p>\n<ul>\n<li>A 3D game inspired by <strong>Lara Croft GO</strong></li>\n<li>Game project 2.</li>\n<li>6-week development with a wonderful team of 5 programmers, 3 level designers and 4 artists.</li>\n<li>Game is made in Unity.</li>\n<li>The game is targeting mobile-platform and developed for android os.</li>\n<li><a href=\"https://carrydev.itch.io/catdow\">https://carrydev.itch.io/catdow</a> </li>\n</ul>\n<p> </p>\n<p><strong>My contributions:</strong></p>\n<ul>\n<li>Swipe System (Mouse and Touch-screen)</li>\n<li>Character movements (tile-based &amp; turn based)</li>\n<li>Animation Controller for Player and Flytrap</li>\n<li>Pushing &amp; Pulling Crate System</li>\n<li>Cauldron System to escape damage from light sources</li>\n</ul>\n<div class=\"gallery-wrapper\"><div class=\"gallery\"  data-is-empty=\"false\" data-translation=\"Add images\" data-columns=\"3\">\n<figure class=\"gallery__item\"><a href=\"https://natdanaiputhom.github.io/media/posts/2/gallery/ezgif-2-63ac72fa44-2.gif\" data-size=\"600x338\"><img loading=\"lazy\" src=\"https://natdanaiputhom.github.io/media/posts/2/gallery/ezgif-2-63ac72fa44-2.gif\" alt=\"\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://natdanaiputhom.github.io/media/posts/2/gallery/ezgif-4-8cb6f82226-2.gif\" data-size=\"600x338\"><img loading=\"lazy\" src=\"https://natdanaiputhom.github.io/media/posts/2/gallery/ezgif-4-8cb6f82226-2.gif\" alt=\"\"></a></figure>\n</div></div>",
+            "image": "https://natdanaiputhom.github.io/media/posts/2/comingsoon-2.png",
+            "author": {
+                "name": "Natdanai Puthom"
+            },
+            "tags": [
+                   "Group Project"
+            ],
+            "date_published": "2024-04-08T10:56:38+02:00",
+            "date_modified": "2024-04-10T00:05:27+02:00"
         }
     ]
 }
