@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-04-09T18:26:55+02:00</updated>
+    <updated>2024-04-09T18:49:51+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -30,7 +30,7 @@
             <![CDATA[
                     <p><img src="https://natdanaiputhom.github.io/media/posts/13/threadpool-2.png" class="type:primaryImage" alt="" /></p>
                 <p>Initially, my pathfinding algorithm led to performance loss when multiple enemies on a vast map attempted to calculate paths simultaneously, sometimes every frame. To enhance this, I devised a solution where, regardless of their current state, enemies could persist in their activities while awaiting the completion of path calculations. This transition ensured that upon receiving their calculated paths, they could effortlessly shift to the next state, utilizing the paths without hindering much of performance. That solution was thread pool, by making use of modern CPU, which usually come with multi-cores and threads.</p>
-<p>I encountered a subsequent challenge where certain tasks needed to be executed as swiftly as possible, which current thread pool could not meet the requirement. To address this, I designed a separate priority queue for such tasks, assigning them a priority range from 0 to 1, with higher numbers indicating higher priority. This ensured that tasks in the priority queue were executed before those in the normal queue.</p>
+<p>I encountered a subsequent challenge where certain tasks needed to be executed as swiftly as possible, which current thread pool class could not meet the requirement. To address this, I designed a separate priority queue for such tasks, assigning them a priority range from 0 to 1, with higher numbers indicating higher priority. This ensured that tasks in the priority queue were executed before those in the normal queue.</p>
 <p>After a code review, my classmates and I engaged in a discussion concerning the potential issue of certain tasks never begin executed if higher priority tasks were continuously added. </p>
 <ul>
 <li>"What if some tasks remain unexecuted due to the constant influx of higher priority tasks?"</li>
@@ -96,12 +96,15 @@
         <updated>2024-04-08T18:18:40+02:00</updated>
             <summary>
                 <![CDATA[
-                    aaa
+                    The Game Assembly hosted 48 hours in-house game jam and I couldn't say no to how fun it sounds! The&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>aaa</p>
+                <figure class="post__image post__image--right"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/10/Screenshot-2024-04-09-at-18-42-13-Edit-project.png" alt="" width="198" height="157" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/10/responsive/Screenshot-2024-04-09-at-18-42-13-Edit-project-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/10/responsive/Screenshot-2024-04-09-at-18-42-13-Edit-project-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/10/responsive/Screenshot-2024-04-09-at-18-42-13-Edit-project-md.png 768w ,https://natdanaiputhom.github.io/media/posts/10/responsive/Screenshot-2024-04-09-at-18-42-13-Edit-project-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/10/responsive/Screenshot-2024-04-09-at-18-42-13-Edit-project-xl.png 1600w"></figure>
+<p>The Game Assembly hosted 48 hours in-house game jam and I couldn't say no to how fun it sounds! The theme was "Isolation" and if you tried the game you'll notice that our game is quite the opposite! The hamsters is isolated yet is not!  We had really fun experience playing Hamster 16 with other TGA students. People started off with killing each other and having wicked thoughts but soon started to cooperated, trying to beat the game! One team managed to clear the game after more than half an hour and witness the ending cinematics! The ironic quote of the day was "One more game!".</p>
+<p>Unfortunately since the time was short and we were new into Unity, the WebGL version could not display some VFX properly and ending cinematic. If you're interested you can try to download the build.rar and run the game from PC instead. Recommended of 2 - 4 players using hand controllers and loud stereo speakers! </p>
+<p>You can play Hamster 16 on the website or download the game here at <a href="https://carrydev.itch.io/hamster16">https://carrydev.itch.io/hamster16</a> </p>
             ]]>
         </content>
     </entry>
