@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-04-09T21:42:15+02:00</updated>
+    <updated>2024-04-09T21:55:34+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -109,8 +109,7 @@
         <content type="html">
             <![CDATA[
                     <p><img src="https://natdanaiputhom.github.io/media/posts/1/ApplicationFrameHost_JtOekCCPks-2.gif" class="type:primaryImage" alt="" /></p>
-                <figure class="post__image"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/1/ApplicationFrameHost_JtOekCCPks.gif" alt="" width="302" height="214"></figure>
-<p><strong>Details:</strong></p>
+                <p><strong>Details:</strong></p>
 <ul>
 <li>A 3D game inspired by <strong>Temple Run</strong></li>
 <li>Game project 1.</li>
