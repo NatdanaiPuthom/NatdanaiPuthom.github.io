@@ -3,12 +3,36 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-04-10T00:50:13+02:00</updated>
+    <updated>2024-04-10T01:22:27+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
     <id>https://natdanaiputhom.github.io</id>
 
+    <entry>
+        <title>Project 8</title>
+        <author>
+            <name>Natdanai Puthom</name>
+        </author>
+        <link href="https://natdanaiputhom.github.io/project-8.html"/>
+        <id>https://natdanaiputhom.github.io/project-8.html</id>
+        <media:content url="https://natdanaiputhom.github.io/media/posts/15/comingsoon.png" medium="image" />
+            <category term="Group Project"/>
+
+        <updated>2024-04-10T01:22:19+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://natdanaiputhom.github.io/media/posts/15/comingsoon.png" alt="" />
+                    (coming soon)
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://natdanaiputhom.github.io/media/posts/15/comingsoon.png" class="type:primaryImage" alt="" /></p>
+                <p>(coming soon)</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Inverse Kinematic</title>
         <author>
@@ -252,28 +276,6 @@
                     <p><img src="https://natdanaiputhom.github.io/media/posts/6/comingsoon.png" class="type:primaryImage" alt="" /></p>
                 <p>(Inprogress 08/04/2024)</p>
 <p>test</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Contact</title>
-        <author>
-            <name>Natdanai Puthom</name>
-        </author>
-        <link href="https://natdanaiputhom.github.io/about-me.html"/>
-        <id>https://natdanaiputhom.github.io/about-me.html</id>
-
-        <updated>2024-04-08T11:01:49+02:00</updated>
-            <summary>
-                <![CDATA[
-                    Phone: +46 (0) 70 935 00 24 Mail: natdanai.puthom1997@gmail.com
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p><strong>Phone</strong>: +46 (0) 70 935 00 24</p>
-<p><strong>Mail</strong>: <a href="mailto:natdanai.puthom1997@gmail.com">natdanai.puthom1997@gmail.com</a></p>
-<figure class="post__image"><a href="https://www.linkedin.com/in/natdanai-puthom-34175317a/" target="_blank" rel="noopener noreferrer"> <img  src="https://natdanaiputhom.github.io/media/posts/5/linkedIn.png" alt="" width="126" height="126" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/5/responsive/linkedIn-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/5/responsive/linkedIn-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/5/responsive/linkedIn-md.png 768w ,https://natdanaiputhom.github.io/media/posts/5/responsive/linkedIn-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/5/responsive/linkedIn-xl.png 1600w"></figure>      </a><a href="https://www.linkedin.com/in/natdanai-puthom-34175317a/">      </a> <a href="https://carrydev.itch.io/"> </a><a href="https://carrydev.itch.io/" target="_blank" rel="noopener noreferrer"> <figure class="post__image"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/5/itch-io.1024x1024.png" alt="" width="126" height="126" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/5/responsive/itch-io.1024x1024-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/5/responsive/itch-io.1024x1024-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/5/responsive/itch-io.1024x1024-md.png 768w ,https://natdanaiputhom.github.io/media/posts/5/responsive/itch-io.1024x1024-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/5/responsive/itch-io.1024x1024-xl.png 1600w"></figure> </a>         <a href="https://github.com/NatdanaiPuthom" target="_blank" rel="noopener noreferrer"><figure class="post__image"><img  src="https://natdanaiputhom.github.io/media/posts/5/Github.png" alt="" width="126" height="126" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/5/responsive/Github-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/5/responsive/Github-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/5/responsive/Github-md.png 768w ,https://natdanaiputhom.github.io/media/posts/5/responsive/Github-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/5/responsive/Github-xl.png 1600w"></figure></a><a href="https://carrydev.itch.io/"> </a><a href="https://natdanaiputhom.github.io/NatdanaiPuthom.pdf" target="_blank" rel="noopener noreferrer"><figure class="post__image"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/5/cv_6588143-2.png" alt="" width="126" height="126" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/5/responsive/cv_6588143-2-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/5/responsive/cv_6588143-2-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/5/responsive/cv_6588143-2-md.png 768w ,https://natdanaiputhom.github.io/media/posts/5/responsive/cv_6588143-2-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/5/responsive/cv_6588143-2-xl.png 1600w"></figure></a><a href="https://carrydev.itch.io/"></a></p>
             ]]>
         </content>
     </entry>
