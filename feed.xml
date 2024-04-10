@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-04-10T07:27:27+02:00</updated>
+    <updated>2024-04-10T07:32:55+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -327,7 +327,7 @@
 <figure class="post__image" ><a href="https://natdanaiputhom.github.io/animupdate.png" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/animupdate.png" alt="" width="1216" height="214" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/7/responsive/animupdate-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/7/responsive/animupdate-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/7/responsive/animupdate-md.png 768w ,https://natdanaiputhom.github.io/media/posts/7/responsive/animupdate-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/7/responsive/animupdate-xl.png 1600w"></a>
 <figcaption >Solution 2</figcaption>
 </figure>
-<p>Over time, SimpleEngine has evolved, increasingly focusing on implementing new features primarily for testing. This includes the integration of navigation meshes and pathfinding algorithms, as utilized in <a href="https://natdanaiputhom.github.io/streamer-attacked-by-aliens-live-on-stream.html" target="_blank" rel="noopener noreferrer">Spite: String of Fate</a>, and the exploration of ECS, a concept I delved into due to our team's use of FLECS for the "Spite: String of Fate" project. You can learn more about my ECS implementation here, <a href="https://natdanaiputhom.github.io/entity-component-system.html" target="_blank" rel="noopener noreferrer">Entity Component Systems</a>.</p>
+<p>Over time, SimpleEngine has evolved, increasingly focusing on implementing new features primarily for testing. This includes the integration of navigation meshes and pathfinding algorithms, as utilized in <a href="https://natdanaiputhom.github.io/streamer-attacked-by-aliens-live-on-stream.html" target="_blank" rel="noopener noreferrer">Spite: String of Fate</a>, and the exploration of Entity Component Systems (ECS), a concept I delved into due to our team's use of FLECS for the "Spite: String of Fate" project. You can learn more about my ECS implementation here, <a href="https://natdanaiputhom.github.io/entity-component-system.html" target="_blank" rel="noopener noreferrer">Entity Component Systems</a>.</p>
 <figure class="post__image" ><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/navmesh.png" alt="" width="1271" height="741" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/7/responsive/navmesh-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/7/responsive/navmesh-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/7/responsive/navmesh-md.png 768w ,https://natdanaiputhom.github.io/media/posts/7/responsive/navmesh-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/7/responsive/navmesh-xl.png 1600w">
 <figcaption >Grid, Navmesh and Pathfinder with Raycast test</figcaption>
 </figure>
