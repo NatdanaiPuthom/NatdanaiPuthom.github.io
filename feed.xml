@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-04-10T07:32:55+02:00</updated>
+    <updated>2024-04-10T07:37:57+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -321,7 +321,7 @@
 <li>For models undergoing the same animation without variation, I found that updating the animation once and then applying the new pose to all models sharing that animation conservatively saved resources.</li>
 <li>For models with differing animations, leveraging a <a href="https://natdanaiputhom.github.io/thread-pool.html" target="_blank" rel="noopener noreferrer">Thread Pool</a> to update animations in parallel before proceeding significantly enhanced performance.</li>
 </ol>
-<p>The impact of these optimizations was remarkable, yielding a ~1 milliseconds improvement per frame for 200 animations on an Intel Core i5 9400f, with even more substantial gains for models using identical animations.</p>
+<p>The impact of these optimizations was remarkable, yielding a ~1 milliseconds (using EasyProfiler) improvement per frame for 200 animations on an Intel Core i5 9400f, with even more substantial gains for models using identical animations.</p>
 <figure class="post__image"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/7/SimpleEngine_Debug_2qlZNuFj0O.gif" alt="" width="1282" height="752"></figure>
 <p>This code iterates through each model with a unique animation variant, assigning tasks to the thread pool and storing the outcomes in a container. The 'Update()' function only completes after all 'std::future' objects return and retrieve a valid result, indicating that every model has been successfully updated.</p>
 <figure class="post__image" ><a href="https://natdanaiputhom.github.io/animupdate.png" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/animupdate.png" alt="" width="1216" height="214" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/7/responsive/animupdate-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/7/responsive/animupdate-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/7/responsive/animupdate-md.png 768w ,https://natdanaiputhom.github.io/media/posts/7/responsive/animupdate-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/7/responsive/animupdate-xl.png 1600w"></a>
