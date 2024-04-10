@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-04-10T06:48:35+02:00</updated>
+    <updated>2024-04-10T07:26:30+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -310,7 +310,7 @@
                 <p>Inspired by my experiences with 'SimpleJson' which, ironically, was anything but simple, I set out to craft my own engine, humorously named SimpleEngine. This effort mocked the misleading "simplicity" promised by such tools. Olle, whom I had previously worked on projects like <a href="https://natdanaiputhom.github.io/test.html" target="_blank" rel="noopener noreferrer">Spoopy Sprint </a>and <a href="https://natdanaiputhom.github.io/spelprojekt-4.html" target="_blank" rel="noopener noreferrer">Stella's Quest </a>with, harbours a distinct aversion to the use of singletons and global variables, a stance that, while typically aligning with good practice, I playfully chose to ignore for this engine. Embracing the chaos, I decided to implement everything in SimpleEngine using global pointers, a decision ripe with potential for humorous disaster. What indeed could go wrong?</p>
 <p>SimpleEngine, initially for fun, became my gateway to learn graphics programming with DirectX11. While the PBR light and reflections need improvement, I plan to address them later.</p>
 <figure class="post__image"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/7/ezgif-2-d718a87e32.gif" alt="" width="1269" height="487"></figure>
-<p>My fascination with 'procedural animation' began after watching a video about <a href="https://www.youtube.com/watch?v=I7BRv5wjeZg" target="_blank" rel="noopener noreferrer">spider</a> on YouTube, leading me to explore Inverse Kinematics (IK). Eager to implement this in my project, I first had to tackle the basics: loading models and animations into the engine. Despite my initial lack of knowledge, I successfully integrated models, skeletons, and animations using FBXSDK. However, the animations didn't play correctly. After days of searching for a solution, I discovered the issue was in the shader- I had mistakenly used the '+' operator instead of '*'. </p>
+<p>My fascination with 'procedural animation' began after watching a video about spider on YouTube, leading me to explore Inverse Kinematics (IK). Eager to implement this in my project, I first had to tackle the basics: loading models and animations into the engine. Despite my initial lack of knowledge, I successfully integrated models, skeletons, and animations using FBXSDK. However, the animations didn't play correctly. After days of searching for the culprit, I discovered the issue was in the shader I had mistakenly used the '+' operator instead of '*'. </p>
 <figure class="post__image"><img  src="https://natdanaiputhom.github.io/media/posts/7/SimpleEngine_Debug_8kfNkMub3u.gif" alt="" width="262" height="213"></figure> <figure class="post__image"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/7/shaderanim.png" alt="" width="302" height="161" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/7/responsive/shaderanim-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/7/responsive/shaderanim-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/7/responsive/shaderanim-md.png 768w ,https://natdanaiputhom.github.io/media/posts/7/responsive/shaderanim-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/7/responsive/shaderanim-xl.png 1600w"></figure>
 <p>Utilizing a model previously created in <a href="https://natdanaiputhom.github.io/spelprojekt-3.html" target="_blank" rel="noopener noreferrer">Abalabos</a>,I incorporated linear interpolation to smooth transitions between different animations for testing purposes. If you're interested in my IK inverse kinematic journey, you can read more about it here, <a href="https://natdanaiputhom.github.io/inverse-kinematic.html" target="_blank" rel="noopener noreferrer">Inverse Kinematic</a>. </p>
 <figure class="post__image" ><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/SimpleEngine_Debug_ocAc1gAiZ8.gif" alt="" width="1282" height="752">
@@ -319,15 +319,27 @@
 <p>While implementing and testing animations, I encountered significant performance hit when updating multiple instances of the same animation type. This led me to devise several solutions.</p>
 <ol>
 <li>For models undergoing the same animation without variation, I found that updating the animation once and then applying the new pose to all models sharing that animation conservatively saved resources.</li>
-<li>For models with differing animations, leveraging a <a href="https://natdanaiputhom.github.io/thread-pool.html" target="_blank" rel="noopener noreferrer">thread pool</a> to update animations in parallel before proceeding significantly enhanced performance.</li>
+<li>For models with differing animations, leveraging a <a href="https://natdanaiputhom.github.io/thread-pool.html" target="_blank" rel="noopener noreferrer">Thread Pool</a> to update animations in parallel before proceeding significantly enhanced performance.</li>
 </ol>
 <p>The impact of these optimizations was remarkable, yielding a ~1 milliseconds improvement per frame for 200 animations on an Intel Core i5 9400f, with even more substantial gains for models using identical animations.</p>
 <figure class="post__image"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/7/SimpleEngine_Debug_2qlZNuFj0O.gif" alt="" width="1282" height="752"></figure>
-<p>This code iterates through each model with a unique animation variant, assigning tasks to the thread pool class and storing the outcomes in a container of 'std::future'. The 'Update()' function only completes after all 'std::future' objects return and retrieve a valid result, indicating that every model has been successfully updated.</p>
+<p>This code iterates through each model with a unique animation variant, assigning tasks to the thread pool and storing the outcomes in a container. The 'Update()' function only completes after all 'std::future' objects return and retrieve a valid result, indicating that every model has been successfully updated.</p>
 <figure class="post__image" ><a href="https://natdanaiputhom.github.io/animupdate.png" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/animupdate.png" alt="" width="1216" height="214" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/7/responsive/animupdate-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/7/responsive/animupdate-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/7/responsive/animupdate-md.png 768w ,https://natdanaiputhom.github.io/media/posts/7/responsive/animupdate-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/7/responsive/animupdate-xl.png 1600w"></a>
 <figcaption >Solution 2</figcaption>
 </figure>
-<p> </p>
+<p>Over time, SimpleEngine has evolved, increasingly focusing on implementing new features primarily for testing. This includes the integration of navigation meshes and pathfinding algorithms, as utilized in <a href="https://natdanaiputhom.github.io/streamer-attacked-by-aliens-live-on-stream.html" target="_blank" rel="noopener noreferrer">Spite: String of Fate</a>, and the exploration of ECS, a concept I delved into due to our team's use of FLECS for the "Spite: String of Fate" project. You can learn more about my ECS implementation here, <a href="https://natdanaiputhom.github.io/entity-component-system.html" target="_blank" rel="noopener noreferrer">Entity Component Systems</a>.</p>
+<figure class="post__image" ><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/navmesh.png" alt="" width="1271" height="741" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/7/responsive/navmesh-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/7/responsive/navmesh-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/7/responsive/navmesh-md.png 768w ,https://natdanaiputhom.github.io/media/posts/7/responsive/navmesh-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/7/responsive/navmesh-xl.png 1600w">
+<figcaption >Grid, Navmesh and Pathfinder with Raycast test</figcaption>
+</figure>
+<p>I intend to persistently enhance SimpleEngine throughout my game development journey, curious to discover where this path will take me. So far, developing SimpleEngine has been a fulfilling experience. For the upcoming summer, I have outlined several key tasks I aim to complete, integrate, and implement within the engine, which include</p>
+<ul>
+<li>ECS</li>
+<li>Editor</li>
+<li>IK</li>
+<li>Graphics (colour blend and model instancing) </li>
+<li>Integrating Node Scripting (this is implemented and will be done by Emil Olofsson you can read more about his amazing work at <a href="https://broremilolofsson.github.io" target="_blank" rel="noopener noreferrer">https://broremilolofsson.github.io</a> )</li>
+</ul>
+<p><em>If you're interested in source code for SimpleEngine you can find them here at <a href="https://github.com/NatdanaiPuthom/SimpleEngine" target="_blank" rel="noopener noreferrer">https://github.com/NatdanaiPuthom/SimpleEngine</a> </em></p>
             ]]>
         </content>
     </entry>
