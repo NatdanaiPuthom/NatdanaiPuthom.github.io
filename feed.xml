@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-04-10T07:41:12+02:00</updated>
+    <updated>2024-04-10T07:44:02+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -333,10 +333,8 @@
 </figure>
 <p>I intend to persistently enhance SimpleEngine throughout my game development journey, curious to discover where this path will take me. So far, developing SimpleEngine has been a fulfilling experience. For the upcoming summer, I have outlined several key tasks I aim to complete, integrate, and implement within the engine, which include</p>
 <ul>
-<li>ECS</li>
 <li>Editor</li>
-<li>IK</li>
-<li>Graphics (colour blend and model instancing) </li>
+<li>Graphics (lights, blend state and model instancing) </li>
 <li>Node Scripting (This is implemented by Emil Olofsson. You can read more about his amazing work at <a href="https://broremilolofsson.github.io" target="_blank" rel="noopener noreferrer">https://broremilolofsson.github.io</a> )</li>
 </ul>
 <p><em>If you're interested in source code for SimpleEngine you can find them here at <a href="https://github.com/NatdanaiPuthom/SimpleEngine" target="_blank" rel="noopener noreferrer">https://github.com/NatdanaiPuthom/SimpleEngine</a> </em></p>
