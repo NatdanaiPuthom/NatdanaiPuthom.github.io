@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-04-10T03:54:58+02:00</updated>
+    <updated>2024-04-10T06:48:35+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -89,21 +89,21 @@
         </author>
         <link href="https://natdanaiputhom.github.io/thread-pool.html"/>
         <id>https://natdanaiputhom.github.io/thread-pool.html</id>
-        <media:content url="https://natdanaiputhom.github.io/media/posts/13/comingsoon.png" medium="image" />
+        <media:content url="https://natdanaiputhom.github.io/media/posts/13/thread2-2.png" medium="image" />
             <category term="Personal Project"/>
 
         <updated>2024-04-08T18:47:26+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://natdanaiputhom.github.io/media/posts/13/comingsoon.png" alt="" />
+                        <img src="https://natdanaiputhom.github.io/media/posts/13/thread2-2.png" alt="" />
                     Initially, my pathfinding algorithm led to performance loss when multiple enemies on a vast map attempted to calculate paths simultaneously,&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://natdanaiputhom.github.io/media/posts/13/comingsoon.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://natdanaiputhom.github.io/media/posts/13/thread2-2.png" class="type:primaryImage" alt="" /></p>
                 <p>Initially, my pathfinding algorithm led to performance loss when multiple enemies on a vast map attempted to calculate paths simultaneously, sometimes every frame. To enhance this, I devised a solution where, regardless of their current state, enemies could persist in their activities while awaiting the completion of path calculations. This transition ensured that upon receiving their calculated paths, they could effortlessly shift to the next state, utilizing the paths without hindering much of performance. That solution was thread pool, by making use of modern CPU, which usually come with multi-cores and threads.</p>
-<p>I encountered a subsequent challenge where certain tasks needed to be executed as swiftly as possible, which current thread pool class could not meet the requirement. To address this, I designed a separate priority queue for such tasks, assigning them a priority range from 0 to 1, with higher numbers indicating higher priority. This ensured that tasks in the priority queue were executed before those in the normal queue.</p>
+<p>I encountered a subsequent challenge where certain tasks needed to be executed as swiftly as possible, which current thread pool class could not meet the requirement. To address this, I designed a separate priority queue for such tasks, assigning them a priority range from 0.0 to 1.0, with higher numbers indicating higher priority. This ensured that tasks in the priority queue were executed before those in the normal queue.</p>
 <p>After a code review, my classmates and I engaged in a discussion concerning the potential issue of certain tasks never begin executed if higher priority tasks were continuously added. </p>
 <pre>"What if some tasks remain unexecuted due to the constant influx of higher priority tasks?"</pre>
 <p>The solution I had in mind was some sort of timer for every tasks in queue. Since this 'potential issue' had not yet occurred, I decided it wasn't necessary to allocate time to address it immediately. Instead, I documented it, along with other potential issues and improvements, for future consideration.</p>
@@ -294,21 +294,40 @@
         </author>
         <link href="https://natdanaiputhom.github.io/inverse-kinematics.html"/>
         <id>https://natdanaiputhom.github.io/inverse-kinematics.html</id>
-        <media:content url="https://natdanaiputhom.github.io/media/posts/7/comingsoon.png" medium="image" />
+        <media:content url="https://natdanaiputhom.github.io/media/posts/7/progart.png" medium="image" />
             <category term="Personal Project"/>
 
         <updated>2024-04-08T15:35:40+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://natdanaiputhom.github.io/media/posts/7/comingsoon.png" alt="" />
-                    (Inprogress 08/04/2024) hejhejtest
+                        <img src="https://natdanaiputhom.github.io/media/posts/7/progart.png" alt="" />
+                    Inspired by my experiences with 'SimpleJson' which, ironically, was anything but simple, I set out to craft my own engine,&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://natdanaiputhom.github.io/media/posts/7/comingsoon.png" class="type:primaryImage" alt="" /></p>
-                <p>(Inprogress 08/04/2024)</p>
-<p>hejhejtest</p>
+                    <p><img src="https://natdanaiputhom.github.io/media/posts/7/progart.png" class="type:primaryImage" alt="" /></p>
+                <p>Inspired by my experiences with 'SimpleJson' which, ironically, was anything but simple, I set out to craft my own engine, humorously named SimpleEngine. This effort mocked the misleading "simplicity" promised by such tools. Olle, whom I had previously worked on projects like <a href="https://natdanaiputhom.github.io/test.html" target="_blank" rel="noopener noreferrer">Spoopy Sprint </a>and <a href="https://natdanaiputhom.github.io/spelprojekt-4.html" target="_blank" rel="noopener noreferrer">Stella's Quest </a>with, harbours a distinct aversion to the use of singletons and global variables, a stance that, while typically aligning with good practice, I playfully chose to ignore for this engine. Embracing the chaos, I decided to implement everything in SimpleEngine using global pointers, a decision ripe with potential for humorous disaster. What indeed could go wrong?</p>
+<p>SimpleEngine, initially for fun, became my gateway to learn graphics programming with DirectX11. While the PBR light and reflections need improvement, I plan to address them later.</p>
+<figure class="post__image"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/7/ezgif-2-d718a87e32.gif" alt="" width="1269" height="487"></figure>
+<p>My fascination with 'procedural animation' began after watching a video about <a href="https://www.youtube.com/watch?v=I7BRv5wjeZg" target="_blank" rel="noopener noreferrer">spider</a> on YouTube, leading me to explore Inverse Kinematics (IK). Eager to implement this in my project, I first had to tackle the basics: loading models and animations into the engine. Despite my initial lack of knowledge, I successfully integrated models, skeletons, and animations using FBXSDK. However, the animations didn't play correctly. After days of searching for a solution, I discovered the issue was in the shader- I had mistakenly used the '+' operator instead of '*'. </p>
+<figure class="post__image"><img  src="https://natdanaiputhom.github.io/media/posts/7/SimpleEngine_Debug_8kfNkMub3u.gif" alt="" width="262" height="213"></figure> <figure class="post__image"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/7/shaderanim.png" alt="" width="302" height="161" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/7/responsive/shaderanim-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/7/responsive/shaderanim-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/7/responsive/shaderanim-md.png 768w ,https://natdanaiputhom.github.io/media/posts/7/responsive/shaderanim-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/7/responsive/shaderanim-xl.png 1600w"></figure>
+<p>Utilizing a model previously created in <a href="https://natdanaiputhom.github.io/spelprojekt-3.html" target="_blank" rel="noopener noreferrer">Abalabos</a>,I incorporated linear interpolation to smooth transitions between different animations for testing purposes. If you're interested in my IK inverse kinematic journey, you can read more about it here, <a href="https://natdanaiputhom.github.io/inverse-kinematic.html" target="_blank" rel="noopener noreferrer">Inverse Kinematic</a>. </p>
+<figure class="post__image" ><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/SimpleEngine_Debug_ocAc1gAiZ8.gif" alt="" width="1282" height="752">
+<figcaption >Model created by Oliver Benedetti</figcaption>
+</figure>
+<p>While implementing and testing animations, I encountered significant performance hit when updating multiple instances of the same animation type. This led me to devise several solutions.</p>
+<ol>
+<li>For models undergoing the same animation without variation, I found that updating the animation once and then applying the new pose to all models sharing that animation conservatively saved resources.</li>
+<li>For models with differing animations, leveraging a <a href="https://natdanaiputhom.github.io/thread-pool.html" target="_blank" rel="noopener noreferrer">thread pool</a> to update animations in parallel before proceeding significantly enhanced performance.</li>
+</ol>
+<p>The impact of these optimizations was remarkable, yielding a ~1 milliseconds improvement per frame for 200 animations on an Intel Core i5 9400f, with even more substantial gains for models using identical animations.</p>
+<figure class="post__image"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/7/SimpleEngine_Debug_2qlZNuFj0O.gif" alt="" width="1282" height="752"></figure>
+<p>This code iterates through each model with a unique animation variant, assigning tasks to the thread pool class and storing the outcomes in a container of 'std::future'. The 'Update()' function only completes after all 'std::future' objects return and retrieve a valid result, indicating that every model has been successfully updated.</p>
+<figure class="post__image" ><a href="https://natdanaiputhom.github.io/animupdate.png" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/animupdate.png" alt="" width="1216" height="214" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/7/responsive/animupdate-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/7/responsive/animupdate-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/7/responsive/animupdate-md.png 768w ,https://natdanaiputhom.github.io/media/posts/7/responsive/animupdate-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/7/responsive/animupdate-xl.png 1600w"></a>
+<figcaption >Solution 2</figcaption>
+</figure>
+<p> </p>
             ]]>
         </content>
     </entry>
