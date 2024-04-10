@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-04-10T07:26:30+02:00</updated>
+    <updated>2024-04-10T07:27:27+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -337,7 +337,7 @@
 <li>Editor</li>
 <li>IK</li>
 <li>Graphics (colour blend and model instancing) </li>
-<li>Integrating Node Scripting (this is implemented and will be done by Emil Olofsson you can read more about his amazing work at <a href="https://broremilolofsson.github.io" target="_blank" rel="noopener noreferrer">https://broremilolofsson.github.io</a> )</li>
+<li>Node Scripting (this is implemented and will be done by Emil Olofsson you can read more about his amazing work at <a href="https://broremilolofsson.github.io" target="_blank" rel="noopener noreferrer">https://broremilolofsson.github.io</a> )</li>
 </ul>
 <p><em>If you're interested in source code for SimpleEngine you can find them here at <a href="https://github.com/NatdanaiPuthom/SimpleEngine" target="_blank" rel="noopener noreferrer">https://github.com/NatdanaiPuthom/SimpleEngine</a> </em></p>
             ]]>
