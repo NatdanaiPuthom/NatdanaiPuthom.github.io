@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-04-10T01:22:27+02:00</updated>
+    <updated>2024-04-10T03:41:49+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -102,14 +102,24 @@
             <summary>
                 <![CDATA[
                         <img src="https://natdanaiputhom.github.io/media/posts/12/comingsoon.png" alt="" />
-                    (Inprogress 08/04/2024) testhej
+                    (Inprogress 08/04/2024) Details: My contributions: Player controls and movements UI System
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://natdanaiputhom.github.io/media/posts/12/comingsoon.png" class="type:primaryImage" alt="" /></p>
                 <p>(Inprogress 08/04/2024)</p>
-<p>testhej</p>
+<p><strong>Details:</strong></p>
+<ul>
+<li>A 3D game inspired by <strong>Call of Duty: World at War Zombies. Nach der untoten.</strong></li>
+<li>14-weeks development (20 hours per week)</li>
+<li>Game made fully using our group custom engine <strong>TempEngine.</strong></li>
+</ul>
+<p><strong>My contributions:</strong></p>
+<ul>
+<li>Player controls and movements</li>
+<li>UI System</li>
+</ul>
             ]]>
         </content>
     </entry>
@@ -193,14 +203,26 @@
             <summary>
                 <![CDATA[
                         <img src="https://natdanaiputhom.github.io/media/posts/9/comingsoon.png" alt="" />
-                    (Inprogress 08/04/2024) testtesttest
+                    (Inprogress 08/04/2024) Details: My contributions: Player controls and movements Player attacks and abilities Navmesh and pathfinder
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://natdanaiputhom.github.io/media/posts/9/comingsoon.png" class="type:primaryImage" alt="" /></p>
                 <p>(Inprogress 08/04/2024)</p>
-<p>testtesttest</p>
+<p><strong>Details:</strong></p>
+<ul>
+<li>A 3D game inspired by <strong>Diablo 3</strong>.</li>
+<li>Game project 6.</li>
+<li>10-weeks development (20 hours per week)</li>
+<li>Game made with our group custom engine (TempEngine) with Unity as Editor.</li>
+</ul>
+<p><strong>My contributions:</strong></p>
+<ul>
+<li>Player controls and movements</li>
+<li>Player attacks and abilities</li>
+<li>Navmesh and pathfinder</li>
+</ul>
             ]]>
         </content>
     </entry>
@@ -218,14 +240,26 @@
             <summary>
                 <![CDATA[
                         <img src="https://natdanaiputhom.github.io/media/posts/8/comingsoon.png" alt="" />
-                    (Inprogress 08/04/2024) testtest
+                    (Inprogress 08/04/2024) Details: My contributions: Player character controls Camera Helping with building our custom engine from scratch
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://natdanaiputhom.github.io/media/posts/8/comingsoon.png" class="type:primaryImage" alt="" /></p>
                 <p>(Inprogress 08/04/2024)</p>
-<p>testtest</p>
+<p><strong>Details:</strong></p>
+<ul>
+<li>A 3D game inspired by <strong>The Room</strong>.</li>
+<li>Game project 5.</li>
+<li>4-weeks development (20 hours per week)</li>
+<li>Game made with our group custom engine (TempEngine) and using Unity as Editor</li>
+</ul>
+<p><strong>My contributions:</strong></p>
+<ul>
+<li>Player character controls</li>
+<li>Camera</li>
+<li>Helping with building our custom engine from scratch</li>
+</ul>
             ]]>
         </content>
     </entry>
