@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-04-12T02:20:08+02:00</updated>
+    <updated>2024-04-12T03:08:16+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -29,7 +29,7 @@
         <content type="html">
             <![CDATA[
                     <p><img src="https://natdanaiputhom.github.io/media/posts/16/comingsoon.png" class="type:primaryImage" alt="" /></p>
-                <p>(coming soon)</p>
+                <p><strong>(coming soon)</strong></p>
             ]]>
         </content>
     </entry>
@@ -47,13 +47,13 @@
             <summary>
                 <![CDATA[
                         <img src="https://natdanaiputhom.github.io/media/posts/15/comingsoon.png" alt="" />
-                    (coming soon)
+                    (project has not yet started)
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://natdanaiputhom.github.io/media/posts/15/comingsoon.png" class="type:primaryImage" alt="" /></p>
-                <p>(coming soon)</p>
+                <p><strong>(project has not yet started)</strong></p>
             ]]>
         </content>
     </entry>
@@ -71,14 +71,13 @@
             <summary>
                 <![CDATA[
                         <img src="https://natdanaiputhom.github.io/media/posts/14/comingsoon.png" alt="" />
-                    (Inprogress 08/04/2024) test
+                    (this article is inprogress of writing)
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://natdanaiputhom.github.io/media/posts/14/comingsoon.png" class="type:primaryImage" alt="" /></p>
-                <p>(Inprogress 08/04/2024)</p>
-<p>test</p>
+                <p><strong>(this article is inprogress of writing)</strong></p>
             ]]>
         </content>
     </entry>
@@ -89,20 +88,21 @@
         </author>
         <link href="https://natdanaiputhom.github.io/thread-pool.html"/>
         <id>https://natdanaiputhom.github.io/thread-pool.html</id>
-        <media:content url="https://natdanaiputhom.github.io/media/posts/13/thread2-2.png" medium="image" />
+        <media:content url="https://natdanaiputhom.github.io/media/posts/13/comingsoon.png" medium="image" />
             <category term="Personal Project"/>
 
         <updated>2024-04-08T18:47:26+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://natdanaiputhom.github.io/media/posts/13/thread2-2.png" alt="" />
-                    Initially, my pathfinding algorithm led to performance loss when multiple enemies on a vast map attempted to calculate paths simultaneously,&hellip;
+                        <img src="https://natdanaiputhom.github.io/media/posts/13/comingsoon.png" alt="" />
+                    (this article is inprogress of writing) Initially, my pathfinding algorithm led to performance loss when multiple enemies on a vast&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://natdanaiputhom.github.io/media/posts/13/thread2-2.png" class="type:primaryImage" alt="" /></p>
-                <p>Initially, my pathfinding algorithm led to performance loss when multiple enemies on a vast map attempted to calculate paths simultaneously, sometimes every frame. To enhance this, I devised a solution where, regardless of their current state, enemies could persist in their activities while awaiting the completion of path calculations. This transition ensured that upon receiving their calculated paths, they could effortlessly shift to the next state, utilizing the paths without hindering much of performance. That solution was thread pool, by making use of modern CPU, which usually come with multi-cores and threads.</p>
+                    <p><img src="https://natdanaiputhom.github.io/media/posts/13/comingsoon.png" class="type:primaryImage" alt="" /></p>
+                <p><strong>(this article is inprogress of writing)</strong></p>
+<p><br>Initially, my pathfinding algorithm led to performance loss when multiple enemies on a vast map attempted to calculate paths simultaneously, sometimes every frame. To enhance this, I devised a solution where, regardless of their current state, enemies could persist in their activities while awaiting the completion of path calculations. This transition ensured that upon receiving their calculated paths, they could effortlessly shift to the next state, utilizing the paths without hindering much of performance. That solution was thread pool, by making use of modern CPU, which usually come with multi-cores and threads.</p>
 <p>I encountered a subsequent challenge where certain tasks needed to be executed as swiftly as possible, which current thread pool class could not meet the requirement. To address this, I designed a separate priority queue for such tasks, assigning them a priority range from 0.0 to 1.0, with higher numbers indicating higher priority. This ensured that tasks in the priority queue were executed before those in the normal queue.</p>
 <p>After a code review, my classmates and I engaged in a discussion concerning the potential issue of certain tasks never begin executed if higher priority tasks were continuously added. </p>
 <pre>"What if some tasks remain unexecuted due to the constant influx of higher priority tasks?"</pre>
@@ -126,13 +126,13 @@
             <summary>
                 <![CDATA[
                         <img src="https://natdanaiputhom.github.io/media/posts/12/comingsoon.png" alt="" />
-                    (Inprogress 08/04/2024) Details: My contributions: Player controls and movements UI System
+                    (this article is inprogress of writing) Details: My contributions: Player controls and movements UI System
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://natdanaiputhom.github.io/media/posts/12/comingsoon.png" class="type:primaryImage" alt="" /></p>
-                <p>(Inprogress 08/04/2024)</p>
+                <p><strong>(this article is inprogress of writing)</strong></p>
 <p><strong>Details:</strong></p>
 <ul>
 <li>A 3D game inspired by <strong>Call of Duty: World at War Zombies. Nach der untoten.</strong></li>
@@ -167,9 +167,19 @@
         <content type="html">
             <![CDATA[
                     <p><img src="https://natdanaiputhom.github.io/media/posts/11/ezgif-3-71cf0a8b42.gif" class="type:primaryImage" alt="" /></p>
-                <p>The Game Assembly Discord announced a 48-hour game jam hosted by Climax Studio. At that time, my understanding of a 'game jam' was limited to the basic concept of game creation. Eager to participate, I joined forces with fellow students to form a team called Tiny Green Ants and we registered for the Climax Game Jam. This was my first game jam experience and it turned out to be incredibly enjoyable! It was so engaging that I found myself on the brink of addiction, barely sleeping throughout those 48 hours. Despite the exhilaration, I've decided that in future game jams, I will make sure to get proper rest. I am proud to have secured 3rd place in this friendly game jam, a remarkable achievement considering our unfair advantages of having 10 members, in contrast to the smaller sizes of other teams!</p>
-<figure class="post__image"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/11/tiny.png" alt="" width="86" height="64" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-md.png 768w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-xl.png 1600w"></figure>
+                <div class="content">
+<div class="textCenterScrollView">
+<p>The Game Assembly Discord announced a 48-hour game jam hosted by Climax Studio. At that time, my understanding of a 'game jam' was limited to the basic concept of game creation. Eager to participate, I joined forces with fellow students to form a team called Tiny Green Ants and we registered for the Climax Game Jam. This was my first game jam experience and it turned out to be incredibly enjoyable! It was so engaging that I found myself on the brink of addiction, barely sleeping throughout those 48 hours. Despite the exhilaration, I've decided that in future game jams, I will make sure to get proper rest. I am proud to have secured 3rd place in this friendly game jam, a remarkable achievement considering our unfair advantages of having 10 members, in contrast to the smaller sizes of other teams!</p>
+</div>
+</div>
+<p> </p>
+<div class="testContainer"> <img src="https://natdanaiputhom.github.io/media/posts/11/tiny.png" alt="" width="86" height="64" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-md.png 768w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-xl.png 1600w"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/11/tiny.png" alt="" width="86" height="64" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-md.png 768w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-xl.png 1600w"><img src="https://natdanaiputhom.github.io/media/posts/11/tiny.png" alt="" width="86" height="64" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-md.png 768w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-xl.png 1600w"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/11/tiny.png" alt="" width="86" height="64" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-md.png 768w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-xl.png 1600w"><img src="https://natdanaiputhom.github.io/media/posts/11/tiny.png" alt="" width="86" height="64" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-md.png 768w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-xl.png 1600w"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/11/tiny.png" alt="" width="86" height="64" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-md.png 768w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-xl.png 1600w"><img src="https://natdanaiputhom.github.io/media/posts/11/tiny.png" alt="" width="86" height="64" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-md.png 768w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-xl.png 1600w"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/11/tiny.png" alt="" width="86" height="64" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-md.png 768w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-xl.png 1600w"><img src="https://natdanaiputhom.github.io/media/posts/11/tiny.png" alt="" width="86" height="64" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-md.png 768w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-xl.png 1600w"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/11/tiny.png" alt="" width="86" height="64" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-md.png 768w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/11/responsive/tiny-xl.png 1600w"></div>
+<p> </p>
+<div class="content">
+<div class="textCenterScrollView">
 <p>During this game jam, I set up a Discord server, Perforce mainline, the Unity project, along with creating tutorial videos to help my teammates set up their workspaces. Beyond these preparatory tasks, my primary focus was on developing character movements and controls, including the flashlight below.</p>
+</div>
+</div>
 <p> </p>
 <p><strong>Character movements</strong></p>
 <figure class="post__image"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/11/vlc_0qgOip2WCj.gif" alt="" width="1597" height="652"></figure>
@@ -236,13 +246,13 @@
             <summary>
                 <![CDATA[
                         <img src="https://natdanaiputhom.github.io/media/posts/9/comingsoon.png" alt="" />
-                    (Inprogress 08/04/2024) Details: My contributions: Player controls and movements Player attacks and abilities Navmesh and pathfinder
+                    (this article is inprogress of writing) Details: My contributions: Player controls and movements Player attacks and abilities Navmesh and pathfinder
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://natdanaiputhom.github.io/media/posts/9/comingsoon.png" class="type:primaryImage" alt="" /></p>
-                <p>(Inprogress 08/04/2024)</p>
+                <p>(this article is inprogress of writing)</p>
 <p><strong>Details:</strong></p>
 <ul>
 <li>A 3D game inspired by <strong>Diablo 3</strong>.</li>
@@ -273,13 +283,13 @@
             <summary>
                 <![CDATA[
                         <img src="https://natdanaiputhom.github.io/media/posts/8/comingsoon.png" alt="" />
-                    (Inprogress 08/04/2024) Details: My contributions: Player character controls Camera Helping with building our custom engine from scratch
+                    (this article is inprogress of writing) Details: My contributions: Player character controls Camera Helping with building our custom engine from&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://natdanaiputhom.github.io/media/posts/8/comingsoon.png" class="type:primaryImage" alt="" /></p>
-                <p>(Inprogress 08/04/2024)</p>
+                <p><strong>(this article is inprogress of writing)</strong></p>
 <p><strong>Details:</strong></p>
 <ul>
 <li>A 3D game inspired by <strong>The Room</strong>.</li>
@@ -303,20 +313,21 @@
         </author>
         <link href="https://natdanaiputhom.github.io/inverse-kinematics.html"/>
         <id>https://natdanaiputhom.github.io/inverse-kinematics.html</id>
-        <media:content url="https://natdanaiputhom.github.io/media/posts/7/progart.png" medium="image" />
+        <media:content url="https://natdanaiputhom.github.io/media/posts/7/comingsoon.png" medium="image" />
             <category term="Personal Project"/>
 
         <updated>2024-04-08T15:35:40+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://natdanaiputhom.github.io/media/posts/7/progart.png" alt="" />
-                    Inspired by my experiences with 'SimpleJson' which, ironically, was anything but simple, I set out to craft my own engine,&hellip;
+                        <img src="https://natdanaiputhom.github.io/media/posts/7/comingsoon.png" alt="" />
+                    (this article is inprogress of writing) Inspired by my experiences with 'SimpleJson' which, ironically, was anything but simple, I set&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://natdanaiputhom.github.io/media/posts/7/progart.png" class="type:primaryImage" alt="" /></p>
-                <p>Inspired by my experiences with 'SimpleJson' which, ironically, was anything but simple, I set out to craft my own engine, humorously named SimpleEngine. This effort mocked the misleading "simplicity" promised by such tools. Olle, whom I had previously worked on projects like <a href="https://natdanaiputhom.github.io/test.html" target="_blank" rel="noopener noreferrer">Spoopy Sprint </a>and <a href="https://natdanaiputhom.github.io/spelprojekt-4.html" target="_blank" rel="noopener noreferrer">Stella's Quest </a>with, harbours a distinct aversion to the use of singletons and global variables, a stance that, while typically aligning with good practice, I playfully chose to ignore for this engine. Embracing the chaos, I decided to implement everything in SimpleEngine using global pointers, a decision ripe with potential for humorous disaster. What indeed could go wrong?</p>
+                    <p><img src="https://natdanaiputhom.github.io/media/posts/7/comingsoon.png" class="type:primaryImage" alt="" /></p>
+                <p><strong>(this article is inprogress of writing)</strong></p>
+<p><br>Inspired by my experiences with 'SimpleJson' which, ironically, was anything but simple, I set out to craft my own engine, humorously named SimpleEngine. This effort mocked the misleading "simplicity" promised by such tools. Olle, whom I had previously worked on projects like <a href="https://natdanaiputhom.github.io/test.html" target="_blank" rel="noopener noreferrer">Spoopy Sprint </a>and <a href="https://natdanaiputhom.github.io/spelprojekt-4.html" target="_blank" rel="noopener noreferrer">Stella's Quest </a>with, harbours a distinct aversion to the use of singletons and global variables, a stance that, while typically aligning with good practice, I playfully chose to ignore for this engine. Embracing the chaos, I decided to implement everything in SimpleEngine using global pointers, a decision ripe with potential for humorous disaster. What indeed could go wrong?</p>
 <p>SimpleEngine, initially for fun, became my gateway to learn graphics programming with DirectX11. While the PBR light and reflections need improvement, which I plan to address them later.</p>
 <figure class="post__image"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/7/ezgif-2-d718a87e32.gif" alt="" width="1269" height="487"></figure>
 <div class="content">
