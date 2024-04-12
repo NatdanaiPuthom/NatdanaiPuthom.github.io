@@ -18,7 +18,9 @@
             }
          }
       }
-      publiiDetectLoadedImages();</script><script defer="defer" src="https://natdanaiputhom.github.io/assets/js/photoswipe.min.js?v=017385b552f7e0d979e2e2fe6f324015"></script><script defer="defer" src="https://natdanaiputhom.github.io/assets/js/photoswipe-ui-default.min.js?v=d067f0883540b1ddda0e2c9ad1b14260"></script><script>var initPhotoSwipeFromDOM=function(gallerySelector){var parseThumbnailElements=function(el){var thumbElements=el.childNodes,numNodes=thumbElements.length,items=[],figureEl,linkEl,size,item;for(var i=0;i<numNodes;i++){figureEl=thumbElements[i];if(figureEl.nodeType!==1){continue;}
+      publiiDetectLoadedImages();</script><script defer="defer" src="https://natdanaiputhom.github.io/assets/js/quicklink.umd.js?v=a52ee49fe4afff274f8c30fe880ddc13"></script><script>window.addEventListener('load', () =>{
+      quicklink.listen();
+      });</script><script defer="defer" src="https://natdanaiputhom.github.io/assets/js/photoswipe.min.js?v=017385b552f7e0d979e2e2fe6f324015"></script><script defer="defer" src="https://natdanaiputhom.github.io/assets/js/photoswipe-ui-default.min.js?v=d067f0883540b1ddda0e2c9ad1b14260"></script><script>var initPhotoSwipeFromDOM=function(gallerySelector){var parseThumbnailElements=function(el){var thumbElements=el.childNodes,numNodes=thumbElements.length,items=[],figureEl,linkEl,size,item;for(var i=0;i<numNodes;i++){figureEl=thumbElements[i];if(figureEl.nodeType!==1){continue;}
           linkEl=figureEl.children[0];size=linkEl.getAttribute('data-size').split('x');item={src:linkEl.getAttribute('href'),w:parseInt(size[0],10),h:parseInt(size[1],10)};if(figureEl.children.length>1){item.title=figureEl.children[1].innerHTML;}
           if(linkEl.children.length>0){item.msrc=linkEl.children[0].getAttribute('src');}
           item.el=figureEl;items.push(item);}
