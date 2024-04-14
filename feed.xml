@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-04-12T03:43:35+02:00</updated>
+    <updated>2024-04-14T02:19:16+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -16,19 +16,19 @@
         </author>
         <link href="https://natdanaiputhom.github.io/the-lost-arena-tales-of-timeless-adventure/"/>
         <id>https://natdanaiputhom.github.io/the-lost-arena-tales-of-timeless-adventure/</id>
-        <media:content url="https://natdanaiputhom.github.io/media/posts/16/comingsoon.png" medium="image" />
+        <media:content url="https://natdanaiputhom.github.io/media/posts/16/comingsoon2.png" medium="image" />
             <category term="Personal Project"/>
 
         <updated>2024-04-10T03:49:09+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://natdanaiputhom.github.io/media/posts/16/comingsoon.png" alt="" />
+                        <img src="https://natdanaiputhom.github.io/media/posts/16/comingsoon2.png" alt="" />
                     (coming soon)
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://natdanaiputhom.github.io/media/posts/16/comingsoon.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://natdanaiputhom.github.io/media/posts/16/comingsoon2.png" class="type:primaryImage" alt="" /></p>
                 <p><strong>(coming soon)</strong></p>
             ]]>
         </content>
@@ -40,19 +40,19 @@
         </author>
         <link href="https://natdanaiputhom.github.io/project-8/"/>
         <id>https://natdanaiputhom.github.io/project-8/</id>
-        <media:content url="https://natdanaiputhom.github.io/media/posts/15/comingsoon.png" medium="image" />
+        <media:content url="https://natdanaiputhom.github.io/media/posts/15/comingsoon2.png" medium="image" />
             <category term="Group Project"/>
 
         <updated>2024-04-10T01:22:19+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://natdanaiputhom.github.io/media/posts/15/comingsoon.png" alt="" />
+                        <img src="https://natdanaiputhom.github.io/media/posts/15/comingsoon2.png" alt="" />
                     (project has not yet started)
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://natdanaiputhom.github.io/media/posts/15/comingsoon.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://natdanaiputhom.github.io/media/posts/15/comingsoon2.png" class="type:primaryImage" alt="" /></p>
                 <p><strong>(project has not yet started)</strong></p>
             ]]>
         </content>
@@ -64,19 +64,19 @@
         </author>
         <link href="https://natdanaiputhom.github.io/inverse-kinematic/"/>
         <id>https://natdanaiputhom.github.io/inverse-kinematic/</id>
-        <media:content url="https://natdanaiputhom.github.io/media/posts/14/comingsoon.png" medium="image" />
+        <media:content url="https://natdanaiputhom.github.io/media/posts/14/comingsoon-2.png" medium="image" />
             <category term="Personal Project"/>
 
         <updated>2024-04-10T00:07:31+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://natdanaiputhom.github.io/media/posts/14/comingsoon.png" alt="" />
+                        <img src="https://natdanaiputhom.github.io/media/posts/14/comingsoon-2.png" alt="" />
                     (this article is inprogress of writing)
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://natdanaiputhom.github.io/media/posts/14/comingsoon.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://natdanaiputhom.github.io/media/posts/14/comingsoon-2.png" class="type:primaryImage" alt="" /></p>
                 <p><strong>(this article is inprogress of writing)</strong></p>
             ]]>
         </content>
@@ -88,19 +88,19 @@
         </author>
         <link href="https://natdanaiputhom.github.io/thread-pool/"/>
         <id>https://natdanaiputhom.github.io/thread-pool/</id>
-        <media:content url="https://natdanaiputhom.github.io/media/posts/13/comingsoon.png" medium="image" />
+        <media:content url="https://natdanaiputhom.github.io/media/posts/13/comingsoon-2.png" medium="image" />
             <category term="Personal Project"/>
 
         <updated>2024-04-08T18:47:26+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://natdanaiputhom.github.io/media/posts/13/comingsoon.png" alt="" />
+                        <img src="https://natdanaiputhom.github.io/media/posts/13/comingsoon-2.png" alt="" />
                     (this article is inprogress of writing) Initially, my pathfinding algorithm led to performance loss when multiple enemies on a vast&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://natdanaiputhom.github.io/media/posts/13/comingsoon.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://natdanaiputhom.github.io/media/posts/13/comingsoon-2.png" class="type:primaryImage" alt="" /></p>
                 <p><strong>(this article is inprogress of writing)</strong></p>
 <p><br>Initially, my pathfinding algorithm led to performance loss when multiple enemies on a vast map attempted to calculate paths simultaneously, sometimes every frame. To enhance this, I devised a solution where, regardless of their current state, enemies could persist in their activities while awaiting the completion of path calculations. This transition ensured that upon receiving their calculated paths, they could effortlessly shift to the next state, utilizing the paths without hindering much of performance. That solution was thread pool, by making use of modern CPU, which usually come with multi-cores and threads.</p>
 <p>I encountered a subsequent challenge where certain tasks needed to be executed as swiftly as possible, which current thread pool class could not meet the requirement. To address this, I designed a separate priority queue for such tasks, assigning them a priority range from 0.0 to 1.0, with higher numbers indicating higher priority. This ensured that tasks in the priority queue were executed before those in the normal queue.</p>
@@ -119,19 +119,19 @@
         </author>
         <link href="https://natdanaiputhom.github.io/the-laboratory/"/>
         <id>https://natdanaiputhom.github.io/the-laboratory/</id>
-        <media:content url="https://natdanaiputhom.github.io/media/posts/12/comingsoon.png" medium="image" />
+        <media:content url="https://natdanaiputhom.github.io/media/posts/12/comingsoon-2.png" medium="image" />
             <category term="Group Project"/>
 
         <updated>2024-04-08T18:40:42+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://natdanaiputhom.github.io/media/posts/12/comingsoon.png" alt="" />
+                        <img src="https://natdanaiputhom.github.io/media/posts/12/comingsoon-2.png" alt="" />
                     (this article is inprogress of writing) Details: My contributions: Player controls and movements UI System
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://natdanaiputhom.github.io/media/posts/12/comingsoon.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://natdanaiputhom.github.io/media/posts/12/comingsoon-2.png" class="type:primaryImage" alt="" /></p>
                 <p><strong>(this article is inprogress of writing)</strong></p>
 <p><strong>Details:</strong></p>
 <ul>
@@ -245,19 +245,19 @@
         </author>
         <link href="https://natdanaiputhom.github.io/streamer-attacked-by-aliens-live-on-stream/"/>
         <id>https://natdanaiputhom.github.io/streamer-attacked-by-aliens-live-on-stream/</id>
-        <media:content url="https://natdanaiputhom.github.io/media/posts/9/comingsoon.png" medium="image" />
+        <media:content url="https://natdanaiputhom.github.io/media/posts/9/comingsoon-2.png" medium="image" />
             <category term="Group Project"/>
 
         <updated>2024-04-08T17:59:58+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://natdanaiputhom.github.io/media/posts/9/comingsoon.png" alt="" />
+                        <img src="https://natdanaiputhom.github.io/media/posts/9/comingsoon-2.png" alt="" />
                     (this article is inprogress of writing) Details: My contributions: Player controls and movements Player attacks and abilities Navmesh and pathfinder
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://natdanaiputhom.github.io/media/posts/9/comingsoon.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://natdanaiputhom.github.io/media/posts/9/comingsoon-2.png" class="type:primaryImage" alt="" /></p>
                 <p><strong>(this article is inprogress of writing)</strong></p>
 <p><strong>Details:</strong></p>
 <ul>
@@ -282,19 +282,19 @@
         </author>
         <link href="https://natdanaiputhom.github.io/spite-string-of-fate/"/>
         <id>https://natdanaiputhom.github.io/spite-string-of-fate/</id>
-        <media:content url="https://natdanaiputhom.github.io/media/posts/8/comingsoon.png" medium="image" />
+        <media:content url="https://natdanaiputhom.github.io/media/posts/8/comingsoon-2.png" medium="image" />
             <category term="Group Project"/>
 
         <updated>2024-04-08T17:58:31+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://natdanaiputhom.github.io/media/posts/8/comingsoon.png" alt="" />
+                        <img src="https://natdanaiputhom.github.io/media/posts/8/comingsoon-2.png" alt="" />
                     (this article is inprogress of writing) Details: My contributions: Player character controls Camera Helping with building our custom engine from&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://natdanaiputhom.github.io/media/posts/8/comingsoon.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://natdanaiputhom.github.io/media/posts/8/comingsoon-2.png" class="type:primaryImage" alt="" /></p>
                 <p><strong>(this article is inprogress of writing)</strong></p>
 <p><strong>Details:</strong></p>
 <ul>
@@ -319,21 +319,24 @@
         </author>
         <link href="https://natdanaiputhom.github.io/inverse-kinematics/"/>
         <id>https://natdanaiputhom.github.io/inverse-kinematics/</id>
-        <media:content url="https://natdanaiputhom.github.io/media/posts/7/comingsoon.png" medium="image" />
+        <media:content url="https://natdanaiputhom.github.io/media/posts/7/comingsoon-2.png" medium="image" />
             <category term="Personal Project"/>
 
         <updated>2024-04-08T15:35:40+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://natdanaiputhom.github.io/media/posts/7/comingsoon.png" alt="" />
+                        <img src="https://natdanaiputhom.github.io/media/posts/7/comingsoon-2.png" alt="" />
                     (this article is inprogress of writing) Inspired by my experiences with 'SimpleJson' which, ironically, was anything but simple, I set&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://natdanaiputhom.github.io/media/posts/7/comingsoon.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://natdanaiputhom.github.io/media/posts/7/comingsoon-2.png" class="type:primaryImage" alt="" /></p>
                 <p><strong>(this article is inprogress of writing)</strong></p>
 <p><br>Inspired by my experiences with 'SimpleJson' which, ironically, was anything but simple, I set out to craft my own engine, humorously named SimpleEngine. This effort mocked the misleading "simplicity" promised by such tools. Olle, whom I had previously worked on projects like <a href="https://natdanaiputhom.github.io/spoopy-sprint/" target="_blank" rel="noopener noreferrer">Spoopy Sprint </a>and <a href="https://natdanaiputhom.github.io/spelprojekt-4/" target="_blank" rel="noopener noreferrer">Stella's Quest </a>with, harbours a distinct aversion to the use of singletons and global variables, a stance that, while typically aligning with good practice, I playfully chose to ignore for this engine. Embracing the chaos, I decided to implement everything in SimpleEngine using global pointers, a decision ripe with potential for humorous disaster. What indeed could go wrong?</p>
+<blockquote>
+<p>Simple, it's just that easy</p>
+</blockquote>
 <p>SimpleEngine, initially for fun, became my gateway to learn graphics programming with DirectX11. While the PBR light and reflections need improvement, which I plan to address them later.</p>
 <figure class="post__image"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/7/ezgif-2-d718a87e32.gif" alt="" width="1269" height="487"></figure>
 <div class="content">
