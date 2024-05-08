@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-05-08T20:12:46+02:00</updated>
+    <updated>2024-05-08T20:35:55+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -411,8 +411,7 @@
 <p>Over time, SimpleEngine has evolved, increasingly focusing on implementing new features primarily for testing. This includes the integration of navigation meshes and pathfinding algorithms, as utilized in <a href="https://natdanaiputhom.github.io/streamer-attacked-by-aliens-live-on-stream/" target="_blank" rel="noopener noreferrer">Spite: String of Fate</a>, and the exploration of Entity Component System (ECS), a concept I delved into due to our team's use of FLECS for the Spite project. <em>You can read more about my ECS journey here, <a href="https://natdanaiputhom.github.io/entity-component-system/" target="_blank" rel="noopener noreferrer">Entity Component System</a>. </em></p>
 <p>There are many more features that I've implemented in the SimpleEngine, but I don't think they're interesting or have enough time to write about. </p>
 <p>I intend to persistently enhance SimpleEngine throughout my game development journey, curious to discover where this path will take me. So far, developing SimpleEngine has been a fulfilling experience.</p>
-<p class="msg msg--highlight "><em>Node Scripting System has been integrated into SimpleEngine. This system is created by Emil Olofsson. You can read more about his amazing work at <a href="https://broremilolofsson.github.io" target="_blank" rel="noopener noreferrer">https://broremilolofsson.github.io</a></em></p>
-<br>
+<p class="msg msg--highlight ">We've integrated the Node Scripting System (NSS) into SimpleEngine and are currently working on ensuring compatibility between ECS and NSS. NSS is created by Emil.<em><br>You can read more about his amazing work at <a href="https://broremil.se/visual-scripting.html" target="_blank" rel="noopener noreferrer">https://broremilolofsson.github.io</a></em></p>
 <p> </p>
 </div>
 <div class="ImageContainerWithText">
