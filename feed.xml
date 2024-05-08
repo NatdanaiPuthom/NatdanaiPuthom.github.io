@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-05-08T03:01:45+02:00</updated>
+    <updated>2024-05-08T03:31:52+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -317,8 +317,8 @@
         <author>
             <name>Natdanai Puthom</name>
         </author>
-        <link href="https://natdanaiputhom.github.io/inverse-kinematics/"/>
-        <id>https://natdanaiputhom.github.io/inverse-kinematics/</id>
+        <link href="https://natdanaiputhom.github.io/simpleengine/"/>
+        <id>https://natdanaiputhom.github.io/simpleengine/</id>
         <media:content url="https://natdanaiputhom.github.io/media/posts/7/progart.png" medium="image" />
             <category term="Personal Project"/>
 
