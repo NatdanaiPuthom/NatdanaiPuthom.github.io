@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-05-08T03:31:52+02:00</updated>
+    <updated>2024-05-08T16:12:10+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -23,13 +23,20 @@
             <summary>
                 <![CDATA[
                         <img src="https://natdanaiputhom.github.io/media/posts/16/comingsoon2.png" alt="" />
-                    (coming soon)
+                    (coming soon) Map1
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://natdanaiputhom.github.io/media/posts/16/comingsoon2.png" class="type:primaryImage" alt="" /></p>
                 <p><strong>(coming soon)</strong></p>
+<div class="content">
+<div class="textLeft"> </div>
+<div class="ImageContainerWithText">
+<div class="image-container"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/16/map1.png" alt="" width="2048" height="2048" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/16/responsive/map1-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/16/responsive/map1-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/16/responsive/map1-md.png 768w ,https://natdanaiputhom.github.io/media/posts/16/responsive/map1-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/16/responsive/map1-xl.png 1600w"></div>
+<div class="text-container">Map1</div>
+</div>
+</div>
             ]]>
         </content>
     </entry>
@@ -361,17 +368,24 @@
 <div class="text-container">Your text here</div>
 </div>
 </div>
+<p> </p>
+<div class="content">
+<div class="textLeft">
+<h5><strong>Profilering (EasyProfiler)</strong></h5>
+<p>While implementing and testing animations, I encountered significant performance hit when updating multiple instances of the same animation type. This led me to devise several solutions.</p>
+<ol>
+<li>For models undergoing the same animation without variation, I update the animation once and then applying the new pose to all models sharing that animation.</li>
+<li>For models with differing animations, leveraging a <a href="https://natdanaiputhom.github.io/thread-pool/" target="_blank" rel="noopener noreferrer">Thread Pool</a> to update animations concurrency before proceeding.</li>
+</ol>
+<p>The impact of these optimizations was remarkable, yielding a ~1 milliseconds (release) improvement per frame for 200 animations on an Intel Core i5 9400f, with even more substantial gains for models using identical animations. The rendering is still responsible for ~90% of the performance hit, so I'll need to optimize it in the future.</p>
+<p> </p>
+</div>
+<div class="image"><figure class="post_image"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/7/SimpleEngine_Debug_2qlZNuFj0O.gif" alt="" width="780" height="780"></figure></div>
+</div>
 <p class="align-left">Utilizing a model previously created in <a href="https://natdanaiputhom.github.io/spelprojekt-3/" target="_blank" rel="noopener noreferrer">Abalabos</a>,I incorporated linear interpolation to smooth transitions between different animations for testing purposes. <em>You can read more about my IK journey here, <a href="https://natdanaiputhom.github.io/inverse-kinematic/" target="_blank" rel="noopener noreferrer">Inverse Kinematic</a>.</em></p>
 <figure class="post__image" ><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/SimpleEngine_Debug_ocAc1gAiZ8.gif" alt="" width="1282" height="752">
 <figcaption >Model created by Oliver Benedetti</figcaption>
 </figure>
-<p>While implementing and testing animations, I encountered significant performance hit when updating multiple instances of the same animation type. This led me to devise several solutions.</p>
-<ol>
-<li>For models undergoing the same animation without variation, I found that updating the animation once and then applying the new pose to all models sharing that animation conservatively saved resources.</li>
-<li>For models with differing animations, leveraging a <a href="https://natdanaiputhom.github.io/thread-pool/" target="_blank" rel="noopener noreferrer">Thread Pool</a> to update animations concurrency before proceeding significantly enhanced performance.</li>
-</ol>
-<p>The impact of these optimizations was remarkable, yielding a ~1 milliseconds (using EasyProfiler) improvement per frame for 200 animations on an Intel Core i5 9400f, with even more substantial gains for models using identical animations.</p>
-<figure class="post__image"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/7/SimpleEngine_Debug_2qlZNuFj0O.gif" alt="" width="1282" height="752"></figure>
 <p>Over time, SimpleEngine has evolved, increasingly focusing on implementing new features primarily for testing. This includes the integration of navigation meshes and pathfinding algorithms, as utilized in <a href="https://natdanaiputhom.github.io/streamer-attacked-by-aliens-live-on-stream/" target="_blank" rel="noopener noreferrer">Spite: String of Fate</a>, and the exploration of Entity Component System (ECS), a concept I delved into due to our team's use of FLECS for the Spite project. <em>You can read more about my ECS journey here, <a href="https://natdanaiputhom.github.io/entity-component-system/" target="_blank" rel="noopener noreferrer">Entity Component System</a>.</em></p>
 <figure class="post__image" ><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/navmesh.png" alt="" width="1271" height="741" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/7/responsive/navmesh-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/7/responsive/navmesh-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/7/responsive/navmesh-md.png 768w ,https://natdanaiputhom.github.io/media/posts/7/responsive/navmesh-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/7/responsive/navmesh-xl.png 1600w">
 <figcaption >Grid, Navmesh and Pathfinder with Raycast test</figcaption>
