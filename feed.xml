@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-05-08T19:01:33+02:00</updated>
+    <updated>2024-05-08T19:27:12+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -333,13 +333,13 @@
             <summary>
                 <![CDATA[
                         <img src="https://natdanaiputhom.github.io/media/posts/7/progart.png" alt="" />
-                    (this article is inprogress of writing) Inspired by my experiences with 'SimpleJson' which, ironically, was anything but simple, I set&hellip;
+                    Inspired by my experiences with 'SimpleJson' which, ironically, was anything but simple, I set out to craft my own engine,&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://natdanaiputhom.github.io/media/posts/7/progart.png" class="type:primaryImage" alt="" /></p>
-                <p><strong>(this article is inprogress of writing)</strong></p>
+                <p> </p>
 <div class="content">
 <div class="textCenterScrollView">
 <p>Inspired by my experiences with 'SimpleJson' which, ironically, was anything but simple, I set out to craft my own engine, humorously named SimpleEngine. This effort mocked the misleading "simplicity" promised by such tools. Olle, whom I had previously worked on projects like <a href="https://natdanaiputhom.github.io/spoopy-sprint/" target="_blank" rel="noopener noreferrer">Spoopy Sprint </a>and <a href="https://natdanaiputhom.github.io/spelprojekt-4/" target="_blank" rel="noopener noreferrer">Stella's Quest </a>with, harbours a distinct aversion to the use of singletons and global variables, a stance that, while typically aligning with good practice, I playfully chose to ignore for this engine. Embracing the chaos, I decided to implement everything in SimpleEngine using global pointers. What could go wrong?</p>
@@ -365,11 +365,11 @@
 </div>
 <div class="ImageContainerWithText">
 <div class="image-container dynamic-size"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/SimpleEngine-Debug_8kfNkMub3u-1712868063513.gif" alt="" width="256" height="256"></div>
-<div class="text-container">Failed shader hehe</div>
+<div class="text-container">hehe</div>
 </div>
 <div class="ImageContainerWithText">
 <div class="image-container dynamic-size offset-right"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/SimpleEngine_Debug_A6hPT9Xp8N.gif" alt="" width="512" height="512"></div>
-<div class="text-container">Finally!</div>
+<div class="text-container">finally!</div>
 </div>
 </div>
 <p> </p>
