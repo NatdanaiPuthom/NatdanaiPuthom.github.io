@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-05-08T19:27:12+02:00</updated>
+    <updated>2024-05-08T20:12:46+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -376,9 +376,17 @@
 <div class="content">
 <div class="textLeft">
 <h5><strong>Animation Blend</strong></h5>
-<p>Test abc</p>
+<p>Utilizing a model previously created in <a href="https://natdanaiputhom.github.io/spelprojekt-3/" target="_blank" rel="noopener noreferrer">Abalabos</a>,I incorporated linear interpolation to smooth transitions between different animations for testing purposes. <em>You can read more about my IK journey here, <a href="https://natdanaiputhom.github.io/inverse-kinematic/" target="_blank" rel="noopener noreferrer">Inverse Kinematic</a>.</em></p>
+<p> </p>
 </div>
-<div class="image"><figure class="post_image"><img loading="lazy"  src="file:///C:/Users/panda/Documents/Publii/sites/natdanai-puthom/input/media/posts/11/vlc_0qgOip2WCj.gif" alt="" width="1597" height="652"></figure></div>
+<div class="ImageContainerWithText">
+<div class="image-container dynamic-size"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/SimpleEngine-Debug_8kfNkMub3u-1712868063513.gif" alt="" width="256" height="256"></div>
+<div class="text-container">test</div>
+</div>
+<div class="ImageContainerWithText">
+<div class="image-container dynamic-size offset-right"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/SimpleEngine_Debug_ocAc1gAiZ8.gif" alt="" width="512" height="512"></div>
+<div class="text-container">LERP</div>
+</div>
 </div>
 <p> </p>
 <div class="content">
@@ -398,25 +406,21 @@
 </div>
 </div>
 <div class="content">
-<div class="textLeft"> </div>
+<div class="textLeft">
+<h5><strong>Guinea pig</strong></h5>
+<p>Over time, SimpleEngine has evolved, increasingly focusing on implementing new features primarily for testing. This includes the integration of navigation meshes and pathfinding algorithms, as utilized in <a href="https://natdanaiputhom.github.io/streamer-attacked-by-aliens-live-on-stream/" target="_blank" rel="noopener noreferrer">Spite: String of Fate</a>, and the exploration of Entity Component System (ECS), a concept I delved into due to our team's use of FLECS for the Spite project. <em>You can read more about my ECS journey here, <a href="https://natdanaiputhom.github.io/entity-component-system/" target="_blank" rel="noopener noreferrer">Entity Component System</a>. </em></p>
+<p>There are many more features that I've implemented in the SimpleEngine, but I don't think they're interesting or have enough time to write about. </p>
+<p>I intend to persistently enhance SimpleEngine throughout my game development journey, curious to discover where this path will take me. So far, developing SimpleEngine has been a fulfilling experience.</p>
+<p class="msg msg--highlight "><em>Node Scripting System has been integrated into SimpleEngine. This system is created by Emil Olofsson. You can read more about his amazing work at <a href="https://broremilolofsson.github.io" target="_blank" rel="noopener noreferrer">https://broremilolofsson.github.io</a></em></p>
+<br>
+<p> </p>
+</div>
 <div class="ImageContainerWithText">
-<p> </p>
-<p class="align-left">Utilizing a model previously created in <a href="https://natdanaiputhom.github.io/spelprojekt-3/" target="_blank" rel="noopener noreferrer">Abalabos</a>,I incorporated linear interpolation to smooth transitions between different animations for testing purposes. <em>You can read more about my IK journey here, <a href="https://natdanaiputhom.github.io/inverse-kinematic/" target="_blank" rel="noopener noreferrer">Inverse Kinematic</a>.</em></p>
-<p> </p>
-<p> </p>
-<figure class="post__image" ><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/SimpleEngine_Debug_ocAc1gAiZ8.gif" alt="" width="1282" height="752">
-<figcaption >Model created by Oliver Benedetti</figcaption>
-</figure>
-<p>Over time, SimpleEngine has evolved, increasingly focusing on implementing new features primarily for testing. This includes the integration of navigation meshes and pathfinding algorithms, as utilized in <a href="https://natdanaiputhom.github.io/streamer-attacked-by-aliens-live-on-stream/" target="_blank" rel="noopener noreferrer">Spite: String of Fate</a>, and the exploration of Entity Component System (ECS), a concept I delved into due to our team's use of FLECS for the Spite project. <em>You can read more about my ECS journey here, <a href="https://natdanaiputhom.github.io/entity-component-system/" target="_blank" rel="noopener noreferrer">Entity Component System</a>.</em></p>
-<figure class="post__image" ><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/navmesh.png" alt="" width="1271" height="741" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/7/responsive/navmesh-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/7/responsive/navmesh-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/7/responsive/navmesh-md.png 768w ,https://natdanaiputhom.github.io/media/posts/7/responsive/navmesh-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/7/responsive/navmesh-xl.png 1600w">
-<figcaption >Grid, Navmesh and Pathfinder with Raycast test</figcaption>
-</figure>
-<p>I intend to persistently enhance SimpleEngine throughout my game development journey, curious to discover where this path will take me. So far, developing SimpleEngine has been a fulfilling experience. For the upcoming summer, I have outlined several key tasks I aim to complete, integrate, and implement within the engine, which include</p>
-<ul>
-<li>Editor</li>
-<li>Graphics (lights, blend state and model instancing) </li>
-<li>Node Scripting <em>(This is implemented by Emil Olofsson. You can read more about his amazing work at <a href="https://broremilolofsson.github.io" target="_blank" rel="noopener noreferrer">https://broremilolofsson.github.io</a> )</em></li>
-</ul>
+<div class="image-container dynamic-size"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/navmesh.png" alt="" width="1024" height="1024" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/7/responsive/navmesh-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/7/responsive/navmesh-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/7/responsive/navmesh-md.png 768w ,https://natdanaiputhom.github.io/media/posts/7/responsive/navmesh-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/7/responsive/navmesh-xl.png 1600w"></div>
+</div>
+</div>
+<div class="content">
+<div class="ImageContainerWithText"><br>
 <p><em>If you're interested in source code for SimpleEngine you can find them here at <a href="https://github.com/NatdanaiPuthom/SimpleEngine" target="_blank" rel="noopener noreferrer">https://github.com/NatdanaiPuthom/SimpleEngine</a> </em></p>
 </div>
 </div>
