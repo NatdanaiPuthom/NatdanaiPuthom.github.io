@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-04-14T02:19:16+02:00</updated>
+    <updated>2024-05-08T03:01:45+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -319,29 +319,48 @@
         </author>
         <link href="https://natdanaiputhom.github.io/inverse-kinematics/"/>
         <id>https://natdanaiputhom.github.io/inverse-kinematics/</id>
-        <media:content url="https://natdanaiputhom.github.io/media/posts/7/comingsoon-2.png" medium="image" />
+        <media:content url="https://natdanaiputhom.github.io/media/posts/7/progart.png" medium="image" />
             <category term="Personal Project"/>
 
         <updated>2024-04-08T15:35:40+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://natdanaiputhom.github.io/media/posts/7/comingsoon-2.png" alt="" />
+                        <img src="https://natdanaiputhom.github.io/media/posts/7/progart.png" alt="" />
                     (this article is inprogress of writing) Inspired by my experiences with 'SimpleJson' which, ironically, was anything but simple, I set&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://natdanaiputhom.github.io/media/posts/7/comingsoon-2.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://natdanaiputhom.github.io/media/posts/7/progart.png" class="type:primaryImage" alt="" /></p>
                 <p><strong>(this article is inprogress of writing)</strong></p>
-<p><br>Inspired by my experiences with 'SimpleJson' which, ironically, was anything but simple, I set out to craft my own engine, humorously named SimpleEngine. This effort mocked the misleading "simplicity" promised by such tools. Olle, whom I had previously worked on projects like <a href="https://natdanaiputhom.github.io/spoopy-sprint/" target="_blank" rel="noopener noreferrer">Spoopy Sprint </a>and <a href="https://natdanaiputhom.github.io/spelprojekt-4/" target="_blank" rel="noopener noreferrer">Stella's Quest </a>with, harbours a distinct aversion to the use of singletons and global variables, a stance that, while typically aligning with good practice, I playfully chose to ignore for this engine. Embracing the chaos, I decided to implement everything in SimpleEngine using global pointers, a decision ripe with potential for humorous disaster. What indeed could go wrong?</p>
+<div class="content">
+<div class="textCenterScrollView">
+<p>Inspired by my experiences with 'SimpleJson' which, ironically, was anything but simple, I set out to craft my own engine, humorously named SimpleEngine. This effort mocked the misleading "simplicity" promised by such tools. Olle, whom I had previously worked on projects like <a href="https://natdanaiputhom.github.io/spoopy-sprint/" target="_blank" rel="noopener noreferrer">Spoopy Sprint </a>and <a href="https://natdanaiputhom.github.io/spelprojekt-4/" target="_blank" rel="noopener noreferrer">Stella's Quest </a>with, harbours a distinct aversion to the use of singletons and global variables, a stance that, while typically aligning with good practice, I playfully chose to ignore for this engine. Embracing the chaos, I decided to implement everything in SimpleEngine using global pointers. What could go wrong?</p>
+<p> </p>
+</div>
+</div>
 <blockquote>
 <p>Simple, it's just that easy</p>
 </blockquote>
-<p>SimpleEngine, initially for fun, became my gateway to learn graphics programming with DirectX11. While the PBR light and reflections need improvement, which I plan to address them later.</p>
-<figure class="post__image"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/7/ezgif-2-d718a87e32.gif" alt="" width="1269" height="487"></figure>
+<p> </p>
 <div class="content">
-<figure class="post__image">My journey into procedural animation sparked with the captivating experience of Rain World. Witnessing its dynamic animations propelled me into a deep dive into the realm of procedural animation, where I delved into the intricacies of concepts like inverse kinematics (IK). Eager to implement this in my project, I first had to tackle the basics: loading models and animations into the engine. Despite my initial lack of knowledge, I successfully integrated models, skeletons, and animations using FBXSDK. However, the animations didn't play correctly. After days of searching for the culprit, I discovered the issue was in the shader I had mistakenly used the '+' operator instead of '*'.
-<img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/7/SimpleEngine-Debug_8kfNkMub3u-1712868063513-4.gif" alt="" width="786" height="640"></figure></div>
+<div class="textLeft">
+<h5><strong>DirectX11</strong></h5>
+<p>SimpleEngine, initially for fun, became my gateway to learn graphics programming.</p>
+</div>
+<div class="image"><figure class="post_image"><img loading="lazy"  src="file:///C:/Users/panda/Documents/Publii/sites/natdanai-puthom/input/media/posts/11/vlc_0qgOip2WCj.gif" alt="" width="1597" height="652"></figure></div>
+</div>
+<p> </p>
+<div class="content">
+<div class="textLeft">
+<h5><strong>Animations</strong></h5>
+<p>My journey into procedural animation sparked with the captivating experience of Rain World. Witnessing its dynamic animations propelled me into a deep dive into the realm of procedural animation, where I delved into the intricacies of concepts like inverse kinematics (IK). Eager to implement this in my project, I first had to tackle the basics: loading models and animations into the engine. Despite my initial lack of knowledge, I successfully integrated models, skeletons, and animations using FBXSDK. However, the animations didn't play correctly. After days of searching for the culprit, I discovered the issue was in the shader I had mistakenly used the '+' operator instead of '*'.</p>
+</div>
+<div class="ImageContainerWithText">
+<div class="image-container"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/SimpleEngine_Debug_ocAc1gAiZ8.gif" alt="" width="1597" height="652"></div>
+<div class="text-container">Your text here</div>
+</div>
+</div>
 <p class="align-left">Utilizing a model previously created in <a href="https://natdanaiputhom.github.io/spelprojekt-3/" target="_blank" rel="noopener noreferrer">Abalabos</a>,I incorporated linear interpolation to smooth transitions between different animations for testing purposes. <em>You can read more about my IK journey here, <a href="https://natdanaiputhom.github.io/inverse-kinematic/" target="_blank" rel="noopener noreferrer">Inverse Kinematic</a>.</em></p>
 <figure class="post__image" ><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/SimpleEngine_Debug_ocAc1gAiZ8.gif" alt="" width="1282" height="752">
 <figcaption >Model created by Oliver Benedetti</figcaption>
