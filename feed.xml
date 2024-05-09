@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-05-09T11:53:32+02:00</updated>
+    <updated>2024-05-09T12:02:43+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -47,29 +47,29 @@
         </author>
         <link href="https://natdanaiputhom.github.io/project-8/"/>
         <id>https://natdanaiputhom.github.io/project-8/</id>
-        <media:content url="https://natdanaiputhom.github.io/media/posts/15/comingsoon2.png" medium="image" />
+        <media:content url="https://natdanaiputhom.github.io/media/posts/15/johnarmoredcore-2.png" medium="image" />
             <category term="Group Project"/>
 
         <updated>2024-04-10T01:22:19+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://natdanaiputhom.github.io/media/posts/15/comingsoon2.png" alt="" />
-                    (this project is still on going) Details: My contributions:
+                        <img src="https://natdanaiputhom.github.io/media/posts/15/johnarmoredcore-2.png" alt="" />
+                    (this project is still on going) Details: My contributions: Player (?)
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://natdanaiputhom.github.io/media/posts/15/comingsoon2.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://natdanaiputhom.github.io/media/posts/15/johnarmoredcore-2.png" class="type:primaryImage" alt="" /></p>
                 <p><strong>(this project is still on going</strong><strong>)</strong></p>
 <p><strong>Details:</strong></p>
 <ul>
 <li>A 3D game inspired by <strong>ARMORED CORE™ VI FIRES OF RUBICON™.</strong></li>
 <li>8-weeks development (40 hours per week)</li>
-<li>Game made fully using <strong>Unreal Engine 5.</strong></li>
+<li>Game was first made using <strong>TempEngine</strong> V2.0 with DirectX12 and later switched to <strong>Unreal Engine 5.</strong></li>
 </ul>
 <p><strong>My contributions:</strong></p>
 <ul>
-<li> </li>
+<li>Player (?)</li>
 </ul>
             ]]>
         </content>
@@ -148,7 +148,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://natdanaiputhom.github.io/media/posts/12/gameLogo.png" alt="" />
-                    (this post is on-hold of writing) Details: My contributions: Player controls and movements UI System
+                    (this post is on-hold of writing) Details: My contributions: Player controls and movements Player's animation transitions Gun system UI system
                 ]]>
             </summary>
         <content type="html">
@@ -164,7 +164,9 @@
 <p><strong>My contributions:</strong></p>
 <ul>
 <li>Player controls and movements</li>
-<li>UI System</li>
+<li>Player's animation transitions</li>
+<li>Gun system</li>
+<li>UI system</li>
 </ul>
             ]]>
         </content>
