@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-05-09T11:47:43+02:00</updated>
+    <updated>2024-05-09T11:53:32+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -266,20 +266,20 @@
         </author>
         <link href="https://natdanaiputhom.github.io/streamer-attacked-by-aliens-live-on-stream/"/>
         <id>https://natdanaiputhom.github.io/streamer-attacked-by-aliens-live-on-stream/</id>
-        <media:content url="https://natdanaiputhom.github.io/media/posts/9/comingsoon-2.png" medium="image" />
+        <media:content url="https://natdanaiputhom.github.io/media/posts/9/spite.png" medium="image" />
             <category term="Group Project"/>
 
         <updated>2024-04-08T17:59:58+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://natdanaiputhom.github.io/media/posts/9/comingsoon-2.png" alt="" />
-                    (this article is inprogress of writing) Details: My contributions: Player controls and movements Player attacks and abilities Navmesh and pathfinder
+                        <img src="https://natdanaiputhom.github.io/media/posts/9/spite.png" alt="" />
+                    (this post is on-hold of writing) Details: My contributions: Player controls and movements Player attacks and abilities Navmesh and pathfinder
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://natdanaiputhom.github.io/media/posts/9/comingsoon-2.png" class="type:primaryImage" alt="" /></p>
-                <p><strong>(this article is inprogress of writing)</strong></p>
+                    <p><img src="https://natdanaiputhom.github.io/media/posts/9/spite.png" class="type:primaryImage" alt="" /></p>
+                <p><strong>(this post is on-hold of writing)</strong></p>
 <p><strong>Details:</strong></p>
 <ul>
 <li>A 3D game inspired by <strong>Diablo 3</strong>.</li>
