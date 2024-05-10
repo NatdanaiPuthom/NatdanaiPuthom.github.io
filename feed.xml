@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-05-10T01:02:03+02:00</updated>
+    <updated>2024-05-10T15:18:53+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -23,18 +23,34 @@
             <summary>
                 <![CDATA[
                         <img src="https://natdanaiputhom.github.io/media/posts/16/comingsoon2.png" alt="" />
-                    (coming soon) Map1
+                    (coming soon) Marked Red Area is instant death upon touching Movements: Arrow Keys Jump: V Attacks/Abilities: Z X C Using&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://natdanaiputhom.github.io/media/posts/16/comingsoon2.png" class="type:primaryImage" alt="" /></p>
                 <p><strong>(coming soon)</strong></p>
+<p>Marked Red Area is instant death upon touching</p>
 <div class="content">
 <div class="textLeft"> </div>
 <div class="ImageContainerWithText">
 <div class="image-container"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/16/map1.png" alt="" width="2048" height="2048" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/16/responsive/map1-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/16/responsive/map1-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/16/responsive/map1-md.png 768w ,https://natdanaiputhom.github.io/media/posts/16/responsive/map1-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/16/responsive/map1-xl.png 1600w"></div>
-<div class="text-container">Map1</div>
+<div class="text-container">Map 1</div>
+</div>
+<div class="textRight"> </div>
+<div class="ImageContainerWithText">
+<div class="image-container"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/16/map2.png" alt="" width="2048" height="2048" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/16/responsive/map2-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/16/responsive/map2-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/16/responsive/map2-md.png 768w ,https://natdanaiputhom.github.io/media/posts/16/responsive/map2-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/16/responsive/map2-xl.png 1600w"></div>
+<div class="text-container">Map 2</div>
+<div> </div>
+</div>
+</div>
+<div class="content">
+<div class="textLeft">
+<h5><strong>Controls</strong></h5>
+<p>Movements: Arrow Keys</p>
+<p>Jump: V</p>
+<p>Attacks/Abilities: Z X C</p>
+<p>Using these keys to perform multiple combos</p>
 </div>
 </div>
             ]]>
