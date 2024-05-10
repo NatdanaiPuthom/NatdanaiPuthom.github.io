@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-05-10T16:01:49+02:00</updated>
+    <updated>2024-05-10T16:06:53+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -53,7 +53,7 @@
 <p><strong>Equipment</strong>: You can only have one equipped equipment at a time. Each equipment replace or add some abilities/attacks to the Class abilities.</p>
 <p><strong>Item</strong>: Maybe in future. These items will only be dropped <em>'randomly'</em> across the map where the Player can pick it up such as '<span style="color: #2dc26b;">Health</span>' and '<span style="color: #3598db;">Speed</span>' potions.</p>
 <p><strong>Match</strong>: A match consist of 3 rounds. Each round has a time limit. 5 minutes for 4v4 and 2 minutes for other modes.</p>
-<p><strong>Score</strong>: Score is based on individual damage dealt. A base score is given if your attack finish off opponent. Winner is decided by an individual score or total score of a team. Pushing enemy out of boundary will only yield a base killing score plus the damage dealt by the attack/ability  that pushes them out.</p>
+<p><strong>Score</strong>: Score is based on individual damage dealt. A base score is given if your attack finish off opponent. Winner is decided by an individual score or total score of a team. Pushing enemy out of boundary will only yield a base killing score plus the damage dealt by the attack/ability  that pushes them out. If all opponents are killed before the time run out, the surviving individual or team will gain a base score each.</p>
 </div>
 </div>
 <div class="content">
@@ -69,7 +69,7 @@
 </div>
 <div class="content">
 <div class="textLeft">
-<h5><strong>Current Plan</strong></h5>
+<h5><strong>Current Plan (Summer 2024)</strong></h5>
 <p>The current plan is to have 2 unique classes, equipment's and maps and focus on polishing core mechanics and game loop targeting PVP mode of 1v1 only.</p>
 </div>
 </div>
