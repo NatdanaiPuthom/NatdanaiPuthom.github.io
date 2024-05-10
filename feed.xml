@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-05-10T16:06:53+02:00</updated>
+    <updated>2024-05-10T16:22:49+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -30,6 +30,8 @@
             <![CDATA[
                     <p><img src="https://natdanaiputhom.github.io/media/posts/16/comingsoon2.png" class="type:primaryImage" alt="" /></p>
                 <p><strong>(coming soon, i don't know when, maybe few months or few years as I only do this when I have free time)</strong></p>
+<p><strong>Started</strong>: 2024</p>
+<p><strong>Status</strong>: Ongoing</p>
 <p>Marked <span style="color: #e03e2d;">Red Area</span> is outside arena boundary and upon falling deep enough to touch the triggerzone will cause instant death. </p>
 <div class="content">
 <div class="textLeft"> </div>
@@ -58,6 +60,17 @@
 </div>
 <div class="content">
 <div class="textLeft">
+<h5><strong>Stats</strong></h5>
+<p><strong>Health: </strong>Character's Health. Death upon reaching 0 Health</p>
+<p><strong>Mana: </strong>Base mana amount. Mana is used to cast abilities. (some attacks may require mana)</p>
+<p><strong>STR: </strong>Base character's attack damage</p>
+<p><strong>JMP: </strong>Base character's jump height</p>
+<p><strong>SPD: </strong>Base character's movement speed</p>
+<p><strong> DEF: </strong>Base character's defense</p>
+</div>
+</div>
+<div class="content">
+<div class="textLeft">
 <h5><strong>Base Controls</strong></h5>
 <p><strong>Movements</strong>: Arrow Keys</p>
 <p><strong>Jump</strong>: V</p>
@@ -70,7 +83,7 @@
 <div class="content">
 <div class="textLeft">
 <h5><strong>Current Plan (Summer 2024)</strong></h5>
-<p>The current plan is to have 2 unique classes, equipment's and maps and focus on polishing core mechanics and game loop targeting PVP mode of 1v1 only.</p>
+<p>The current plan is to have 2 unique classes, equipment's and maps and focus on polishing core mechanics and game loop targeting PVP mode of 1v1 only. Of course this require the fundamental systems to be polished and scalable in the future.</p>
 </div>
 </div>
             ]]>
