@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-05-10T15:18:53+02:00</updated>
+    <updated>2024-05-10T15:43:55+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -23,14 +23,14 @@
             <summary>
                 <![CDATA[
                         <img src="https://natdanaiputhom.github.io/media/posts/16/comingsoon2.png" alt="" />
-                    (coming soon) Marked Red Area is instant death upon touching Movements: Arrow Keys Jump: V Attacks/Abilities: Z X C Using&hellip;
+                    (coming soon) Marked Red Area is outside arena boundary and upon falling and touching the triggerzone will cause instant death.
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://natdanaiputhom.github.io/media/posts/16/comingsoon2.png" class="type:primaryImage" alt="" /></p>
                 <p><strong>(coming soon)</strong></p>
-<p>Marked Red Area is instant death upon touching</p>
+<p>Marked <span style="color: #e03e2d;">Red Area</span> is outside arena boundary and upon falling and touching the triggerzone will cause instant death. </p>
 <div class="content">
 <div class="textLeft"> </div>
 <div class="ImageContainerWithText">
@@ -46,10 +46,23 @@
 </div>
 <div class="content">
 <div class="textLeft">
-<h5><strong>Controls</strong></h5>
-<p>Movements: Arrow Keys</p>
-<p>Jump: V</p>
-<p>Attacks/Abilities: Z X C</p>
+<h5><strong>Game Concept</strong></h5>
+<p><strong>Mode</strong>: PVP (a max match size of 8) and PVE (adventure mode a max team size of 4)</p>
+<p><strong>Before </strong>match: You pick a class and equipment.</p>
+<p><strong>Class</strong>: Each class have its own Stats value and unique abilities and attacks</p>
+<p><strong>Equipment</strong>: You can only have one equipped equipment at a time. Each equipment replace or add some abilities/attacks to the Class abilities.</p>
+<p><strong>Match</strong>: A match consist of 3 rounds. Each round has a time limit of 5 minutes.</p>
+<p><strong>Score</strong>: Score is based on individual damage dealt. A base score is given if your attack finish off opponent. Winner is decided by an individual score or total score of a team.</p>
+</div>
+</div>
+<div class="content">
+<div class="textLeft">
+<h5><strong>Base Controls</strong></h5>
+<p><strong>Movements</strong>: Arrow Keys</p>
+<p><strong>Jump</strong>: V</p>
+<p><strong>Attacks/Abilities</strong>: Z X C. Some Attacks/Abilities are <em>'<span style="color: #e03e2d;">Unblockable</span>'</em></p>
+<p><strong>Block</strong>: XC. Blocked an attack/ability take reduced damage and cannot reduce <em>'<span style="color: #2dc26b;">Health</span>'</em> below 1.</p>
+<p><strong>Counter</strong>: begin hit by an attack while <em>'Block' </em>is active and pressing X or C will active <em>'<span style="color: #3598db;">Counter</span>'. </em>Doing <em>'<span style="color: #3598db;">Counter</span>'</em> consumes<span style="color: #000000;"><em> '<span style="color: #2dc26b;">Health</span>'</em></span>. '<span style="color: #3598db;">Counter</span>' cannot reduce '<span style="color: #2dc26b;">Health</span>' below 1.</p>
 <p>Using these keys to perform multiple combos</p>
 </div>
 </div>
