@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-05-10T15:43:55+02:00</updated>
+    <updated>2024-05-10T15:54:16+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -23,14 +23,14 @@
             <summary>
                 <![CDATA[
                         <img src="https://natdanaiputhom.github.io/media/posts/16/comingsoon2.png" alt="" />
-                    (coming soon) Marked Red Area is outside arena boundary and upon falling and touching the triggerzone will cause instant death.
+                    (coming soon, i don't know when, maybe few months or few years as I only do this when I have&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://natdanaiputhom.github.io/media/posts/16/comingsoon2.png" class="type:primaryImage" alt="" /></p>
-                <p><strong>(coming soon)</strong></p>
-<p>Marked <span style="color: #e03e2d;">Red Area</span> is outside arena boundary and upon falling and touching the triggerzone will cause instant death. </p>
+                <p><strong>(coming soon, i don't know when, maybe few months or few years as I only do this when I have free time)</strong></p>
+<p>Marked <span style="color: #e03e2d;">Red Area</span> is outside arena boundary and upon falling deep enough to touch the triggerzone will cause instant death. </p>
 <div class="content">
 <div class="textLeft"> </div>
 <div class="ImageContainerWithText">
@@ -47,12 +47,12 @@
 <div class="content">
 <div class="textLeft">
 <h5><strong>Game Concept</strong></h5>
-<p><strong>Mode</strong>: PVP (a max match size of 8) and PVE (adventure mode a max team size of 4)</p>
+<p><strong>Mode</strong>: PVP (1v1v1v1, 2v2v2v2 and 4v4) and PVE (adventure mode a max team size of 4)</p>
 <p><strong>Before </strong>match: You pick a class and equipment.</p>
 <p><strong>Class</strong>: Each class have its own Stats value and unique abilities and attacks</p>
 <p><strong>Equipment</strong>: You can only have one equipped equipment at a time. Each equipment replace or add some abilities/attacks to the Class abilities.</p>
-<p><strong>Match</strong>: A match consist of 3 rounds. Each round has a time limit of 5 minutes.</p>
-<p><strong>Score</strong>: Score is based on individual damage dealt. A base score is given if your attack finish off opponent. Winner is decided by an individual score or total score of a team.</p>
+<p><strong>Match</strong>: A match consist of 3 rounds. Each round has a time limit. 5 minutes for 4v4 and 2 minutes for other modes.</p>
+<p><strong>Score</strong>: Score is based on individual damage dealt. A base score is given if your attack finish off opponent. Winner is decided by an individual score or total score of a team. Pushing enemy out of boundary will only yield a base killing score plus the damage dealt by the attack/ability  that pushes them out.</p>
 </div>
 </div>
 <div class="content">
