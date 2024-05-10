@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-05-10T16:22:49+02:00</updated>
+    <updated>2024-05-10T16:34:50+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -49,6 +49,7 @@
 <div class="content">
 <div class="textLeft">
 <h5><strong>Game Concept</strong></h5>
+<p><strong>Camera</strong>: 3D, top down with slightly angle. Camera is following the Player. You will not always see the whole map but nothing will be blocking Player's view.</p>
 <p><strong>Mode</strong>: PVP (1v1v1v1, 2v2v2v2 and 4v4) and PVE (adventure mode a max team size of 4)</p>
 <p><strong>Before </strong>match: You pick a class and equipment.</p>
 <p><strong>Class</strong>: Each class have its own Stats value and unique abilities and attacks</p>
