@@ -30,7 +30,7 @@
 </url>
 <url>
 <loc>https://natdanaiputhom.github.io/entity-component-system/</loc>
-<lastmod>2024-05-26T22:32:32+02:00</lastmod>
+<lastmod>2024-05-27T00:12:33+02:00</lastmod>
 <image:image>
 <image:loc>https://natdanaiputhom.github.io/media/posts/6/ecs2-2.png</image:loc>
 <image:title><![CDATA[]]></image:title>
@@ -65,6 +65,18 @@
 </image:image>
 <image:image>
 <image:loc>https://natdanaiputhom.github.io/media/posts/6/componentManager.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://natdanaiputhom.github.io/media/posts/6/systemupdate-2.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://natdanaiputhom.github.io/media/posts/6/systemmanager.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://natdanaiputhom.github.io/media/posts/6/entities.png</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 </url>
