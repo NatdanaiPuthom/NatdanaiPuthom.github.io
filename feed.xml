@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-05-22T21:09:10+02:00</updated>
+    <updated>2024-05-26T16:13:07+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -115,7 +115,7 @@
 <ul>
 <li>A 3D game inspired by <strong>ARMORED CORE™ VI FIRES OF RUBICON™.</strong></li>
 <li>8-weeks development (40 hours per week)</li>
-<li>Game was first made using <strong>TempEngine</strong> V2.0 with DirectX12 and later switched to <strong>Unreal Engine 5.</strong></li>
+<li>Game was first made using <strong>TempEngine</strong> <strong>V2.0</strong> with DirectX12, the engine lives up to its name. We later switched to <strong>Unreal Engine 5.</strong></li>
 </ul>
 <p><strong>My contributions:</strong></p>
 <ul>
