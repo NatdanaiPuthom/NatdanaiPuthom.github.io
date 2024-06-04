@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-06-04T02:38:01+02:00</updated>
+    <updated>2024-06-04T23:26:39+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -420,9 +420,9 @@
 <div class="content">
 <div class="textLeft">
 <h5><strong>DirectX11</strong></h5>
-<p>SimpleEngine, initially for fun, became my gateway to learn graphics programming. In this image I've implemented deferred rendering technique and randomly placed point lights everywhere.</p>
+<p>SimpleEngine, initially for fun, became my gateway to learn graphics programming. In this image I've implemented deferred rendering technique with 2 point lights. I still have issues with applying ambient light from the skybox and shadow but I hope it will get resolve soon.</p>
 </div>
-<div class="image"><figure class="post_image"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/7/pointlights.png" alt="" width="1597" height="652" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/7/responsive/pointlights-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/7/responsive/pointlights-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/7/responsive/pointlights-md.png 768w ,https://natdanaiputhom.github.io/media/posts/7/responsive/pointlights-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/7/responsive/pointlights-xl.png 1600w"></figure></div>
+<div class="image"><figure class="post_image"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/7/deferredPointlights.png" alt="" width="1597" height="652" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/7/responsive/deferredPointlights-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/7/responsive/deferredPointlights-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/7/responsive/deferredPointlights-md.png 768w ,https://natdanaiputhom.github.io/media/posts/7/responsive/deferredPointlights-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/7/responsive/deferredPointlights-xl.png 1600w"></figure></div>
 </div>
 <div class="content">
 <div class="textLeft">
