@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-05-26T17:39:17+02:00</updated>
+    <updated>2024-06-04T02:28:24+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -401,14 +401,13 @@
             <summary>
                 <![CDATA[
                         <img src="https://natdanaiputhom.github.io/media/posts/7/progart.png" alt="" />
-                    (this article is in progress of writing) Inspired by my experiences with 'SimpleJson' which, ironically, was anything but simple, I&hellip;
+                    Inspired by my experiences with 'SimpleJson' which, ironically, was anything but simple, I set out to craft my own engine,&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://natdanaiputhom.github.io/media/posts/7/progart.png" class="type:primaryImage" alt="" /></p>
-                <p><strong>(this article is in progress of writing)</strong></p>
-<div class="content">
+                <div class="content">
 <div class="textCenterScrollView">
 <p>Inspired by my experiences with 'SimpleJson' which, ironically, was anything but simple, I set out to craft my own engine, humorously named SimpleEngine. This effort mocked the misleading "simplicity" promised by such tools. Olle, whom I had previously worked on projects like <a href="https://natdanaiputhom.github.io/spoopy-sprint/" target="_blank" rel="noopener noreferrer">Spoopy Sprint </a>and <a href="https://natdanaiputhom.github.io/spelprojekt-4/" target="_blank" rel="noopener noreferrer">Stella's Quest </a>with, harbours a distinct aversion to the use of singletons and global variables, a stance that, while typically aligning with good practice, I playfully chose to ignore for this engine. Embracing the chaos, I decided to implement everything in SimpleEngine using global pointers. What could go wrong?</p>
 <p> </p>
@@ -421,9 +420,9 @@
 <div class="content">
 <div class="textLeft">
 <h5><strong>DirectX11</strong></h5>
-<p>SimpleEngine, initially for fun, became my gateway to learn graphics programming.</p>
+<p>SimpleEngine, initially for fun, became my gateway to learn graphics programming. In this image I've implemented deferred rendering technique and randomly placed point lights everywhere.</p>
 </div>
-<div class="image"><figure class="post_image"><img loading="lazy"  src="file:///C:/Users/panda/Documents/Publii/sites/natdanai-puthom/input/media/posts/11/vlc_0qgOip2WCj.gif" alt="" width="1597" height="652"></figure></div>
+<div class="image"><figure class="post_image"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/7/pointlights.png" alt="" width="1597" height="652" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/7/responsive/pointlights-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/7/responsive/pointlights-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/7/responsive/pointlights-md.png 768w ,https://natdanaiputhom.github.io/media/posts/7/responsive/pointlights-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/7/responsive/pointlights-xl.png 1600w"></figure></div>
 </div>
 <div class="content">
 <div class="textLeft">
@@ -444,16 +443,12 @@
 <div class="content">
 <div class="textLeft">
 <h5><strong>Animation Blend</strong></h5>
-<p>Utilizing a model previously created in <a href="https://natdanaiputhom.github.io/spelprojekt-3/" target="_blank" rel="noopener noreferrer">Abalabos</a>,I incorporated linear interpolation to smooth transitions between different animations for testing purposes. <em>You can read more about my IK journey here, <a href="https://natdanaiputhom.github.io/inverse-kinematic/" target="_blank" rel="noopener noreferrer">Inverse Kinematic</a>.</em></p>
+<p>Utilizing a model previously created in <a href="https://natdanaiputhom.github.io/spelprojekt-3/" target="_blank" rel="noopener noreferrer">Abalabos</a>,I incorporated linear interpolation to smooth transitions between different animations for testing purposes. There are ImGui window where it's possible to adjust transition speed and values. Unfortunate, the engine is currently on a big restrcture and I don't have a good gif saved to demostrate.</p>
 <p> </p>
 </div>
 <div class="ImageContainerWithText">
-<div class="image-container dynamic-size"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/SimpleEngine-Debug_8kfNkMub3u-1712868063513.gif" alt="" width="256" height="256"></div>
-<div class="text-container">test</div>
-</div>
-<div class="ImageContainerWithText">
 <div class="image-container dynamic-size offset-right"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/SimpleEngine_Debug_ocAc1gAiZ8.gif" alt="" width="512" height="512"></div>
-<div class="text-container">LERP</div>
+<div class="text-container">Animation LERP</div>
 </div>
 </div>
 <p> </p>
@@ -471,6 +466,25 @@
 <div class="ImageContainerWithText">
 <div class="image-container dynamic-size"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/SimpleEngine_Debug_2qlZNuFj0O.gif" alt="" width="780" height="780"></div>
 <div class="text-container">Model created by Oliver Benedetti (SG22)</div>
+</div>
+</div>
+<div class="content">
+<div class="textLeft">
+<h5><strong>Profilering (Memory Leaks)</strong></h5>
+<p>Using this simple memory tracker, I can check for total allocations, memory leaks, and their locations. It can be turned off in a JSON configuration file with two settings. Additionally, there is a global memory tracker that keeps count during the program's lifetime. This global tracker is turned on by default to remind us to fix the leaks eventually.</p>
+<ol>
+<li>TrackAllAllocation: this is very fast and just print amount of memory leaks.</li>
+<li>TrackAllStackTraces: this is much slower but will also print out where the leaks could be.</li>
+</ol>
+</div>
+<div class="ImageContainerWithText">
+<div class="image-container"><a href="https://natdanaiputhom.github.io/leaks.png" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/leaks.png" alt="" width="512" height="512" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/7/responsive/leaks-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/7/responsive/leaks-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/7/responsive/leaks-md.png 768w ,https://natdanaiputhom.github.io/media/posts/7/responsive/leaks-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/7/responsive/leaks-xl.png 1600w"></a></div>
+<div class="text-container">Scoped tracking</div>
+<div> </div>
+</div>
+<div class="ImageContainerWithText">
+<div class="image-container dynamic-size"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/leaks2.png" alt="" width="780" height="780" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/7/responsive/leaks2-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/7/responsive/leaks2-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/7/responsive/leaks2-md.png 768w ,https://natdanaiputhom.github.io/media/posts/7/responsive/leaks2-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/7/responsive/leaks2-xl.png 1600w"></div>
+<div class="text-container"> </div>
 </div>
 </div>
 <div class="content">
