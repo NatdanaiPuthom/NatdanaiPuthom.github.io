@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-06-04T02:28:24+02:00</updated>
+    <updated>2024-06-04T02:31:06+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -443,7 +443,7 @@
 <div class="content">
 <div class="textLeft">
 <h5><strong>Animation Blend</strong></h5>
-<p>Utilizing a model previously created in <a href="https://natdanaiputhom.github.io/spelprojekt-3/" target="_blank" rel="noopener noreferrer">Abalabos</a>,I incorporated linear interpolation to smooth transitions between different animations for testing purposes. There are ImGui window where it's possible to adjust transition speed and values. Unfortunate, the engine is currently on a big restrcture and I don't have a good gif saved to demostrate.</p>
+<p>Utilizing a model previously created in <a href="https://natdanaiputhom.github.io/spelprojekt-3/" target="_blank" rel="noopener noreferrer">Abalabos</a>,I incorporated linear interpolation to smooth transitions between different animations for testing purposes. There are ImGui windows where it's possible to adjust transition speed and values. Unfortunate, the engine is currently on a big restructure and I don't have a good gif saved to demonstrate.</p>
 <p> </p>
 </div>
 <div class="ImageContainerWithText">
