@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-06-04T02:33:06+02:00</updated>
+    <updated>2024-06-04T02:38:01+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -449,9 +449,9 @@
 <div class="ImageContainerWithText">
 <div class="image-container dynamic-size offset-right"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/SimpleEngine_Debug_ocAc1gAiZ8.gif" alt="" width="512" height="512"></div>
 <div class="text-container">Animation LERP</div>
+<div> </div>
 </div>
 </div>
-<p> </p>
 <div class="content">
 <div class="textLeft">
 <h5><strong>Profilering (EasyProfiler)</strong></h5>
@@ -471,11 +471,12 @@
 <div class="content">
 <div class="textLeft">
 <h5><strong>Profilering (Memory Leaks)</strong></h5>
-<p>Using this simple memory tracker, I can check for total allocations, memory leaks, and their locations. It can be turned off in a JSON configuration file with two settings. Additionally, there is a global memory tracker that keeps count during the program's lifetime. This global tracker is turned on by default to remind us to fix the leaks eventually. The stack traces could also be saved to a txt file.</p>
+<p>Using this simple memory tracker, I can check for total allocations, memory leaks, and their locations. It can be turned off in a JSON configuration file with two settings. </p>
 <ol>
-<li>TrackAllAllocation: this is very fast and just print amount of memory leaks.</li>
+<li>TrackAllAllocations: this is very fast and just print amount of memory leaks.</li>
 <li>TrackAllStackTraces: this is much slower but will also print out where the leaks could be.</li>
 </ol>
+<p>Additionally, there is a global memory tracker that keeps count during the program's lifetime. This global tracker is turned on by default to remind us to fix the leaks eventually. The stack traces could also be saved to a txt file.</p>
 </div>
 <div class="ImageContainerWithText">
 <div class="image-container"><a href="https://natdanaiputhom.github.io/leaks.png" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/leaks.png" alt="" width="512" height="512" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/7/responsive/leaks-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/7/responsive/leaks-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/7/responsive/leaks-md.png 768w ,https://natdanaiputhom.github.io/media/posts/7/responsive/leaks-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/7/responsive/leaks-xl.png 1600w"></a></div>
