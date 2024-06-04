@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-06-04T02:31:06+02:00</updated>
+    <updated>2024-06-04T02:33:06+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -471,7 +471,7 @@
 <div class="content">
 <div class="textLeft">
 <h5><strong>Profilering (Memory Leaks)</strong></h5>
-<p>Using this simple memory tracker, I can check for total allocations, memory leaks, and their locations. It can be turned off in a JSON configuration file with two settings. Additionally, there is a global memory tracker that keeps count during the program's lifetime. This global tracker is turned on by default to remind us to fix the leaks eventually.</p>
+<p>Using this simple memory tracker, I can check for total allocations, memory leaks, and their locations. It can be turned off in a JSON configuration file with two settings. Additionally, there is a global memory tracker that keeps count during the program's lifetime. This global tracker is turned on by default to remind us to fix the leaks eventually. The stack traces could also be saved to a txt file.</p>
 <ol>
 <li>TrackAllAllocation: this is very fast and just print amount of memory leaks.</li>
 <li>TrackAllStackTraces: this is much slower but will also print out where the leaks could be.</li>
