@@ -3,14 +3,14 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-06-14T03:48:44+02:00</updated>
+    <updated>2024-07-03T16:34:13+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
     <id>https://natdanaiputhom.github.io</id>
 
     <entry>
-        <title>Vamp Cream (writing in progress)</title>
+        <title>Vamp Cream</title>
         <author>
             <name>Natdanai Puthom</name>
         </author>
@@ -23,14 +23,20 @@
             <summary>
                 <![CDATA[
                         <img src="https://natdanaiputhom.github.io/media/posts/20/Youre_an_ice_cream_melting_fast_Find_and_pick_up_ice_cubes_to_restore_health_and_survive_as_long_as_possible.png" alt="" />
-                    test You're an ice cream melting fast! Find and pick up ice cubes to restore health and survive as long&hellip;
+                    44-hours gamejam using Hology Engine! You can play Vamp Cream here at https://carrydev.itch.io/vampcream
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://natdanaiputhom.github.io/media/posts/20/Youre_an_ice_cream_melting_fast_Find_and_pick_up_ice_cubes_to_restore_health_and_survive_as_long_as_possible.png" class="type:primaryImage" alt="" /></p>
-                <p>test<br><br>You're an ice cream melting fast! Find and pick up ice cubes to restore health and survive as long as possible.</p>
-<p>https://carrydev.itch.io/vampcream</p>
+                <div class="content">
+<div class="textCenterScrollView">
+<p>44-hours gamejam using Hology Engine!</p>
+<p>You can play Vamp Cream here at <strong><a href="https://carrydev.itch.io/vampcream" target="_blank" rel="noopener noreferrer">https://carrydev.itch.io/vampcream</a></strong></p>
+<figure class="post__image"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/20/Youre_an_ice_cream_melting_fast_Find_and_pick_up_ice_cubes_to_restore_health_and_survive_as_long_as_possible-2.png" alt="" width="1920" height="1080" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/20/responsive/Youre_an_ice_cream_melting_fast_Find_and_pick_up_ice_cubes_to_restore_health_and_survive_as_long_as_possible-2-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/20/responsive/Youre_an_ice_cream_melting_fast_Find_and_pick_up_ice_cubes_to_restore_health_and_survive_as_long_as_possible-2-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/20/responsive/Youre_an_ice_cream_melting_fast_Find_and_pick_up_ice_cubes_to_restore_health_and_survive_as_long_as_possible-2-md.png 768w ,https://natdanaiputhom.github.io/media/posts/20/responsive/Youre_an_ice_cream_melting_fast_Find_and_pick_up_ice_cubes_to_restore_health_and_survive_as_long_as_possible-2-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/20/responsive/Youre_an_ice_cream_melting_fast_Find_and_pick_up_ice_cubes_to_restore_health_and_survive_as_long_as_possible-2-xl.png 1600w"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/20/IMG_9022.jpg" alt="" width="4032" height="3024" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/20/responsive/IMG_9022-xs.jpg 384w ,https://natdanaiputhom.github.io/media/posts/20/responsive/IMG_9022-sm.jpg 600w ,https://natdanaiputhom.github.io/media/posts/20/responsive/IMG_9022-md.jpg 768w ,https://natdanaiputhom.github.io/media/posts/20/responsive/IMG_9022-lg.jpg 1200w ,https://natdanaiputhom.github.io/media/posts/20/responsive/IMG_9022-xl.jpg 1600w"></figure>
+</div>
+</div>
             ]]>
         </content>
     </entry>
@@ -298,7 +304,8 @@
 <div class="content">
 <div class="textCenterScrollView">
 <p><strong><em>Recommended of 2 - 4 players using hand controllers and loud stereo speakers! You can play Hamster 16 on the website or download the game here at <a href="https://carrydev.itch.io/hamster16">https://carrydev.itch.io/hamster16</a></em></strong></p>
-<figure class="contactMeImageLink"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/10/Screenshot-2024-04-09-at-18-42-13-Edit-project-2.png" alt="" width="256" height="256" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/10/responsive/Screenshot-2024-04-09-at-18-42-13-Edit-project-2-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/10/responsive/Screenshot-2024-04-09-at-18-42-13-Edit-project-2-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/10/responsive/Screenshot-2024-04-09-at-18-42-13-Edit-project-2-md.png 768w ,https://natdanaiputhom.github.io/media/posts/10/responsive/Screenshot-2024-04-09-at-18-42-13-Edit-project-2-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/10/responsive/Screenshot-2024-04-09-at-18-42-13-Edit-project-2-xl.png 1600w"></figure>
+<figure class="contactMeImageLink"><img  src="https://natdanaiputhom.github.io/media/posts/10/Screenshot-2024-04-09-at-18-42-13-Edit-project-2.png" alt="" width="256" height="256" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/10/responsive/Screenshot-2024-04-09-at-18-42-13-Edit-project-2-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/10/responsive/Screenshot-2024-04-09-at-18-42-13-Edit-project-2-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/10/responsive/Screenshot-2024-04-09-at-18-42-13-Edit-project-2-md.png 768w ,https://natdanaiputhom.github.io/media/posts/10/responsive/Screenshot-2024-04-09-at-18-42-13-Edit-project-2-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/10/responsive/Screenshot-2024-04-09-at-18-42-13-Edit-project-2-xl.png 1600w"></figure> <figure class="contactMeImageLink"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/10/PXL_20230526_151046257.jpg" alt="" width="256" height="256" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/10/responsive/PXL_20230526_151046257-xs.jpg 384w ,https://natdanaiputhom.github.io/media/posts/10/responsive/PXL_20230526_151046257-sm.jpg 600w ,https://natdanaiputhom.github.io/media/posts/10/responsive/PXL_20230526_151046257-md.jpg 768w ,https://natdanaiputhom.github.io/media/posts/10/responsive/PXL_20230526_151046257-lg.jpg 1200w ,https://natdanaiputhom.github.io/media/posts/10/responsive/PXL_20230526_151046257-xl.jpg 1600w"></figure>
+<p> </p>
 </div>
 </div>
             ]]>
