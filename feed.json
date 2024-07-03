@@ -15,13 +15,15 @@
             "title": "SimpleEditor",
             "summary": "test",
             "content_html": "<p>test</p>",
+            "image": "https://natdanaiputhom.github.io/media/posts/21/workinprogress.png",
             "author": {
                 "name": "Natdanai Puthom"
             },
             "tags": [
+                   "Personal Project"
             ],
             "date_published": "2024-07-03T17:22:50+02:00",
-            "date_modified": "2024-07-03T17:24:47+02:00"
+            "date_modified": "2024-07-03T17:34:47+02:00"
         },
         {
             "id": "https://natdanaiputhom.github.io/vamp-cream-writing-in-progress/",

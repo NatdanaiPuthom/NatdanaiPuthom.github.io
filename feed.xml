@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-07-03T17:24:47+02:00</updated>
+    <updated>2024-07-03T17:34:47+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -16,15 +16,19 @@
         </author>
         <link href="https://natdanaiputhom.github.io/simpleeditor/"/>
         <id>https://natdanaiputhom.github.io/simpleeditor/</id>
+        <media:content url="https://natdanaiputhom.github.io/media/posts/21/workinprogress.png" medium="image" />
+            <category term="Personal Project"/>
 
         <updated>2024-07-03T17:22:50+02:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://natdanaiputhom.github.io/media/posts/21/workinprogress.png" alt="" />
                     test
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://natdanaiputhom.github.io/media/posts/21/workinprogress.png" class="type:primaryImage" alt="" /></p>
                 <p>test</p>
             ]]>
         </content>
