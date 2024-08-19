@@ -3,14 +3,14 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-07-03T17:42:39+02:00</updated>
+    <updated>2024-08-19T03:46:14+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
     <id>https://natdanaiputhom.github.io</id>
 
     <entry>
-        <title>SimpleEditor</title>
+        <title>SimpleEditor (writing in progress)</title>
         <author>
             <name>Natdanai Puthom</name>
         </author>
@@ -23,13 +23,13 @@
             <summary>
                 <![CDATA[
                         <img src="https://natdanaiputhom.github.io/media/posts/21/workinprogress.png" alt="" />
-                    test
+                    writing in progress
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://natdanaiputhom.github.io/media/posts/21/workinprogress.png" class="type:primaryImage" alt="" /></p>
-                <p>test</p>
+                <p>writing in progress</p>
             ]]>
         </content>
     </entry>
@@ -65,7 +65,7 @@
         </content>
     </entry>
     <entry>
-        <title>Reflection &amp; Serialization (writing in progress)</title>
+        <title>ECS Reflection &amp; Serialization (writing in progress)</title>
         <author>
             <name>Natdanai Puthom</name>
         </author>
