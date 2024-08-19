@@ -3,14 +3,14 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2024-08-19T03:46:14+02:00</updated>
+    <updated>2024-08-19T04:04:39+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
     <id>https://natdanaiputhom.github.io</id>
 
     <entry>
-        <title>SimpleEditor (writing in progress)</title>
+        <title>SimpleEditor (work in progress)</title>
         <author>
             <name>Natdanai Puthom</name>
         </author>
@@ -23,13 +23,13 @@
             <summary>
                 <![CDATA[
                         <img src="https://natdanaiputhom.github.io/media/posts/21/workinprogress.png" alt="" />
-                    writing in progress
+                    work in progress
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://natdanaiputhom.github.io/media/posts/21/workinprogress.png" class="type:primaryImage" alt="" /></p>
-                <p>writing in progress</p>
+                <p>work in progress</p>
             ]]>
         </content>
     </entry>
@@ -109,7 +109,7 @@
             <![CDATA[
                     <p><img src="https://natdanaiputhom.github.io/media/posts/16/workinprogress.png" class="type:primaryImage" alt="" /></p>
                 <p><strong>(coming soon, i don't know when, maybe few months or few years as I only do this when I have free time)</strong></p>
-<p><strong>Started</strong>: 2024</p>
+<p><strong>Started</strong>: June 2024</p>
 <p><strong>Status</strong>: Ongoing</p>
 <p>Marked <span style="color: #e03e2d;">Red Area</span> is outside arena boundary and upon falling deep enough to touch the triggerzone will cause instant death. </p>
 <div class="content">
@@ -164,6 +164,9 @@
 <div class="textLeft">
 <h5><strong>Current Plan (Summer 2024)</strong></h5>
 <p>The current plan is to have 2 unique classes, equipment's and maps and focus on polishing core mechanics and game loop targeting PVP mode of 1v1 only. Of course this require the fundamental systems to be polished and scalable in the future.</p>
+<h5><strong>Summer 2024 Update</strong></h5>
+<p>I failed. I will try to make some updates for Winter 2024</p>
+<p> </p>
 </div>
 </div>
             ]]>
