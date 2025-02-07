@@ -3,14 +3,14 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2025-01-17T04:15:45+01:00</updated>
+    <updated>2025-02-07T18:50:21+01:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
     <id>https://natdanaiputhom.github.io</id>
 
     <entry>
-        <title>SimpleEngine (rewriting in progress)</title>
+        <title>Simpleengine (rewriting in progress)</title>
         <author>
             <name>Natdanai Puthom</name>
         </author>
@@ -23,7 +23,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://natdanaiputhom.github.io/media/posts/7/progart.png" alt="" />
-                    This post is being rewritten with new lots of fun updates. Estimate to finish by February 2025. Inspired by my&hellip;
+                    This post is being rewritten with new lots of fun updates. Estimate to finish by end of February 2025. Inspired&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -31,7 +31,7 @@
                     <p><img src="https://natdanaiputhom.github.io/media/posts/7/progart.png" class="type:primaryImage" alt="" /></p>
                 <div class="content">
 <div class="textCenterScrollView">
-<p class="msg msg--highlight ">This post is being rewritten with new lots of fun updates. Estimate to finish by February 2025.</p>
+<p class="msg msg--highlight ">This post is being rewritten with new lots of fun updates. Estimate to finish by end of February 2025.</p>
 <p><br><br>Inspired by my experiences with 'SimpleJson' which, ironically, was anything but simple, I set out to craft my own engine, humorously named SimpleEngine. This effort mocked the misleading "simplicity" promised by such tools. Olle, whom I had previously worked on projects like <a href="https://natdanaiputhom.github.io/spoopy-sprint/" target="_blank" rel="noopener noreferrer">Spoopy Sprint </a>and <a href="https://natdanaiputhom.github.io/spelprojekt-4/" target="_blank" rel="noopener noreferrer">Stella's Quest </a>with, harbours a distinct aversion to the use of singletons and global variables, a stance that, while typically aligning with good practice, I playfully chose to ignore for this engine. Embracing the chaos, what could go wrong?</p>
 <p> </p>
 </div>
@@ -130,7 +130,7 @@
         </content>
     </entry>
     <entry>
-        <title>SimpleECS (rewriting in progress) </title>
+        <title>Simpleecs (rewriting in progress) </title>
         <author>
             <name>Natdanai Puthom</name>
         </author>
@@ -143,13 +143,13 @@
             <summary>
                 <![CDATA[
                         <img src="https://natdanaiputhom.github.io/media/posts/6/pointersmeme.png" alt="" />
-                    This post is being rewritten with new fun and interesting updates. Estimate to finish by February 2025. Introduction In this&hellip;
+                    This post is being rewritten with new fun and interesting updates. Estimate to finish by end of February 2025. Introduction&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://natdanaiputhom.github.io/media/posts/6/pointersmeme.png" class="type:primaryImage" alt="" /></p>
-                <p class="msg msg--highlight ">This post is being rewritten with new fun and interesting updates. Estimate to finish by February 2025.</p>
+                <p class="msg msg--highlight ">This post is being rewritten with new fun and interesting updates. Estimate to finish by end of February 2025.</p>
 <p><strong style="font-family: var(--font-base); font-size: 1.125em; letter-spacing: var(--letter-spacing);">Introduction</strong></p>
 <div class="content">
 <div class="textLeft">
