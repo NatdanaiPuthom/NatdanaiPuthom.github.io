@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2025-02-09T16:38:38+01:00</updated>
+    <updated>2025-02-09T22:18:32+01:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -60,7 +60,7 @@
 <div class="text-container"> </div>
 </div>
 <div class="ImageContainerWithText">
-<div class="image-container dynamic-size offset-right offset-down"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/deferred2.png" alt="" width="512" height="512" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/7/responsive/deferred2-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/7/responsive/deferred2-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/7/responsive/deferred2-md.png 768w ,https://natdanaiputhom.github.io/media/posts/7/responsive/deferred2-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/7/responsive/deferred2-xl.png 1600w"></div>
+<div class="image-container dynamic-size offset-right offset-down2"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/deferred2.png" alt="" width="512" height="512" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/7/responsive/deferred2-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/7/responsive/deferred2-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/7/responsive/deferred2-md.png 768w ,https://natdanaiputhom.github.io/media/posts/7/responsive/deferred2-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/7/responsive/deferred2-xl.png 1600w"></div>
 <div class="text-container"> </div>
 </div>
 </div>
@@ -84,7 +84,7 @@
 <p>This was the second step toward achieving my goal of procedural animation, as I needed to blend different animations together during transitions. To do this, I incorporated linear interpolation to smooth the transitions between animations. The usage is quite simple: we just need to provide the animation clip we want to transition to, along with optional parameters to control the speed, specific frame, and overall smoothness of the transition. This is incredibly useful, as we may often want to transition into the same animation but with different controls depending on the context. The next step is implementing Inverse Kinematics (IK), and I planned to start with the FABRIK algorithm. </p>
 </div>
 <div class="ImageContainerWithText">
-<div class="image-container dynamic-size offset-down offset-right"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/WalkIdleBlend.gif" alt="" width="512" height="512"></div>
+<div class="image-container dynamic-size offset-down3 offset-right"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/WalkIdleBlend.gif" alt="" width="512" height="512"></div>
 <div class="text-container">Walk &amp; Idle animations transition blending</div>
 </div>
 </div>
@@ -92,15 +92,16 @@
 <div id="section5" class="textLeft">
 <h5><strong>Profiling</strong></h5>
 <p>While implementing and testing animations, I encountered significant performance hit and wanted to identify the bottleneck. To achieve this, I integrated a profiling library called 'EasyProfiler' into the engine. The benchmark results revealed that rendering was the primary bottleneck, specifically in animation updates and the rendering process itself. I began with a simple optimization using instanced rendering, which significantly improved performance. For animations, I leveraged a thread pool to update multiple animations in parallel. Additionally, for models sharing the same animation without variations, I optimized further by updating the animation once and reapplying it across all relevant models.</p>
-<p>Lastly, my editor updates were severely impacting performance, dropping from 1000 fps to 200 fps. This was due to my Content Browser, where I was looping through and updating the directory every frame-- and extremely expensive operation. To address this, I refactored the system to create the directory tree node once and only update the relevant directories when the Content Browser is in focus.</p>
+<p>Another major bottleneck I encountered was with my editor updates, which were severely impacting performance, dropping from 1000 fps to 200 fps. This was due to my Content Browser, where I was looping through and updating the directory every frame-- an extremely expensive operation. To address this, I refactored the system to create a directory tree node once and update the current node only when the Content Browser is in focus.</p>
+<p>Lastly, I have a zero-tolerance policy for memory leaks, which means I need a stable and efficient way to track them. Inspired by TGA's in-house engine's memory tracker system, I integrated a similar system into my engine and modified it to suit my needs. The original implementation reported false-positive memory leaks due to static instances begin cleared after the memory tracker system itself. I encountered a particularly annoying issue related to the Static Initialization Order Fiasco, but I resolved it (for now) by heap-allocating instances that would normally be static, such as singletons, and manually deleting them at the end of the main function. This approach almost guarantees that the memory tracker is one of the first systems to initialize and, therefore, the last to be destroyed--hopefully.</p>
 </div>
 <div class="ImageContainerWithText">
-<div class="image-container dynamic-size offset-down"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/200animations.gif" alt="" width="512" height="512"></div>
+<div class="image-container dynamic-size offset-right offset-down2"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/200animations.gif" alt="" width="512" height="512"></div>
 <div class="text-container">200 animations</div>
-</div>
-<div class="ImageContainerWithText">
-<div class="image-container dynamic-size offset-down"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/memoryleaks.png" alt="" width="512" height="512" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/7/responsive/memoryleaks-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/7/responsive/memoryleaks-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/7/responsive/memoryleaks-md.png 768w ,https://natdanaiputhom.github.io/media/posts/7/responsive/memoryleaks-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/7/responsive/memoryleaks-xl.png 1600w"></div>
+<div class="image-container dynamic-size offset-right offset-down"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/leaks.png" alt="" width="256" height="256" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/7/responsive/leaks-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/7/responsive/leaks-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/7/responsive/leaks-md.png 768w ,https://natdanaiputhom.github.io/media/posts/7/responsive/leaks-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/7/responsive/leaks-xl.png 1600w"></div>
 <div class="text-container">Scoped tracking</div>
+<div class="image-container dynamic-size offset-right offset-down"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/leaks2.png" alt="" width="512" height="512" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/7/responsive/leaks2-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/7/responsive/leaks2-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/7/responsive/leaks2-md.png 768w ,https://natdanaiputhom.github.io/media/posts/7/responsive/leaks2-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/7/responsive/leaks2-xl.png 1600w"></div>
+<div class="text-container">Stack traces report which also can be saved as txt file</div>
 </div>
 </div>
 <div class="content">
