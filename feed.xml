@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2025-02-09T22:18:32+01:00</updated>
+    <updated>2025-02-09T22:21:27+01:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -23,14 +23,14 @@
             <summary>
                 <![CDATA[
                         <img src="https://natdanaiputhom.github.io/media/posts/7/progart.png" alt="" />
-                    Table of Contents (Reading time: 2 minutes) Introduction DirectX11 Animation Loader Animation Blend Profiling Editor Entity Component System (ECS) Reflection&hellip;
+                    Table of Contents (Reading time: 3 minutes) Introduction DirectX11 Animation Loader Animation Blend Profiling Editor Entity Component System (ECS) Reflection&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://natdanaiputhom.github.io/media/posts/7/progart.png" class="type:primaryImage" alt="" /></p>
                 <div class="toc">
-<h2>Table of Contents (Reading time: 2 minutes)</h2>
+<h2>Table of Contents (Reading time: 3 minutes)</h2>
 <ol>
 <li><a href="#section1">Introduction</a></li>
 <li><a href="#section2">DirectX11</a></li>
