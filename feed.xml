@@ -3,14 +3,14 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2025-02-07T18:50:21+01:00</updated>
+    <updated>2025-02-09T16:38:38+01:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
     <id>https://natdanaiputhom.github.io</id>
 
     <entry>
-        <title>Simpleengine (rewriting in progress)</title>
+        <title>Simpleengine (under constructing)</title>
         <author>
             <name>Natdanai Puthom</name>
         </author>
@@ -23,278 +23,102 @@
             <summary>
                 <![CDATA[
                         <img src="https://natdanaiputhom.github.io/media/posts/7/progart.png" alt="" />
-                    This post is being rewritten with new lots of fun updates. Estimate to finish by end of February 2025. Inspired&hellip;
+                    Table of Contents (Reading time: 2 minutes) Introduction DirectX11 Animation Loader Animation Blend Profiling Editor Entity Component System (ECS) Reflection&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://natdanaiputhom.github.io/media/posts/7/progart.png" class="type:primaryImage" alt="" /></p>
-                <div class="content">
-<div class="textCenterScrollView">
-<p class="msg msg--highlight ">This post is being rewritten with new lots of fun updates. Estimate to finish by end of February 2025.</p>
-<p><br><br>Inspired by my experiences with 'SimpleJson' which, ironically, was anything but simple, I set out to craft my own engine, humorously named SimpleEngine. This effort mocked the misleading "simplicity" promised by such tools. Olle, whom I had previously worked on projects like <a href="https://natdanaiputhom.github.io/spoopy-sprint/" target="_blank" rel="noopener noreferrer">Spoopy Sprint </a>and <a href="https://natdanaiputhom.github.io/spelprojekt-4/" target="_blank" rel="noopener noreferrer">Stella's Quest </a>with, harbours a distinct aversion to the use of singletons and global variables, a stance that, while typically aligning with good practice, I playfully chose to ignore for this engine. Embracing the chaos, what could go wrong?</p>
-<p> </p>
+                <div class="toc">
+<h2>Table of Contents (Reading time: 2 minutes)</h2>
+<ol>
+<li><a href="#section1">Introduction</a></li>
+<li><a href="#section2">DirectX11</a></li>
+<li><a href="#section3">Animation Loader</a></li>
+<li><a href="#section4">Animation Blend</a></li>
+<li><a href="#section5">Profiling</a></li>
+<li><a href="#section6">Editor</a></li>
+<li><a href="#section7">Entity Component System (ECS)</a></li>
+<li><a href="#section8">Reflection (ECS)</a></li>
+</ol>
 </div>
-</div>
-<blockquote>
-<p>Simple, it's just that easy</p>
-</blockquote>
-<p> </p>
 <div class="content">
-<div class="textLeft">
+<div id="section1" class="textLeft">
+<h5><strong>Introduction</strong></h5>
+<p>Inspired by my experience with 'SimpleJson' in the Tool Development course during my education at The Game Assembly which, ironically, was anything but simple, I set out to craft my own engine, humorously named SimpleEngine. </p>
+<p class="msg msg--highlight ">This post was created through the combined efforts of ChatGPT and DeepSeek.</p>
+</div>
+</div>
+<div class="content">
+<div id="section2" class="textLeft">
 <h5><strong>DirectX11</strong></h5>
-<p>SimpleEngine, initially for fun, became my gateway to learn graphics programming. In this image I've implemented deferred rendering technique with 2 point lights. I still have issues with applying ambient light from the skybox and shadow but I hope it will get resolve soon.</p>
-</div>
-<div class="image"><figure class="post_image"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/7/deferredPointlights.png" alt="" width="1597" height="652" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/7/responsive/deferredPointlights-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/7/responsive/deferredPointlights-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/7/responsive/deferredPointlights-md.png 768w ,https://natdanaiputhom.github.io/media/posts/7/responsive/deferredPointlights-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/7/responsive/deferredPointlights-xl.png 1600w"></figure></div>
-</div>
-<div class="content">
-<div class="textLeft">
-<h5><strong>Animation Loader</strong></h5>
-<p>My journey into procedural animation sparked with the captivating experience of Rain World. Witnessing its dynamic animations propelled me into a deep dive into the realm of procedural animation, where I delved into the intricacies of concepts like inverse kinematics (IK). Eager to implement this in my project, I first had to tackle the basics: loading models and animations into the engine. Despite my initial lack of knowledge, I successfully integrated models, skeletons, and animations using FBXSDK. However, the animations didn't play correctly. After days of searching for the culprit, I discovered the issue was in the shader I had mistakenly used the '+' operator instead of '*' for the joints transforms.</p>
-<p> </p>
+<p>SimpleEngine, initially just a fun experiment, became my gateway into graphics programming. In these images, I've implemented a deferred rendering technique combined with Physically Based Rendering (PBR) to achieve more realistic lighting and material effects. In the future, I plan to implement visual effects (VFX) to add more juice to the gameplay.</p>
+<p>Can you see what's wrong in the light calculations in these images? 😀</p>
 </div>
 <div class="ImageContainerWithText">
-<div class="image-container dynamic-size"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/SimpleEngine-Debug_8kfNkMub3u-1712868063513.gif" alt="" width="256" height="256"></div>
-<div class="text-container">hehe</div>
+<div class="image-container dynamic-size offset-down"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/deferredPointlights.png" alt="" width="512" height="512" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/7/responsive/deferredPointlights-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/7/responsive/deferredPointlights-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/7/responsive/deferredPointlights-md.png 768w ,https://natdanaiputhom.github.io/media/posts/7/responsive/deferredPointlights-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/7/responsive/deferredPointlights-xl.png 1600w"></div>
+<div class="text-container"> </div>
 </div>
 <div class="ImageContainerWithText">
-<div class="image-container dynamic-size offset-right"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/SimpleEngine_Debug_A6hPT9Xp8N.gif" alt="" width="512" height="512"></div>
-<div class="text-container">finally!</div>
-</div>
-</div>
-<p> </p>
-<div class="content">
-<div class="textLeft">
-<h5><strong>Animation Blend</strong></h5>
-<p>Utilizing a model previously created in <a href="https://natdanaiputhom.github.io/spelprojekt-3/" target="_blank" rel="noopener noreferrer">Abalabos</a>,I incorporated linear interpolation to smooth transitions between different animations for testing purposes. There are ImGui windows where it's possible to adjust transition speed and values. Unfortunate, the engine is currently on a big restructure and I don't have a good gif saved to demonstrate.</p>
-<p> </p>
-</div>
-<div class="ImageContainerWithText">
-<div class="image-container dynamic-size offset-right"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/SimpleEngine_Debug_ocAc1gAiZ8.gif" alt="" width="512" height="512"></div>
-<div class="text-container">Animation LERP</div>
-<div> </div>
-</div>
-</div>
-<div class="content">
-<div class="textLeft">
-<h5><strong>Profilering (EasyProfiler)</strong></h5>
-<p>While implementing and testing animations, I encountered significant performance hit when updating multiple instances of the same animation type. This led me to devise several solutions.</p>
-<ol>
-<li>For models undergoing the same animation without variation, I update the animation once and then applying the new pose to all models sharing that animation.</li>
-<li>For models with differing animations, leveraging a <a href="https://natdanaiputhom.github.io/thread-pool/" target="_blank" rel="noopener noreferrer">Thread Pool</a> to update animations concurrency before proceeding.</li>
-</ol>
-<p>The impact of these optimizations was remarkable, yielding a ~1 milliseconds (release) improvement per frame for 200 animations on an Intel Core i5 9400f, with even more substantial gains for models using identical animations. The rendering is still responsible for ~90% of the performance bottleneck so I'll need to optimize it in the future.</p>
-<p> </p>
-</div>
-<div class="ImageContainerWithText">
-<div class="image-container dynamic-size"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/SimpleEngine_Debug_2qlZNuFj0O.gif" alt="" width="780" height="780"></div>
-<div class="text-container">Model created by Oliver Benedetti (SG22)</div>
-</div>
-</div>
-<div class="content">
-<div class="textLeft">
-<h5><strong>Profilering (Memory Leaks)</strong></h5>
-<p>Using this simple memory tracker, I can check for total allocations, memory leaks, and their locations. It can be turned off in a JSON configuration file with two settings. </p>
-<ol>
-<li>TrackAllAllocations: this is very fast and just print amount of memory leaks.</li>
-<li>TrackAllStackTraces: this is much slower but will also print out where the leaks could be.</li>
-</ol>
-<p>Additionally, there is a global memory tracker that keeps count during the program's lifetime. This global tracker is turned on by default to remind us to fix the leaks eventually. The stack traces could also be saved to a txt file.</p>
-<p>I lost quite a lot of hair trying to solve the Static Initilization Order Fiasco problem :(</p>
-</div>
-<div class="ImageContainerWithText">
-<div class="image-container"><a href="https://natdanaiputhom.github.io/leaks.png" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/leaks.png" alt="" width="512" height="512" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/7/responsive/leaks-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/7/responsive/leaks-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/7/responsive/leaks-md.png 768w ,https://natdanaiputhom.github.io/media/posts/7/responsive/leaks-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/7/responsive/leaks-xl.png 1600w"></a></div>
-<div class="text-container">Scoped tracking</div>
-<div> </div>
-</div>
-<div class="ImageContainerWithText">
-<div class="image-container dynamic-size"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/leaks2.png" alt="" width="780" height="780" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/7/responsive/leaks2-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/7/responsive/leaks2-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/7/responsive/leaks2-md.png 768w ,https://natdanaiputhom.github.io/media/posts/7/responsive/leaks2-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/7/responsive/leaks2-xl.png 1600w"></div>
+<div class="image-container dynamic-size offset-right offset-down"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/deferred2.png" alt="" width="512" height="512" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/7/responsive/deferred2-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/7/responsive/deferred2-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/7/responsive/deferred2-md.png 768w ,https://natdanaiputhom.github.io/media/posts/7/responsive/deferred2-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/7/responsive/deferred2-xl.png 1600w"></div>
 <div class="text-container"> </div>
 </div>
 </div>
 <div class="content">
-<div class="textLeft">
-<h5><strong>And more</strong></h5>
-<p>Over time, SimpleEngine has evolved, increasingly focusing on implementing new features. This includes the integration of navigation meshes and pathfinding algorithms, as utilized in <a href="https://natdanaiputhom.github.io/streamer-attacked-by-aliens-live-on-stream/" target="_blank" rel="noopener noreferrer">Spite: String of Fate</a>, and the exploration of Entity Component System (ECS), a concept I delved into due to our team's use of FLECS for the Spite project in our TempEngine at The Game Assembly.<br><em>You can read more about my ECS journey here, <a href="https://natdanaiputhom.github.io/entity-component-system/" target="_blank" rel="noopener noreferrer">Entity Component System</a>. </em></p>
-<p>There are many more features that I've implemented in the SimpleEngine, but I don't think they're interesting or have enough time to write about. </p>
-<p>I intend to persistently enhance SimpleEngine throughout my game development journey, curious to discover where this path will take me. So far, developing SimpleEngine has been a fulfilling experience.</p>
-<p class="msg msg--highlight ">We've integrated the Node Scripting System (NSS) into SimpleEngine and are currently working on ensuring compatibility between ECS and NSS. NSS is created by Emil.<em><br>You can read more about his amazing work at <a href="https://broremil.se/visual-scripting.html" target="_blank" rel="noopener noreferrer">https://broremilolofsson.github.io</a></em></p>
-<p> </p>
+<div id="section3" class="textLeft">
+<h5><strong>Animation Loader</strong></h5>
+<p>My journey into procedural animation sparked with the captivating experience of Rain World. Witnessing its dynamic animations propelled me into a deep dive into the realm of procedural animation, where I delve into the intricacies of concept like inverse kinematics (IK). Eager to implement this in my project, I first had to tackle the basics: loading models and animations into the engine. Despite my initial lack of knowledge, I successfully integrated models, skeletons, and animations using FBXSDK. This marked the first step toward implementing procedural animation in my engine.</p>
 </div>
 <div class="ImageContainerWithText">
-<div class="image-container dynamic-size"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/navmesh.png" alt="" width="1024" height="1024" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/7/responsive/navmesh-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/7/responsive/navmesh-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/7/responsive/navmesh-md.png 768w ,https://natdanaiputhom.github.io/media/posts/7/responsive/navmesh-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/7/responsive/navmesh-xl.png 1600w"></div>
-<div class="text-container">Pathfinder testing</div>
-</div>
-</div>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Simpleecs (rewriting in progress) </title>
-        <author>
-            <name>Natdanai Puthom</name>
-        </author>
-        <link href="https://natdanaiputhom.github.io/entity-component-system/"/>
-        <id>https://natdanaiputhom.github.io/entity-component-system/</id>
-        <media:content url="https://natdanaiputhom.github.io/media/posts/6/pointersmeme.png" medium="image" />
-            <category term="Personal Project"/>
-
-        <updated>2024-04-08T11:17:49+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://natdanaiputhom.github.io/media/posts/6/pointersmeme.png" alt="" />
-                    This post is being rewritten with new fun and interesting updates. Estimate to finish by end of February 2025. Introduction&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://natdanaiputhom.github.io/media/posts/6/pointersmeme.png" class="type:primaryImage" alt="" /></p>
-                <p class="msg msg--highlight ">This post is being rewritten with new fun and interesting updates. Estimate to finish by end of February 2025.</p>
-<p><strong style="font-family: var(--font-base); font-size: 1.125em; letter-spacing: var(--letter-spacing);">Introduction</strong></p>
-<div class="content">
-<div class="textLeft">
-<p>In this post, I'll assume the reader already has some idea of what an Entity Component System (ECS) is and will dive straight into my variant of ECS. This variant intentionally diverges from some ECS principles due to specific design choices and limitations in knowledge, experience, and time.</p>
-<p>My interest in ECS began with game project 5 at The Game Assembly (TGA), but it was actually in game project 6 where I started to delve deeper into learning about ECS. From my observation, people find it easier to understand and use architectures similar to Unity and some prefer nodes similar to Unreal. At TGA, my team was using FLECS, but despite its excellent documentation, it was challenging to learn within our limited timeframe, causing bottlenecks in gameplay and other systems.</p>
-<p>Therefore, I would like to try implementing an ECS variant that strikes a balance between a simple user interface and performance. A design that give developers freedom, flexibility and maximize simplicity for gameplay programmers.</p>
-</div>
-<div class="image"><figure class="post_image"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/6/ecs2.png" alt="" width="1580" height="1580" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/6/responsive/ecs2-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/6/responsive/ecs2-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/6/responsive/ecs2-md.png 768w ,https://natdanaiputhom.github.io/media/posts/6/responsive/ecs2-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/6/responsive/ecs2-xl.png 1600w"></figure></div>
-</div>
-<div class="content">
-<div class="textLeft">
-<h5><strong>Goal</strong></h5>
-<p>My aim is to develop a straightforward ECS design that mirrors Unity's functionality and is user-friendly for editors, node scripters, and gameplay programmers alike. Most importantly, I aim to enjoy and learn from the process of implementing this design.</p>
-<blockquote>
-<p class="msg msg--highlight ">If it looks simple, we have done a great job in hiding the complexity</p>
-</blockquote>
-</div>
-</div>
-<div class="content">
-<div class="textLeft">
-<h5><strong>Demo</strong></h5>
-<p>The GIF below demonstrates the RenderSystem in action, interacting with an Entity that contains components such as Transform, Mesh and Animated.</p>
-<div class="ImageContainerWithText">
-<div class="image-container"><a href="https://natdanaiputhom.github.io/ecs_dragdrop.gif" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/6/ecs_dragdrop.gif" alt="" width="512" height="512"></a></div>
-<div class="text-container"><strong>Entity1 has Transform, Mesh, Animated and AnimationController component</strong></div>
-<div> </div>
-<div><em>You can read more about the editor here</em></div>
-<div><em><strong><a href="https://natdanaiputhom.github.io/simpleeditor/" target="_blank" rel="noopener noreferrer">https://natdanaiputhom.github.io/simpleeditor/</a></strong></em></div>
-</div>
+<div class="image-container dynamic-size offset-down"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/animationworkasitshould.gif" alt="" width="512" height="512"></div>
+<div class="text-container">Absolutely nothing broke😝</div>
 </div>
 <div class="ImageContainerWithText">
-<div class="image-container"><a href="https://natdanaiputhom.github.io/ecs_usage.png" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/6/ecs_usage.png" alt="" width="512" height="512" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/6/responsive/ecs_usage-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/6/responsive/ecs_usage-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/6/responsive/ecs_usage-md.png 768w ,https://natdanaiputhom.github.io/media/posts/6/responsive/ecs_usage-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/6/responsive/ecs_usage-xl.png 1600w"></a></div>
-<div class="text-container">Here's an example of how ECS is initialized and can be used.</div>
+<div class="image-container dynamic-size offset-down offset-right"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/animationloaded.gif" alt="" width="512" height="512"></div>
+<div class="text-container">It's working!</div>
 </div>
 </div>
 <div class="content">
-<div class="textLeft">
-<h5><strong>Overview</strong></h5>
-<p>Some fundamental include:</p>
-<ul>
-<li>Create/Remove Entities</li>
-<li>Create/Remove Component of type T</li>
-<li>Get all components of type T</li>
-<li>Get all entities</li>
-</ul>
-<ul>
-<li>EntityManager</li>
-<li>ComponentManager</li>
-<li>SystemManager</li>
-<li>MemoryPools</li>
-<li>Entity &amp; IEntity &amp; Entities</li>
-<li>And more</li>
-</ul>
+<div id="section4" class="textLeft">
+<h5><strong>Animation Blend</strong></h5>
+<p>This was the second step toward achieving my goal of procedural animation, as I needed to blend different animations together during transitions. To do this, I incorporated linear interpolation to smooth the transitions between animations. The usage is quite simple: we just need to provide the animation clip we want to transition to, along with optional parameters to control the speed, specific frame, and overall smoothness of the transition. This is incredibly useful, as we may often want to transition into the same animation but with different controls depending on the context. The next step is implementing Inverse Kinematics (IK), and I planned to start with the FABRIK algorithm. </p>
 </div>
-<div class="image"><a href="https://natdanaiputhom.github.io/ecs.png" target="_blank" rel="noopener noreferrer"><figure class="post_image"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/6/ecs.png" alt="" width="1580" height="600" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/6/responsive/ecs-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/6/responsive/ecs-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/6/responsive/ecs-md.png 768w ,https://natdanaiputhom.github.io/media/posts/6/responsive/ecs-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/6/responsive/ecs-xl.png 1600w"></figure></a></div>
-</div>
-<div class="content">
-<div class="textLeft">
-<h5><strong>Entity</strong></h5>
-<p>This interface is for Entity, hence it is called IEntity. Users cannot store or create IEntity directly; they must use the EntityManager, which acts as a factory. For debugging purposes during implementation, I've added std::string and padding to reach 64 bytes per IEntity class. I plan to remove these in the future and instead use name and tag components, reducing the IEntity class to 16 bytes.</p>
-<div class="image"><a href="https://natdanaiputhom.github.io/entityinterface.png" target="_blank" rel="noopener noreferrer"><figure class="post_image"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/6/entityinterface.png" alt="" width="256" height="256" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/6/responsive/entityinterface-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/6/responsive/entityinterface-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/6/responsive/entityinterface-md.png 768w ,https://natdanaiputhom.github.io/media/posts/6/responsive/entityinterface-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/6/responsive/entityinterface-xl.png 1600w"></figure></a></div>
-<p>Entity is defined as 'IEntity* const&amp;'. Why? I wonder the same. It has caused me quite a headache but there's a reason for this, which I'll explain in a bit down this post.</p>
-</div>
-<div class="image"><a href="https://natdanaiputhom.github.io/entity.png" target="_blank" rel="noopener noreferrer"><figure class="post_image"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/6/entity.png" alt="" width="512" height="512" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/6/responsive/entity-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/6/responsive/entity-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/6/responsive/entity-md.png 768w ,https://natdanaiputhom.github.io/media/posts/6/responsive/entity-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/6/responsive/entity-xl.png 1600w"></figure></a></div>
-</div>
-<div class="content">
-<div class="textLeft">
-<h5><strong>EntityManager</strong></h5>
-<p>All entities created via EntityManager are stored in an EntityPool, a memory pool dedicated to creating and storing IEntity objects. The EntityManager class assigns unique IDs to entities and keeps track of them.</p>
-<p>You may have noticed the presence of "myRemovedEntityIDs". At the time, I had planned to create an object pool for entities and components, but I ultimately decided to postpone it due to the complications it introduced and if it was even worth it?</p>
-<p> </p>
 <div class="ImageContainerWithText">
-<div class="image-container"><a href="https://natdanaiputhom.github.io/entitypool.png" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/6/entitypool.png" alt="" width="256" height="256" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/6/responsive/entitypool-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/6/responsive/entitypool-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/6/responsive/entitypool-md.png 768w ,https://natdanaiputhom.github.io/media/posts/6/responsive/entitypool-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/6/responsive/entitypool-xl.png 1600w"></a></div>
-<div class="text-container">EntityPool</div>
+<div class="image-container dynamic-size offset-down offset-right"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/WalkIdleBlend.gif" alt="" width="512" height="512"></div>
+<div class="text-container">Walk &amp; Idle animations transition blending</div>
 </div>
-</div>
-<div class="image"><a href="https://natdanaiputhom.github.io/EntityManager.png" target="_blank" rel="noopener noreferrer"><figure class="post_image"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/6/EntityManager.png" alt="" width="512" height="512" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/6/responsive/EntityManager-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/6/responsive/EntityManager-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/6/responsive/EntityManager-md.png 768w ,https://natdanaiputhom.github.io/media/posts/6/responsive/EntityManager-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/6/responsive/EntityManager-xl.png 1600w"></figure></a></div>
 </div>
 <div class="content">
-<div class="textLeft">
-<h5><strong>ComponentManager</strong></h5>
-<p>The ComponentManager functions similarly to the EntityManager, but it contains an unordered map that holds ComponentPools. This design allows for quick retrieval of all components of type T. Additionally, if the ComponentID is known, a constant-time lookup can be used to retrieve a single component. Finally, the ComponentManager includes a map for calling the destructor of components.</p>
-<p> </p>
+<div id="section5" class="textLeft">
+<h5><strong>Profiling</strong></h5>
+<p>While implementing and testing animations, I encountered significant performance hit and wanted to identify the bottleneck. To achieve this, I integrated a profiling library called 'EasyProfiler' into the engine. The benchmark results revealed that rendering was the primary bottleneck, specifically in animation updates and the rendering process itself. I began with a simple optimization using instanced rendering, which significantly improved performance. For animations, I leveraged a thread pool to update multiple animations in parallel. Additionally, for models sharing the same animation without variations, I optimized further by updating the animation once and reapplying it across all relevant models.</p>
+<p>Lastly, my editor updates were severely impacting performance, dropping from 1000 fps to 200 fps. This was due to my Content Browser, where I was looping through and updating the directory every frame-- and extremely expensive operation. To address this, I refactored the system to create the directory tree node once and only update the relevant directories when the Content Browser is in focus.</p>
+</div>
 <div class="ImageContainerWithText">
-<div class="image-container"><a href="https://natdanaiputhom.github.io/componentpool.png" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/6/componentpool.png" alt="" width="256" height="256" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/6/responsive/componentpool-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/6/responsive/componentpool-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/6/responsive/componentpool-md.png 768w ,https://natdanaiputhom.github.io/media/posts/6/responsive/componentpool-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/6/responsive/componentpool-xl.png 1600w"></a></div>
-<div class="text-container">ComponentPool</div>
+<div class="image-container dynamic-size offset-down"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/200animations.gif" alt="" width="512" height="512"></div>
+<div class="text-container">200 animations</div>
 </div>
-</div>
-<div class="image"><a href="https://natdanaiputhom.github.io/componentManager.png" target="_blank" rel="noopener noreferrer"><figure class="post_image"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/6/componentManager.png" alt="" width="512" height="512" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/6/responsive/componentManager-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/6/responsive/componentManager-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/6/responsive/componentManager-md.png 768w ,https://natdanaiputhom.github.io/media/posts/6/responsive/componentManager-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/6/responsive/componentManager-xl.png 1600w"></figure></a></div>
-</div>
-<div class="content">
-<div class="textLeft">
-<h5><strong>SystemManager</strong></h5>
-<p>The SystemManager is the most straightforward. It simply manages all systems that have been added and updates them in the order of EarlyUpdate, FixedUpdate, Update, and LateUpdate, including rendering.</p>
-<div class="image"><a href="https://natdanaiputhom.github.io/systemupdate.png" target="_blank" rel="noopener noreferrer"><figure class="post_image"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/6/systemupdate-2.png" alt="" width="1580" height="1580" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/6/responsive/systemupdate-2-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/6/responsive/systemupdate-2-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/6/responsive/systemupdate-2-md.png 768w ,https://natdanaiputhom.github.io/media/posts/6/responsive/systemupdate-2-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/6/responsive/systemupdate-2-xl.png 1600w"></figure></a></div>
-</div>
-<div class="image"><a href="https://natdanaiputhom.github.io/systemmanager.png" target="_blank" rel="noopener noreferrer"><figure class="post_image"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/6/systemmanager.png" alt="" width="1580" height="1580" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/6/responsive/systemmanager-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/6/responsive/systemmanager-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/6/responsive/systemmanager-md.png 768w ,https://natdanaiputhom.github.io/media/posts/6/responsive/systemmanager-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/6/responsive/systemmanager-xl.png 1600w"></figure></a></div>
-</div>
-<div class="content">
-<div class="textLeft">
-<h5><strong>Entities</strong></h5>
-<p>This specialized class interface is designed for managing entities, ensuring that changes to original entities are reflected accurately when the EntityPool reallocates its size and relocates addresses. This approach prevents users from encountering dangling pointers due to reallocation issues. Accessing entities through this interface is as straightforward as accessing an array. Furthermore, I plan to enhance this interface to filter commonly used entities, such as those with a transform or mesh component, making them easily accessible for various systems.</p>
-<p>The Entities class operator[] returns an Entity, which is of type 'IEntity*const&amp;'. This aspect presents a challenge for me to decide upon. The reason is straightforward: I require a reference to a pointer to accurately reflect changes to the Entity, whether it involves removal or relocation of memory address. Simultaneously, I must make it 'const' to prevent accidental reassignment to another entity or nullptr, which could lead to significant issues withing EntityPool.</p>
-<p> </p>
-</div>
-<div class="image"><a href="https://natdanaiputhom.github.io/entities.png" target="_blank" rel="noopener noreferrer"><figure class="post_image"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/6/entities.png" alt="" width="1580" height="1580" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/6/responsive/entities-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/6/responsive/entities-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/6/responsive/entities-md.png 768w ,https://natdanaiputhom.github.io/media/posts/6/responsive/entities-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/6/responsive/entities-xl.png 1600w"></figure></a></div>
-</div>
-<div class="content">
-<div class="textLeft">
-<h5><strong>System</strong></h5>
-<p>The base System class is relatively straightforward, whereas the derived System classes can become significantly more complex. For instance, the RenderSystem might exclusively target entities possessing Transform, Mesh, and Animated components, while the CollisionSystem might necessitate inter-system communication for data or message exchange. However, these functionalities are not yet implemented.</p>
-</div>
-<div class="image"><a href="https://natdanaiputhom.github.io/system.png" target="_blank" rel="noopener noreferrer"><figure class="post_image"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/6/system.png" alt="" width="1580" height="1580" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/6/responsive/system-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/6/responsive/system-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/6/responsive/system-md.png 768w ,https://natdanaiputhom.github.io/media/posts/6/responsive/system-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/6/responsive/system-xl.png 1600w"></figure></a></div>
-</div>
-<div class="content">
-<div class="textLeft">
-<h5><strong>ECS</strong></h5>
-<p>Once ECS.hpp is included, it's ready to use straightforwardly. The goal is to support one or more instances of ECS per level or world. However, I currently don't see the necessity for more than one ECS instance per world, and this interface is lacking several functions, such as RemoveEntity, due to time constraints.</p>
-<p> </p>
 <div class="ImageContainerWithText">
-<div class="image-container"><a href="https://natdanaiputhom.github.io/ecs_include.png" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/6/ecs_include.png" alt="" width="512" height="512" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/6/responsive/ecs_include-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/6/responsive/ecs_include-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/6/responsive/ecs_include-md.png 768w ,https://natdanaiputhom.github.io/media/posts/6/responsive/ecs_include-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/6/responsive/ecs_include-xl.png 1600w"></a></div>
-<div class="text-container">ECS folder</div>
-</div>
-</div>
-<div class="image"><a href="https://natdanaiputhom.github.io/ecs_interface.png" target="_blank" rel="noopener noreferrer"><figure class="post_image"><img loading="lazy"  src="https://natdanaiputhom.github.io/media/posts/6/ecs_interface-2.png" alt="" width="1580" height="1580" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/6/responsive/ecs_interface-2-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/6/responsive/ecs_interface-2-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/6/responsive/ecs_interface-2-md.png 768w ,https://natdanaiputhom.github.io/media/posts/6/responsive/ecs_interface-2-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/6/responsive/ecs_interface-2-xl.png 1600w"></figure></a></div>
-</div>
-<div class="content">
-<div class="textLeft">
-<h5><strong>Discussion</strong></h5>
+<div class="image-container dynamic-size offset-down"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/7/memoryleaks.png" alt="" width="512" height="512" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://natdanaiputhom.github.io/media/posts/7/responsive/memoryleaks-xs.png 384w ,https://natdanaiputhom.github.io/media/posts/7/responsive/memoryleaks-sm.png 600w ,https://natdanaiputhom.github.io/media/posts/7/responsive/memoryleaks-md.png 768w ,https://natdanaiputhom.github.io/media/posts/7/responsive/memoryleaks-lg.png 1200w ,https://natdanaiputhom.github.io/media/posts/7/responsive/memoryleaks-xl.png 1600w"></div>
+<div class="text-container">Scoped tracking</div>
 </div>
 </div>
 <div class="content">
-<div class="textCenterScrollView">
-<h6>Entity (IEntity*const&amp;)</h6>
-<p>Using a reference for Entity prevents straightforward storage in a standard std::vector. I've opted to store these specific entities indirectly through EntityID. However, this approach requires multiple memory access operations when accessing entities via their IDs, which is not the most efficient method. But most importantly, it was not straightforward usage such as that we need to call GetEntity using the EntityID before  begin accessing. Nonetheless, after profiling and considering my limited understanding of assembly, it appears that the performance impact of these multiple indirect accesses is currently insignificant. Consequently, I've contemplated using double pointers instead, but it wasn't as user-friendly, for example calling <em>*Entity-&gt;AddComponent&lt;T&gt;()</em>.</p>
-<h6>Reflection</h6>
-<p>I am currently working on a reflection system. By using a macro like REGISTER_COMPONENT on a component I want to reflect, it will be added to a list that can be displayed in the editor when clicking on 'AddComponent.' Additionally, I'm trying to implement functionality similar to Unreal Engine's 'UPROPERTY,' which exposes variables to the editor. These features would significantly enhance the ease of working with the ECS in editor and node scripting systems.</p>
-<p>You can read more about my reflection here <strong><a href="https://natdanaiputhom.github.io/reflection/" target="_blank" rel="noopener noreferrer">https://natdanaiputhom.github.io/reflection/</a></strong></p>
+<div id="section6" class="textLeft">
+<h5><strong>Editor</strong></h5>
+<p>testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</p>
 </div>
 </div>
 <div class="content">
-<div class="textCenterScrollView">
-<h5><strong>And more</strong></h5>
-<p>There are many aspects I have yet to mention, including missing components and additional features I would like to incorporate. One such consideration is filtering feature that filters entities with specific type of components similarly to Archetype meanwhile maintaining the objects continuously in same memory block.</p>
-<p>So far, this journey has been both enjoyable and rewarding, and I intend to continue exploring and experimenting with different ways to implement and enhance my ECS design. Thank you for reading this far, I'm open to discussion and suggestions, just hit me up!</p>
+<div id="section7" class="textLeft">
+<h5><strong>Entity Component System</strong></h5>
+<p>testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</p>
+</div>
+</div>
+<div class="content">
+<div id="section8" class="textLeft">
+<h5><strong>Reflection (ECS)</strong></h5>
+<p>testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</p>
 </div>
 </div>
             ]]>
