@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2025-02-09T23:45:57+01:00</updated>
+    <updated>2025-03-19T00:24:05+01:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -16,19 +16,19 @@
         </author>
         <link href="https://natdanaiputhom.github.io/simpleengine/"/>
         <id>https://natdanaiputhom.github.io/simpleengine/</id>
-        <media:content url="https://natdanaiputhom.github.io/media/posts/7/progart.png" medium="image" />
+        <media:content url="https://natdanaiputhom.github.io/media/posts/7/simpleengineeditor2.png" medium="image" />
             <category term="Personal Projects"/>
 
         <updated>2024-04-08T15:35:40+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://natdanaiputhom.github.io/media/posts/7/progart.png" alt="" />
+                        <img src="https://natdanaiputhom.github.io/media/posts/7/simpleengineeditor2.png" alt="" />
                     Table of Contents (Reading time: 3 minutes) Introduction DirectX11 Animation Loader Animation Blend Profiling Editor Entity Component System (ECS) Reflection&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://natdanaiputhom.github.io/media/posts/7/progart.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://natdanaiputhom.github.io/media/posts/7/simpleengineeditor2.png" class="type:primaryImage" alt="" /></p>
                 <div class="toc">
 <h2>Table of Contents (Reading time: 3 minutes)</h2>
 <ol>
