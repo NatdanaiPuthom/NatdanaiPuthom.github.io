@@ -3,14 +3,14 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2025-09-07T23:23:00+02:00</updated>
+    <updated>2025-09-07T23:44:52+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
     <id>https://natdanaiputhom.github.io</id>
 
     <entry>
-        <title>test</title>
+        <title>post test</title>
         <author>
             <name>Natdanai Puthom</name>
         </author>
@@ -20,12 +20,12 @@
         <updated>2025-09-07T23:23:00+02:00</updated>
             <summary>
                 <![CDATA[
-                    test test int c = 5 test
+                    post test test int c = 5 test
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>test</p>
+                <p>post test</p>
 <blockquote>
 <p>test</p>
 </blockquote>
