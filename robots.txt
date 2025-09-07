@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://natdanaiputhom.github.io/sitemap.xml
