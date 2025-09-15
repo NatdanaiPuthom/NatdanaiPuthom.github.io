@@ -3,12 +3,42 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2025-09-15T23:45:03+02:00</updated>
+    <updated>2025-09-16T00:08:01+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
     <id>https://natdanaiputhom.github.io</id>
 
+    <entry>
+        <title>Spoopy Sprint</title>
+        <author>
+            <name>Natdanai Puthom</name>
+        </author>
+        <link href="https://natdanaiputhom.github.io/spoopy-sprint/"/>
+        <id>https://natdanaiputhom.github.io/spoopy-sprint/</id>
+        <media:content url="https://natdanaiputhom.github.io/media/posts/6/ApplicationFrameHost_JtOekCCPks-2.gif" medium="image" />
+
+        <updated>2025-09-15T23:52:51+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://natdanaiputhom.github.io/media/posts/6/ApplicationFrameHost_JtOekCCPks-2.gif" alt="" />
+                    Work in progress
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://natdanaiputhom.github.io/media/posts/6/ApplicationFrameHost_JtOekCCPks-2.gif" class="type:primaryImage" alt="" /></p>
+                <p>Work in progress</p>
+<figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube-nocookie.com/embed/aQL0o0-ymfQ" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
+<div class="gallery-wrapper gallery-wrapper--wide"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="3">
+<figure class="gallery__item"><a href="https://natdanaiputhom.github.io/media/posts/6/gallery/zzHI3d.png" data-size="2253x1257"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/6/gallery/zzHI3d-thumbnail.png" alt="" width="720" height="402"></a></figure>
+<figure class="gallery__item"><a href="https://natdanaiputhom.github.io/media/posts/6/gallery/u6sdZL.png" data-size="2246x1263"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/6/gallery/u6sdZL-thumbnail.png" alt="" width="720" height="405"></a></figure>
+<figure class="gallery__item"><a href="https://natdanaiputhom.github.io/media/posts/6/gallery/LgXbIf.png" data-size="2253x1259"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/6/gallery/LgXbIf-thumbnail.png" alt="" width="720" height="402"></a></figure>
+<figure class="gallery__item"><a href="https://natdanaiputhom.github.io/media/posts/6/gallery/42k_Cn.png" data-size="2257x1259"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/6/gallery/42k_Cn-thumbnail.png" alt="" width="720" height="402"></a></figure>
+</div></div>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>SimpleEngine</title>
         <author>
@@ -30,8 +60,6 @@
             <![CDATA[
                     <p><img src="https://natdanaiputhom.github.io/media/posts/4/IMG_9415.png" class="type:primaryImage" alt="" /></p>
                 <p>Work in progress</p>
-<p> </p>
-<figure class="post__video"><iframe loading="lazy" width="706" height="395" style="width: 706px; height: 395px;" src="https://www.youtube.com/embed/yDAK44odKqM" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
             ]]>
         </content>
     </entry>
