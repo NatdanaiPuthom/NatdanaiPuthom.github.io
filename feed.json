@@ -15,13 +15,14 @@
             "title": "SimpleEngine",
             "summary": "Work in progress",
             "content_html": "<p>Work in progress</p>",
+            "image": "https://natdanaiputhom.github.io/media/posts/4/IMG_9415.png",
             "author": {
                 "name": "Natdanai Puthom"
             },
             "tags": [
             ],
             "date_published": "2025-09-15T22:03:20+02:00",
-            "date_modified": "2025-09-15T22:17:57+02:00"
+            "date_modified": "2025-09-15T22:43:27+02:00"
         },
         {
             "id": "https://natdanaiputhom.github.io/test/",
@@ -29,13 +30,14 @@
             "title": "SimpleECS",
             "summary": "Work in progress",
             "content_html": "<p>Work in progress</p>",
+            "image": "https://natdanaiputhom.github.io/media/posts/1/IMG_9414.png",
             "author": {
                 "name": "Natdanai Puthom"
             },
             "tags": [
             ],
             "date_published": "2025-09-07T23:23:00+02:00",
-            "date_modified": "2025-09-15T22:20:23+02:00"
+            "date_modified": "2025-09-15T22:44:02+02:00"
         }
     ]
 }
