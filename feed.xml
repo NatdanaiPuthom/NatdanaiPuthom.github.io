@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2025-09-15T22:44:02+02:00</updated>
+    <updated>2025-09-15T22:51:03+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -17,6 +17,7 @@
         <link href="https://natdanaiputhom.github.io/post-post-2-test/"/>
         <id>https://natdanaiputhom.github.io/post-post-2-test/</id>
         <media:content url="https://natdanaiputhom.github.io/media/posts/4/IMG_9415.png" medium="image" />
+            <category term="Personal"/>
 
         <updated>2025-09-15T22:03:20+02:00</updated>
             <summary>
@@ -40,6 +41,7 @@
         <link href="https://natdanaiputhom.github.io/test/"/>
         <id>https://natdanaiputhom.github.io/test/</id>
         <media:content url="https://natdanaiputhom.github.io/media/posts/1/IMG_9414.png" medium="image" />
+            <category term="Personal"/>
 
         <updated>2025-09-07T23:23:00+02:00</updated>
             <summary>
