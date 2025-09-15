@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2025-09-15T22:51:03+02:00</updated>
+    <updated>2025-09-15T23:45:03+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -14,8 +14,8 @@
         <author>
             <name>Natdanai Puthom</name>
         </author>
-        <link href="https://natdanaiputhom.github.io/post-post-2-test/"/>
-        <id>https://natdanaiputhom.github.io/post-post-2-test/</id>
+        <link href="https://natdanaiputhom.github.io/simpleengine/"/>
+        <id>https://natdanaiputhom.github.io/simpleengine/</id>
         <media:content url="https://natdanaiputhom.github.io/media/posts/4/IMG_9415.png" medium="image" />
             <category term="Personal"/>
 
@@ -30,6 +30,8 @@
             <![CDATA[
                     <p><img src="https://natdanaiputhom.github.io/media/posts/4/IMG_9415.png" class="type:primaryImage" alt="" /></p>
                 <p>Work in progress</p>
+<p> </p>
+<figure class="post__video"><iframe loading="lazy" width="706" height="395" style="width: 706px; height: 395px;" src="https://www.youtube.com/embed/yDAK44odKqM" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
             ]]>
         </content>
     </entry>
@@ -38,8 +40,8 @@
         <author>
             <name>Natdanai Puthom</name>
         </author>
-        <link href="https://natdanaiputhom.github.io/test/"/>
-        <id>https://natdanaiputhom.github.io/test/</id>
+        <link href="https://natdanaiputhom.github.io/simpleecs/"/>
+        <id>https://natdanaiputhom.github.io/simpleecs/</id>
         <media:content url="https://natdanaiputhom.github.io/media/posts/1/IMG_9414.png" medium="image" />
             <category term="Personal"/>
 
