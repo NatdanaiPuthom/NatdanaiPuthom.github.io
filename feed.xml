@@ -3,19 +3,41 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2025-09-07T23:44:52+02:00</updated>
+    <updated>2025-09-15T22:03:25+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
     <id>https://natdanaiputhom.github.io</id>
 
     <entry>
+        <title>post post 2 test</title>
+        <author>
+            <name>Natdanai Puthom</name>
+        </author>
+        <link href="https://natdanaiputhom.github.io/post-post-2-test/"/>
+        <id>https://natdanaiputhom.github.io/post-post-2-test/</id>
+            <category term="TagTest"/>
+
+        <updated>2025-09-15T22:03:20+02:00</updated>
+            <summary>
+                <![CDATA[
+                    test test
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>test test</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
         <title>post test</title>
         <author>
             <name>Natdanai Puthom</name>
         </author>
-        <link href="https://natdanaiputhom.github.io/test.html"/>
-        <id>https://natdanaiputhom.github.io/test.html</id>
+        <link href="https://natdanaiputhom.github.io/test/"/>
+        <id>https://natdanaiputhom.github.io/test/</id>
+            <category term="TagTest"/>
 
         <updated>2025-09-07T23:23:00+02:00</updated>
             <summary>
