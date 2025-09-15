@@ -3,59 +3,49 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2025-09-15T22:03:25+02:00</updated>
+    <updated>2025-09-15T22:18:20+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
     <id>https://natdanaiputhom.github.io</id>
 
     <entry>
-        <title>post post 2 test</title>
+        <title>SimpleEngine</title>
         <author>
             <name>Natdanai Puthom</name>
         </author>
         <link href="https://natdanaiputhom.github.io/post-post-2-test/"/>
         <id>https://natdanaiputhom.github.io/post-post-2-test/</id>
-            <category term="TagTest"/>
 
         <updated>2025-09-15T22:03:20+02:00</updated>
             <summary>
                 <![CDATA[
-                    test test
+                    Work in progress
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>test test</p>
+                <p>Work in progress</p>
             ]]>
         </content>
     </entry>
     <entry>
-        <title>post test</title>
+        <title>Entity Component System</title>
         <author>
             <name>Natdanai Puthom</name>
         </author>
         <link href="https://natdanaiputhom.github.io/test/"/>
         <id>https://natdanaiputhom.github.io/test/</id>
-            <category term="TagTest"/>
 
         <updated>2025-09-07T23:23:00+02:00</updated>
             <summary>
                 <![CDATA[
-                    post test test int c = 5 test
+                    Work in progress
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>post test</p>
-<blockquote>
-<p>test</p>
-</blockquote>
-<p><code>int c = 5</code></p>
-<blockquote>
-<p>test</p>
-</blockquote>
-<p> </p>
+                <p>Work in progress</p>
             ]]>
         </content>
     </entry>
