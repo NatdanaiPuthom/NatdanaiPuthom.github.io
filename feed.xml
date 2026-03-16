@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2026-03-16T04:01:40+01:00</updated>
+    <updated>2026-03-16T04:22:02+01:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -48,18 +48,24 @@
             <summary>
                 <![CDATA[
                         <img src="https://natdanaiputhom.github.io/media/posts/1/IMG_9414.png" alt="" />
-                    During my first year at The Game Assembly, some senior students held a presentation that briefly introduced the Entity Component System (ECS) architecture.
+                    Table of Contents Background Background During my first year at The Game Assembly, some senior students held a presentation that briefly introduced the&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://natdanaiputhom.github.io/media/posts/1/IMG_9414.png" class="type:primaryImage" alt="" /></p>
-                <p data-start="309" data-end="591">During my first year at The Game Assembly, some senior students held a presentation that briefly introduced the Entity Component System (ECS) architecture. At that point I had only just begun my journey as a programmer, and I knew very little about how game engines actually worked.</p>
-<p data-start="593" data-end="1104">Growing up, I had always been on the poorer side when it came to hardware. Most of the games I played ran with low frame rates, frequent freezes, or occasional crashes. Competitive games were especially frustrating under those conditions. Because of that, I developed a bit of an obsession with performance. I spent a lot of time trying to squeeze more frames out of my computer—lowering graphics settings, experimenting with CPU overclocking, and tweaking anything that might improve performance even slightly.</p>
-<p data-start="1106" data-end="1387">When I first started learning programming and game development, most discussions revolved around game objects and inheritance. I often heard how convenient those systems were, but also how complex the hierarchies could become and how performance might suffer in certain situations.</p>
-<p data-start="1389" data-end="1445">Then I heard someone mention that ECS could be <em data-start="1436" data-end="1444">faster</em>.</p>
-<p data-start="1447" data-end="1722">That single idea immediately sparked my curiosity. The more I learned about ECS, the more interested I became in understanding how it actually worked. Instead of simply using an existing library, I wanted to explore the architecture myself and see how it behaved in practice.</p>
-<p data-start="1724" data-end="2060">There are many excellent ECS libraries available today, such as <strong data-start="1788" data-end="1796">EnTT</strong> and <strong data-start="1801" data-end="1810">Flecs</strong>, and they solve most practical problems extremely well. However, my goal was not just to use ECS, but to understand the core ideas behind it. Building my own implementation seemed like the best way to learn how the system truly works under the hood.</p>
+                <div class="table-of-contents">
+<h3>Table of Contents</h3>
+<ul>
+<li><a href="#background">Background</a></li>
+</ul>
+</div>
+<h3 id="background">Background</h3>
+<p>During my first year at The Game Assembly, some senior students held a presentation that briefly introduced the Entity Component System (ECS) architecture. At that point I had only just begun my journey as a programmer, and I knew very little about how game engines actually worked.</p>
+<p>Growing up, I had always been on the poorer side when it came to hardware. Most of the games I played ran with low frame rates, frequent freezes, or occasional crashes. Competitive games were especially frustrating under those conditions. Because of that, I developed a bit of an obsession with performance. I spent a lot of time trying to squeeze more frames out of my computer—lowering graphics settings, experimenting with CPU overclocking, and tweaking anything that might improve performance even slightly.</p>
+<p>When I first started learning programming and game development, most discussions revolved around game objects and inheritance. I often heard how convenient those systems were, but also how complex the hierarchies could become and how performance might suffer in certain situations.</p>
+<p>Then I heard someone mention that ECS could be faster. That single idea immediately sparked my curiosity. The more I learned about ECS, the more interested I became in understanding how it actually worked. Instead of simply using an existing library, I wanted to explore the architecture myself and see how it behaved in practice.</p>
+<p>There are many excellent ECS libraries available today, such as EnTT and Flecs, and they solve most practical problems extremely well. However, my goal was not just to use ECS, but to understand the core ideas behind it. Building my own implementation seemed like the best way to learn how the system truly works under the hood.</p>
             ]]>
         </content>
     </entry>
