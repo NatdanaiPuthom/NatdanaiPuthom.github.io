@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2026-03-16T04:22:02+01:00</updated>
+    <updated>2026-03-16T04:34:07+01:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -48,7 +48,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://natdanaiputhom.github.io/media/posts/1/IMG_9414.png" alt="" />
-                    Table of Contents Background Background During my first year at The Game Assembly, some senior students held a presentation that briefly introduced the&hellip;
+                    Table of Contents Background Goals Challenges Implementations Background During my first year at The Game Assembly, some senior students held a presentation that&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -58,6 +58,9 @@
 <h3>Table of Contents</h3>
 <ul>
 <li><a href="#background">Background</a></li>
+<li><a href="#goals">Goals</a></li>
+<li><a href="#challenges">Challenges</a></li>
+<li><a href="#implementations">Implementations</a></li>
 </ul>
 </div>
 <h3 id="background">Background</h3>
@@ -66,6 +69,18 @@
 <p>When I first started learning programming and game development, most discussions revolved around game objects and inheritance. I often heard how convenient those systems were, but also how complex the hierarchies could become and how performance might suffer in certain situations.</p>
 <p>Then I heard someone mention that ECS could be faster. That single idea immediately sparked my curiosity. The more I learned about ECS, the more interested I became in understanding how it actually worked. Instead of simply using an existing library, I wanted to explore the architecture myself and see how it behaved in practice.</p>
 <p>There are many excellent ECS libraries available today, such as EnTT and Flecs, and they solve most practical problems extremely well. However, my goal was not just to use ECS, but to understand the core ideas behind it. Building my own implementation seemed like the best way to learn how the system truly works under the hood.</p>
+<h3 id="goals">Goals</h3>
+<p>When starting this mini project, I defined a few goals to guide the implementation:</p>
+<ul>
+<li>Understand ECS architecture at a fundamental level rather than relying on an existing framework.</li>
+<li>Separate data from behavior by keeping components as pure data and systems responsible for logic.</li>
+<li>Improve memory locality by storing components in contiguous memory to make iteration more cache-friendly.</li>
+<li>Keep the implementation simple so the system remains easy to reason about and suitable for learning.</li>
+</ul>
+<h3 id="challenges">Challenges</h3>
+<p>a</p>
+<h3 id="implementations">Implementations</h3>
+<p>a</p>
             ]]>
         </content>
     </entry>
