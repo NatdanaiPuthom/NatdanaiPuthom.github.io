@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2026-03-16T05:50:50+01:00</updated>
+    <updated>2026-03-16T19:23:59+01:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -23,14 +23,25 @@
             <summary>
                 <![CDATA[
                         <img src="https://natdanaiputhom.github.io/media/posts/4/simpleengineeditor.png" alt="" />
-                    Post under construction... test test 2
+                    Post under construction... After upgrading to Visual Studio 2026, the engine suddenly refused to compile, as if the compiler had discovered several new&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://natdanaiputhom.github.io/media/posts/4/simpleengineeditor.png" class="type:primaryImage" alt="" /></p>
-                <p>Post under construction...  test</p>
-<p>test 2</p>
+                <p>Post under construction...</p>
+<div class="table-of-contents">
+<h3>Table of Contents</h3>
+<ul>
+<li><span style="color: #3598db;"><a href="#background" style="color: #3598db;">Background</a></span></li>
+<li><span style="color: #3598db;"><a href="#code" style="color: #3598db;">GitHub</a></span></li>
+</ul>
+</div>
+<h3 id="background">Background</h3>
+<p>After upgrading to Visual Studio 2026, the engine suddenly refused to compile, as if the compiler had discovered several new opinions about my code.</p>
+<p>Currently working on it😭</p>
+<h3 id="code">GitHub</h3>
+<p><a href="https://github.com/NatdanaiPuthom/SimpleECS"></a>Feel free to take a peek at the code here <span style="color: #3598db;"><a href="https://github.com/NatdanaiPuthom/SimpleEngine" style="color: #3598db;">https://github.com/NatdanaiPuthom/SimpleECS</a></span></p>
             ]]>
         </content>
     </entry>
@@ -41,19 +52,19 @@
         </author>
         <link href="https://natdanaiputhom.github.io/simpleecs/"/>
         <id>https://natdanaiputhom.github.io/simpleecs/</id>
-        <media:content url="https://natdanaiputhom.github.io/media/posts/1/IMG_9414.png" medium="image" />
+        <media:content url="https://natdanaiputhom.github.io/media/posts/1/ecs.png" medium="image" />
             <category term="Personal"/>
 
         <updated>2025-09-07T23:23:00+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://natdanaiputhom.github.io/media/posts/1/IMG_9414.png" alt="" />
+                        <img src="https://natdanaiputhom.github.io/media/posts/1/ecs.png" alt="" />
                     Table of Contents Background Goals Challenges GitHub Background During my first year at The Game Assembly, some senior students held a presentation that&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://natdanaiputhom.github.io/media/posts/1/IMG_9414.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://natdanaiputhom.github.io/media/posts/1/ecs.png" class="type:primaryImage" alt="" /></p>
                 <div class="table-of-contents">
 <h3>Table of Contents</h3>
 <ul>
@@ -76,11 +87,16 @@
 <li>Separate data from behavior by keeping components as pure data and systems responsible for logic.</li>
 <li>Improve memory locality by storing components in contiguous memory to make iteration more cache-friendly.</li>
 <li>Keep the implementation simple so the system remains easy to reason about and suitable for learning.</li>
+<li> <span style="text-decoration: line-through;">Simply to have fun and enjoy the process of learning.💀</span></li>
 </ul>
 <h3 id="challenges">Challenges</h3>
 <h4>How to create and manage objects without leaving gaps?</h4>
 <p>During the learning process, memory management quickly became one of the biggest challenges. Before even thinking about systems or gameplay logic, I had to decide how components should exist in memory: how they are allocated, how they are aligned, and how different component types could be stored in a generic way.</p>
 <p>One of the goals of the project was to store components in contiguous memory to improve iteration performance. That meant thinking carefully about object size, alignment requirements, and how to store different component types without knowing their concrete type ahead of time. To solve this, I experimented with type erasure so that abstract component storage could handle many different component types while still managing their memory correctly.</p>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="2">
+<figure class="gallery__item"><a href="https://natdanaiputhom.github.io/media/posts/1/gallery/MemoryPool.png" data-size="866x652"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/1/gallery/MemoryPool-thumbnail.png" alt="" width="720" height="542"></a></figure>
+<figure class="gallery__item"><a href="https://natdanaiputhom.github.io/media/posts/1/gallery/ComponentTypeIdentity-4.png" data-size="993x630"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/1/gallery/ComponentTypeIdentity-4-thumbnail.png" alt="" width="720" height="457"></a></figure>
+</div></div>
 <p>Creating objects initially felt straightforward. Allocating memory and inserting components into arrays was manageable. The real complexity appeared when components needed to be removed.</p>
 <p>Because components are stored in dense arrays for performance reasons, removing a component from the middle of the array creates a gap. Leaving gaps would defeat the purpose of contiguous storage, so the common solution is to swap the removed element with the last element in the array and then shrink the container.</p>
 <p>In theory this sounds simple. In practice it means updating several pieces of bookkeeping at the same time: the component index mapping, the entity-to-component mapping, and any internal lookup tables. If any of those mappings become inconsistent, the entire ECS state can silently break.</p>
@@ -89,9 +105,12 @@
 <h4>How does the engine even knows a component type exist?</h4>
 <p>Another challenge I encountered was deciding how component types should be registered within the ECS.</p>
 <p>One simple approach would be to maintain a central header file where every component type is included and registered. While this works, it can quickly become difficult to maintain as the number of components grows. Over time the file becomes a long list of includes and registrations, which felt both fragile and aesthetically unpleasant.</p>
-<p>Instead, I chose to register components closer to where they are defined. To achieve this, I used type erasure together with a small macro that behaves similarly to a lightweight reflection mechanism. Since C++ does not provide native runtime reflection, this approach allows component types to register themselves at declaration and expose the information the ECS needs to manage them. I also wanted the system to enforce some constraints. Not every class or struct should automatically be treated as a component. To keep the design explicit and easier to reason about, only types that are intentionally declared as components are allowed to be registered and used within the ECS.</p>
-<figure class="post__image"><img style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal); outline: 3px solid rgba(var(--color-primary-rgb), 0.55) !important;" src="https://natdanaiputhom.github.io/media/posts/1/registercomponent.png" alt="" width="327" height="301" sizes="(max-width: 48em) 100vw, 768px" srcset="https://natdanaiputhom.github.io/media/posts/1/responsive/registercomponent-xs.png 300w ,https://natdanaiputhom.github.io/media/posts/1/responsive/registercomponent-sm.png 480w ,https://natdanaiputhom.github.io/media/posts/1/responsive/registercomponent-md.png 768w ,https://natdanaiputhom.github.io/media/posts/1/responsive/registercomponent-lg.png 1024w ,https://natdanaiputhom.github.io/media/posts/1/responsive/registercomponent-xl.png 1360w ,https://natdanaiputhom.github.io/media/posts/1/responsive/registercomponent-2xl.png 1600w">    <img loading="lazy"  style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal); outline: 3px solid rgba(var(--color-primary-rgb), 0.55) !important;" src="https://natdanaiputhom.github.io/media/posts/1/IsComponent.png" alt="" width="655" height="194" sizes="(max-width: 48em) 100vw, 768px" srcset="https://natdanaiputhom.github.io/media/posts/1/responsive/IsComponent-xs.png 300w ,https://natdanaiputhom.github.io/media/posts/1/responsive/IsComponent-sm.png 480w ,https://natdanaiputhom.github.io/media/posts/1/responsive/IsComponent-md.png 768w ,https://natdanaiputhom.github.io/media/posts/1/responsive/IsComponent-lg.png 1024w ,https://natdanaiputhom.github.io/media/posts/1/responsive/IsComponent-xl.png 1360w ,https://natdanaiputhom.github.io/media/posts/1/responsive/IsComponent-2xl.png 1600w"></figure>
-<p>For example, a <span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">component such as </span><code style="font-weight: var(--font-weight-normal);">TransformComponent</code><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);"> can register itself inside its own header file. This removes the need for a central registry file and keeps the component definition and its registration logic in the same place. </span>This approach also allowed me to be more flexible during development. When creating a new component, I could simply declare it and register it immediately without needing to modify a separate file elsewhere in the project. While this solution is fairly lightweight, it helped keep the ECS implementation modular and avoided the growing maintenance cost of a centralized registration system.</p>
+<p>Instead, I chose to register components closer to where they are defined. To achieve this, I used type erasure together with a small macro that behaves similarly to a lightweight reflection mechanism. Since C++ 20 does not provide native runtime reflection, this approach allows component types to register themselves at declaration and expose the information the ECS needs to manage them. I also wanted the system to enforce some constraints. Not every class or struct should automatically be treated as a component. To keep the design explicit and easier to reason about, only types that are intentionally declared as components are allowed to be registered and used within the ECS.</p>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="3">
+<figure class="gallery__item"><a href="https://natdanaiputhom.github.io/media/posts/1/gallery/registercomponent.png" data-size="582x537"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/1/gallery/registercomponent-thumbnail.png" alt="" width="582" height="537"></a></figure>
+<figure class="gallery__item"><a href="https://natdanaiputhom.github.io/media/posts/1/gallery/IsComponent-3.png" data-size="569x510"><img loading="lazy" src="https://natdanaiputhom.github.io/media/posts/1/gallery/IsComponent-3-thumbnail.png" alt="" width="569" height="510"></a></figure>
+</div></div>
+<p>For example, a <span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">component such as </span><code style="font-weight: var(--font-weight-normal);">EmilTest</code><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);"> can register itself inside its own header file. This removes the need for a central registry file and keeps the component definition and its registration logic in the same place. </span>This approach also allowed me to be more flexible during development. When creating a new component, I could simply declare it and register it immediately without needing to modify a separate file elsewhere in the project. While this solution is fairly lightweight, it helped keep the ECS implementation modular and avoided the growing maintenance cost of a centralized registration system.</p>
 <h3 id="code">GitHub</h3>
 <p><a href="https://github.com/NatdanaiPuthom/SimpleECS"></a>Feel free to take a peek at the code here <span style="color: #3598db;"><a href="https://github.com/NatdanaiPuthom/SimpleECS" style="color: #3598db;">https://github.com/NatdanaiPuthom/SimpleECS</a></span></p>
             ]]>
