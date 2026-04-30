@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2026-04-30T20:55:29+02:00</updated>
+    <updated>2026-04-30T23:30:19+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -23,13 +23,14 @@
             <summary>
                 <![CDATA[
                         <img src="https://natdanaiputhom.github.io/media/posts/4/simpleengineeditor.png" alt="" />
-                    Post under construction...test After upgrading to Visual Studio 2026, the engine suddenly refused to compile, as if the compiler had discovered several new&hellip;
+                    Post under construction... This post was created through the combined efforts of ChatGPT, DeepSeek and ClaudeAi After upgrading to Visual Studio 2026, the&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://natdanaiputhom.github.io/media/posts/4/simpleengineeditor.png" class="type:primaryImage" alt="" /></p>
-                <p>Post under construction...test</p>
+                <p class="msg msg--highlight  msg--info">Post under construction...</p>
+<p class="msg msg--highlight "><br>This post was created through the combined efforts of ChatGPT, DeepSeek and ClaudeAi</p>
 <div class="table-of-contents">
 <h3>Table of Contents</h3>
 <ul>
@@ -40,6 +41,15 @@
 <h3 id="background">Background</h3>
 <p>After upgrading to Visual Studio 2026, the engine suddenly refused to compile, as if the compiler had discovered several new opinions about my code.</p>
 <p>Currently working on it😭</p>
+<p> </p>
+<p>Inspired by my experience with 'Simple Json' in the Tool Development course during my education at The Game Assembly which, ironically, was anything but simple. I set out to craft my own engine, humorously named SimpleEngine.</p>
+<p> </p>
+<p>DirectX11</p>
+<p>SimpleEngine, initially just a fun experiment, became my gateway into graphics programming. In these images, I've implemented a deferred rendering technique combined with Physically Based Rendering (PBR) to achieve more realistic lighting and material effects. In the future, I plan to implement visual effects (VFX) to add more juice to the gameplay.<br><br>Can you see what's wrong in the light calculations in these images?<br><br>Animation Loader</p>
+<p>My journey into procedural animation sparked with the captivating experience of Rain World. Witnessing its dynamic animations propelled me into a deep dive into the realm of procedural animation, where I delve into the intricacies of concept like inverse kinematics (IK). Eager to implement this in my project, I first had to tackle the basics: loading models and animations into the engine. Despite my initial lack of knowledge, I successfully integrated models, skeletons, and animations using FBXSDK. This marked the first step toward implementing procedural animation in my engine.</p>
+<p> </p>
+<p>Animation Blend</p>
+<p>This was the second step toward achieving my goal of procedural animation, as I needed to blend different animations together during transitions. To do this, I incorporated linear interpolation to smooth the transitions between animations. The usage is quite simple: we just need to provide the animation clip we want to transition to along, along with optional parameters to control the speed, specific frame, and overall smoothness of the transition. This is incredibly useful, as we may often want to transition into the same animation but with different controls depending on the context. The next step is implementing Inverse Kinematics (IK), and I planned to start with the FABRIK algorithm.</p>
 <h3 id="code">GitHub</h3>
 <p><a href="https://github.com/NatdanaiPuthom/SimpleECS"></a>Feel free to take a peek at the code here <span style="color: #3598db;"><a href="https://github.com/NatdanaiPuthom/SimpleEngine" style="color: #3598db;">https://github.com/NatdanaiPuthom/SimpleECS</a></span></p>
             ]]>
