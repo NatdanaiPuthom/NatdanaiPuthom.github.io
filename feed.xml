@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2026-03-16T19:23:59+01:00</updated>
+    <updated>2026-04-30T20:55:29+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -23,13 +23,13 @@
             <summary>
                 <![CDATA[
                         <img src="https://natdanaiputhom.github.io/media/posts/4/simpleengineeditor.png" alt="" />
-                    Post under construction... After upgrading to Visual Studio 2026, the engine suddenly refused to compile, as if the compiler had discovered several new&hellip;
+                    Post under construction...test After upgrading to Visual Studio 2026, the engine suddenly refused to compile, as if the compiler had discovered several new&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://natdanaiputhom.github.io/media/posts/4/simpleengineeditor.png" class="type:primaryImage" alt="" /></p>
-                <p>Post under construction...</p>
+                <p>Post under construction...test</p>
 <div class="table-of-contents">
 <h3>Table of Contents</h3>
 <ul>
