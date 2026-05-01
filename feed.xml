@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2026-04-30T23:30:19+02:00</updated>
+    <updated>2026-05-02T00:05:52+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -50,6 +50,11 @@
 <p> </p>
 <p>Animation Blend</p>
 <p>This was the second step toward achieving my goal of procedural animation, as I needed to blend different animations together during transitions. To do this, I incorporated linear interpolation to smooth the transitions between animations. The usage is quite simple: we just need to provide the animation clip we want to transition to along, along with optional parameters to control the speed, specific frame, and overall smoothness of the transition. This is incredibly useful, as we may often want to transition into the same animation but with different controls depending on the context. The next step is implementing Inverse Kinematics (IK), and I planned to start with the FABRIK algorithm.</p>
+<p> </p>
+<p>Profiling</p>
+<p>While implementing and testing animations, I encountered significant performance hit and wanted to identify the bottleneck. To achieve this, I integrated a profiling library called 'EasyProfiler' into the engine. The benchmark results revealed that rendering was the primary bottleneck, specifically in animation updates and the rendering process itself. I began with a simple optimization using instanced rendering, which significantly improved performance. For animations, I leveraged a thread pool to update multiple animations in parallel. Additionally, for models sharing the same animation without variations, I optimized further by updating the animation once and reapplying it across all relevant models.</p>
+<p>Another major bottleneck I encountered was with my editor updates, which were severely impacting performance, dropping from 1000 fps to 200 fps. This was due to my Content Browser, where I was looping through and updating the directory every frame, an extremely expensive operation. To address this, I refactored the system to create a directory tree node once and update the current node only when the Content Browser is in focus.</p>
+<p>Lastly, I have a zero-tolerance policy for memory leaks, which means I need a stable and effocoemt way to track them. Inspired by TGA's in-house engine's memory tracker system, I integrated a similar system into my engine and modified it to suit my needs. The original implementation reported false-positive memory leaks due to static instances begin cleared after the memory tracker system itself. I encountered a particularly annoying issue related to the Static Initialization Order Fiasco, but I resolved it (for now) by heap-allocating instances that would normally be static, such as singletons, and manually deleting them at the end of the main function. The approach almost guarantees that the memory tracker is one of the first systems to initialize and, therefore, the last to be destoryed, hopefully.</p>
 <h3 id="code">GitHub</h3>
 <p><a href="https://github.com/NatdanaiPuthom/SimpleECS"></a>Feel free to take a peek at the code here <span style="color: #3598db;"><a href="https://github.com/NatdanaiPuthom/SimpleEngine" style="color: #3598db;">https://github.com/NatdanaiPuthom/SimpleECS</a></span></p>
             ]]>
