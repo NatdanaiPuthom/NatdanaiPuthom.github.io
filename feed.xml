@@ -3,7 +3,7 @@
     <title>Natdanai Puthom</title>
     <link href="https://natdanaiputhom.github.io/feed.xml" rel="self" />
     <link href="https://natdanaiputhom.github.io" />
-    <updated>2026-06-06T21:28:29+02:00</updated>
+    <updated>2026-06-06T22:45:47+02:00</updated>
     <author>
         <name>Natdanai Puthom</name>
     </author>
@@ -16,19 +16,19 @@
         </author>
         <link href="https://natdanaiputhom.github.io/simpleengine/"/>
         <id>https://natdanaiputhom.github.io/simpleengine/</id>
-        <media:content url="https://natdanaiputhom.github.io/media/posts/4/image.png" medium="image" />
+        <media:content url="https://natdanaiputhom.github.io/media/posts/4/IMG_9525.png" medium="image" />
             <category term="Personal"/>
 
         <updated>2025-09-15T22:03:20+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://natdanaiputhom.github.io/media/posts/4/image.png" alt="" />
+                        <img src="https://natdanaiputhom.github.io/media/posts/4/IMG_9525.png" alt="" />
                     Table of Contents Background DirectX11 Animation Loader Animation Blend Profiling Gallery GitHub Background Inspired by my experience with 'Simple Json' in the Tool&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://natdanaiputhom.github.io/media/posts/4/image.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://natdanaiputhom.github.io/media/posts/4/IMG_9525.png" class="type:primaryImage" alt="" /></p>
                 <div class="table-of-contents">
 <h3>Table of Contents</h3>
 <ul>
@@ -125,19 +125,19 @@
         </author>
         <link href="https://natdanaiputhom.github.io/simpleecs/"/>
         <id>https://natdanaiputhom.github.io/simpleecs/</id>
-        <media:content url="https://natdanaiputhom.github.io/media/posts/1/IMG_9521.png" medium="image" />
+        <media:content url="https://natdanaiputhom.github.io/media/posts/1/IMG_9524.png" medium="image" />
             <category term="Personal"/>
 
         <updated>2025-09-07T23:23:00+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://natdanaiputhom.github.io/media/posts/1/IMG_9521.png" alt="" />
+                        <img src="https://natdanaiputhom.github.io/media/posts/1/IMG_9524.png" alt="" />
                     Table of Contents Background Goals Challenges GitHub Background During my first year at The Game Assembly, some senior students held a presentation that&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://natdanaiputhom.github.io/media/posts/1/IMG_9521.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://natdanaiputhom.github.io/media/posts/1/IMG_9524.png" class="type:primaryImage" alt="" /></p>
                 <div class="table-of-contents">
 <h3>Table of Contents</h3>
 <ul>
