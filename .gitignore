@@ -1,0 +1,32 @@
+# Claude Code
+.claude/
+CLAUDE.local.md
+
+# OS
+.DS_Store
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python (local preview server, scripts)
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Logs, temp and backups
+*.log
+*.tmp
+*.bak
+*.orig
